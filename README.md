@@ -22,3 +22,7 @@ Some components and experiments will be released publicly over time.
 
 ## Links
 - GitHub: @francescomaiomascio
+
+---
+If you find my work valuable, you can support it here:  
+https://buymeacoffee.com/francescomaiomascio
