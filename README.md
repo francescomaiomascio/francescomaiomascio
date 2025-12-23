@@ -1,16 +1,24 @@
-## Hi there 👋
+# Francesco Maiomascio
 
-<!--
-**francescomaiomascio/francescomaiomascio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I design and build AI-native systems with a strong focus on architecture,
+runtime orchestration, and developer tooling.
 
-Here are some ideas to get you started:
+## What I work on
+- AI runtimes and orchestration layers  
+- Local-first and hybrid AI systems  
+- Electron + Python architectures  
+- Long-term system design and maintainability  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Current focus
+I’m currently working on a private project centered around an AI-native
+workspace and runtime engine.
+Some components and experiments will be released publicly over time.
+
+## How I work
+- Architecture-first approach  
+- Clear separation of concerns  
+- Incremental and testable systems  
+- Long-term vision over short-term hype  
+
+## Links
+- GitHub: @francescomaiomascio
