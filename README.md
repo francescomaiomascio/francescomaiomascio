@@ -1,9 +1,10 @@
 # Francesco Maiomascio
 
-[![Docs](https://img.shields.io/badge/docs-ICE_Studio-brightgreen)](https://francescomaiomascio.github.io/ICE-Studio-Docs/)
-[![Status](https://img.shields.io/badge/status-active-blue)](#)
-[![Research](https://img.shields.io/badge/focus-system_research-purple)](#)
-[![Sponsor](https://img.shields.io/badge/support-GitHub_Sponsors-orange)](https://github.com/sponsors/francescomaiomascio)
+[![Docs](https://img.shields.io/badge/ICE%20Studio-docs-8FB9FF?style=flat)](https://francescomaiomascio.github.io/ICE-Studio-Docs/)
+[![Focus](https://img.shields.io/badge/focus-system%20research-111827?style=flat)](#)
+[![Status](https://img.shields.io/badge/status-active-6B7280?style=flat)](#)
+[![Sponsor](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
+
 
 I design and build **AI-native systems and cognitive runtimes** with a strong
 focus on **architecture**, **orchestration**, and **long-term system design**.
