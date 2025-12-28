@@ -49,8 +49,8 @@ are released publicly as the system evolves.
 
 ## Links
 
-- ICE Studio Documentation  
-  https://francescomaiomascio.github.io/ICE-Studio-Docs/
+- ICE Documentations  
+  https://francescomaiomascio.github.io/ice-docs/
 
 - GitHub Sponsors  
   https://github.com/sponsors/francescomaiomascio
