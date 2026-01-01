@@ -5,100 +5,152 @@
 [![Status](https://img.shields.io/badge/status-active%20research-6B7280?style=flat)](#)
 [![Sponsor](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
 
-I design and build **cognitive systems**, **orchestration engines**, and
-**AI-native architectures** focused on long-term intelligence,
+I design and engineer **cognitive systems**, **AI runtimes**, and
+**orchestration-first architectures** focused on long-term intelligence,
 context continuity, and systemic coherence.
 
-I’m interested in how intelligence can be **structured**, **separated**,
-and **recombined** across domains — not as isolated models,
-but as living systems that evolve over time.
+My work sits at the intersection of **software architecture**,  
+**artificial intelligence**, and **systems design**.
+
+I am not interested in building isolated models or short-lived products.
+I am interested in designing **systems that can host intelligence,
+survive refactors, and evolve across time and domains**.
 
 ---
 
-## What I work on
+## Core interests
 
-- Cognitive orchestration and runtime design  
-- Agent-based systems and coordination layers  
+- Cognitive runtimes and execution models  
+- Orchestration layers and lifecycle management  
+- Agent-based systems and coordination protocols  
 - Domain-driven AI architectures  
-- Local-first and hybrid execution models  
-- Systems built to survive refactors, scale, and time  
+- Local-first, hybrid, and multi-environment execution  
+- Systems designed for evolution, not stability illusion  
 
 ---
 
-## ICE — the core of my work
+## ICE — an architectural research effort
 
-ICE is an ongoing research and engineering effort aimed at building
-a **general cognitive substrate** rather than a single product.
+ICE is not a single application and not a framework in the traditional sense.
 
-At its core, ICE explores one question:
+It is an ongoing **research and engineering effort**
+aimed at building a **general cognitive substrate** —
+a foundation capable of hosting intelligence as a *system*, not as a feature.
+
+At the center of ICE is a single question:
 
 > *How do you design a system that can host intelligence,
 > evolve across domains, and remain coherent as complexity grows?*
 
-Instead of centering everything around models or interfaces,
-ICE is built around **orchestration**, **contracts**, and **context**.
+ICE does not treat intelligence as something that lives inside a model.
+Instead, intelligence emerges from the **interaction between runtime,
+orchestration, memory, behavior, and context**.
 
-Execution, reasoning, memory, behavior, and interaction
-are treated as **separate concerns** — connected, but never fused.
+---
+
+## Architectural principles behind ICE
+
+ICE is built around a few non-negotiable principles:
+
+### Separation of concerns at a systemic level
+
+Execution, reasoning, memory, behavior, interaction,
+and transport are treated as **distinct layers**.
+
+They are connected through **explicit contracts**,
+never through implicit coupling.
 
 This allows the system to:
-- change shape without collapsing
-- grow new domains without rewriting the core
-- adapt to radically different environments and interfaces
+- change shape without collapsing  
+- replace entire subsystems without rewriting the core  
+- host radically different interfaces and environments  
+
+### Orchestration over intelligence
+
+Models are powerful, but fragile.
+
+ICE assumes that **orchestration compensates for limited intelligence**.
+The system is responsible for holding state, enforcing structure,
+and preserving continuity — not the model.
+
+Intelligence is allowed to be imperfect.
+The system is not.
+
+### Lifecycle-aware design
+
+ICE components are not static modules.
+They have **lifecycles**.
+
+Bootstrapping, runtime execution, coordination,
+shutdown, and restart are first-class concepts,
+not afterthoughts.
+
+This is reflected in the architecture itself:
+runtime cores, bootstrap layers, transports,
+logging, and identity are independent but coordinated systems.
 
 ---
 
-## How I think about systems
+## How I think about software systems
 
-I don’t treat software as static artifacts,
-but as **systems with lifecycles**.
+I do not treat software as static artifacts,
+but as **living systems**.
 
 That means:
-- avoiding monoliths that only work in one context  
-- designing components that can be reused, replaced, or removed  
-- favoring explicit contracts over implicit coupling  
-- letting orchestration compensate for limited intelligence  
+- avoiding monoliths that only work in one environment  
+- designing components that can be reused, removed, or replaced  
+- favoring explicit interfaces over convenience  
+- accepting refactors as a design requirement, not a failure  
 
-Intelligence is not just generation.
-It’s the ability to **hold things together**.
+Good systems are not the ones that never change.
+They are the ones that **can change without losing themselves**.
 
 ---
 
-## Long-term direction
+## ICE Studio and the wider ecosystem
+
+ICE Studio is one expression of this research —
+a concrete environment where these ideas are tested,
+stressed, and evolved.
+
+It is **not the destination**.
 
 ICE is intentionally designed to support multiple future layers:
-behavioral systems, emotional modeling, embedded environments,
-mobility, security, and other domain-specific engines.
+- behavioral and decision systems  
+- emotional and affective modeling  
+- embedded and physical environments  
+- security- and trust-oriented runtimes  
+- domain-specific cognitive engines  
 
 Some of these may become products.
 Some may remain internal.
-Some may never be built at all.
+Some may never exist at all.
 
 What matters is that the **foundation allows them to exist**
 without forcing a rewrite of everything that came before.
 
-ICE Studio is one expression of this ecosystem —
-not the destination.
-
 ---
 
-## Documentation
+## Documentation and research notes
 
-- ICE architecture notes and experiments  
+- ICE architecture notes, experiments, and design documents  
   https://francescomaiomascio.github.io/ice-docs/
 
+These documents are not tutorials.
+They are working notes from an evolving system.
+
 ---
 
-## Support
+## Support and sustainability
 
-If you believe in long-term, architecture-first AI systems
+If you believe in **architecture-first**, long-term AI systems
 and want to support independent research and development:
 
 - GitHub Sponsors  
-  https://github.com/sponsors/francescomaiomascio
+  https://github.com/sponsors/francescomaiomascio  
 
 - Buy Me a Coffee  
-  https://buymeacoffee.com/francescomaiomascio
+  https://buymeacoffee.com/francescomaiomascio  
 
-Your support helps keep the focus on building systems
-that are meant to last, not just launch.
+Your support helps keep the focus on **building systems meant to last** —
+not just systems meant to launch.
