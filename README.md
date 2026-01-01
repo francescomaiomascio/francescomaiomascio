@@ -91,19 +91,19 @@ logging, and identity are independent but coordinated systems.
 
 ---
 
-## How I think about software systems
+## Design philosophy
 
-I do not treat software as static artifacts,
-but as **living systems**.
+I work on systems where execution, coordination,
+and state management are first-class concerns.
 
-That means:
-- avoiding monoliths that only work in one environment  
-- designing components that can be reused, removed, or replaced  
-- favoring explicit interfaces over convenience  
-- accepting refactors as a design requirement, not a failure  
+Architectural decisions are evaluated based on:
+- lifecycle clarity  
+- failure containment  
+- refactor cost over time  
 
-Good systems are not the ones that never change.
-They are the ones that **can change without losing themselves**.
+If a system cannot be modified without global side effects,
+it is considered architecturally incomplete.
+
 
 ---
 
