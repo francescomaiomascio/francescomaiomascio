@@ -91,18 +91,18 @@ logging, and identity are independent but coordinated systems.
 
 ---
 
-## Design philosophy
+## System design perspective
 
-I work on systems where execution, coordination,
-and state management are first-class concerns.
+I focus on **orchestration and contracts**, not on implementation details.
 
-Architectural decisions are evaluated based on:
-- lifecycle clarity  
-- failure containment  
-- refactor cost over time  
+Components are designed to be:
+- addressable through explicit interfaces  
+- orchestrated rather than tightly coupled  
+- replaceable without propagating failure  
 
-If a system cannot be modified without global side effects,
-it is considered architecturally incomplete.
+The goal is not to prevent change,
+but to ensure that change remains **bounded and intelligible**
+at the system level.
 
 
 ---
