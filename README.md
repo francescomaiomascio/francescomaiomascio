@@ -1,18 +1,19 @@
 # Francesco Maiomascio
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/francescomaiomascio)
+[![Sponsor](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
 [![Docs](https://img.shields.io/badge/ICE%20Docs-8FB9FF?style=flat)](https://francescomaiomascio.github.io/ICE-Studio-Docs/)
 [![Focus](https://img.shields.io/badge/focus-cognitive%20systems-111827?style=flat)](#)
 [![Status](https://img.shields.io/badge/status-active%20research-6B7280?style=flat)](#)
-[![Sponsor](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
 
-I design and engineer **cognitive runtimes**, **AI execution systems**, and
+I design and engineer **cognitive runtimes**, **AI execution systems**, and  
 **orchestration-first architectures** focused on long-term intelligence,
 deterministic behavior, and systemic coherence.
 
 My work sits at the intersection of **software architecture**,  
 **artificial intelligence**, and **systems engineering**.
 
-I am not interested in isolated models or short-lived products.
+I am not interested in isolated models or short-lived products.  
 I am interested in designing **systems that can host intelligence,
 enforce structure, survive refactors, and evolve across time and domains**.
 
@@ -46,7 +47,7 @@ At the center of ICE is a single question:
 > remain auditable and deterministic,
 > and stay coherent as complexity grows?*
 
-ICE does not treat intelligence as something that lives inside a model.
+ICE does not treat intelligence as something that lives inside a model.  
 Instead, intelligence emerges from the **interaction between runtime,
 orchestration, memory, events, behavior, and context**.
 
@@ -85,10 +86,8 @@ ICE is an **event-derived system**.
 - All mutations are append-only  
 - Current state is always a projection, never a source  
 
-This enables:
-- deterministic replay  
-- post-hoc audit without re-inference  
-- causal debugging instead of narrative debugging  
+This enables deterministic replay, post-hoc audit,
+and causal (non-narrative) debugging.
 
 ---
 
@@ -107,22 +106,16 @@ The system is not.
 
 ### Lifecycle-aware systems
 
-ICE components are not static modules.
-They have **explicit lifecycles**.
+ICE components have **explicit lifecycles**.
 
 Provisioning, execution, validation, commit, teardown,
-and recovery are first-class concepts.
-
-This is reflected directly in the architecture:
-runtime cores, bootstrap layers, transports,
-logging, memory, identity, and policy are independent,
-but strictly coordinated systems.
+and recovery are first-class architectural concerns.
 
 ---
 
 ## System design perspective
 
-I focus on **contracts, invariants, and governance**, not on ad-hoc behavior.
+I focus on **contracts, invariants, and governance**, not ad-hoc behavior.
 
 Components are designed to be:
 
@@ -131,8 +124,7 @@ Components are designed to be:
 - replaceable without propagating failure  
 
 The goal is not to prevent change,
-but to ensure that change remains **bounded, intelligible,
-and auditable** at the system level.
+but to keep change **bounded, intelligible, and auditable**.
 
 ---
 
@@ -144,31 +136,26 @@ tested, stressed, and refined.
 
 It is **not the destination**.
 
-ICE is intentionally designed to support multiple future layers:
+ICE is designed to support future layers such as:
 
 - behavioral and decision systems  
-- long-term and structured memory systems  
+- long-term and structured memory  
 - security- and trust-oriented runtimes  
 - domain-specific cognitive engines  
 - embedded, distributed, and physical environments  
 
-Some of these may become products.
-Some may remain internal.
-Some may never exist at all.
-
 What matters is that the **foundation allows them to exist**
-without forcing a rewrite of everything that came before.
+without rewriting everything that came before.
 
 ---
 
 ## Documentation and research notes
 
-- ICE architecture notes, specifications, and research documents  
+- ICE architecture notes and specifications  
   https://francescomaiomascio.github.io/ice-docs/
 
-These documents are not tutorials.
-They are working specifications and design notes
-from an evolving system.
+These documents are not tutorials.  
+They are working specifications from an evolving system.
 
 ---
 
@@ -177,11 +164,11 @@ from an evolving system.
 If you believe in **architecture-first**, long-term AI systems
 and want to support independent research and engineering:
 
-- GitHub Sponsors  
-  https://github.com/sponsors/francescomaiomascio  
-
 - Buy Me a Coffee  
   https://buymeacoffee.com/francescomaiomascio  
+
+- GitHub Sponsors  
+  https://github.com/sponsors/francescomaiomascio  
 
 Your support helps keep the focus on **building systems meant to last** —
 not just systems meant to launch.
