@@ -1,168 +1,181 @@
 # Francesco Maiomascio
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/francescomaiomascio)
-[![Sponsor](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
-[![Docs](https://img.shields.io/badge/ICE%20Docs-8FB9FF?style=flat)](https://francescomaiomascio.github.io/ICE-Studio-Docs/)
+[![GitHub Sponsors](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
+[![ICE Docs](https://img.shields.io/badge/ICE%20Docs-8FB9FF?style=flat)](https://francescomaiomascio.github.io/ICE-Studio-Docs/)
 [![Focus](https://img.shields.io/badge/focus-cognitive%20systems-111827?style=flat)](#)
 [![Status](https://img.shields.io/badge/status-active%20research-6B7280?style=flat)](#)
 
-I design and engineer **cognitive runtimes**, **AI execution systems**, and  
-**orchestration-first architectures** focused on long-term intelligence,
-deterministic behavior, and systemic coherence.
+I design and engineer **runtime-centric cognitive systems** and **AI execution architectures**
+where intelligence is treated as a **controlled process**, not an implicit property of a model.
 
-My work sits at the intersection of **software architecture**,  
-**artificial intelligence**, and **systems engineering**.
+My work focuses on **orchestration, execution semantics, and system invariants**
+for long-running, multi-agent, memory-bearing AI systems.
 
-I am not interested in isolated models or short-lived products.  
-I am interested in designing **systems that can host intelligence,
-enforce structure, survive refactors, and evolve across time and domains**.
+This is not applied prompt engineering.
+This is **systems architecture**.
 
 ---
 
-## Core interests
+## Technical focus areas
 
 - Cognitive runtimes and execution models  
-- Event-driven and lifecycle-aware architectures  
-- Orchestration layers and system governance  
-- Agent-based systems under strict runtime control  
-- Domain-driven AI systems and contracts  
-- Local-first, hybrid, and multi-environment execution  
-- Systems designed for evolution, not the illusion of stability  
+- Event-sourced and event-derived systems  
+- Deterministic run lifecycles (provision → execute → validate → commit)  
+- Agent-based systems under strict runtime governance  
+- Capability-based security and resource control  
+- Structured memory models (event-derived, versioned, auditable)  
+- Local-first and hybrid execution environments  
 
 ---
 
-## ICE — a runtime-first architectural research effort
+## ICE — Runtime Architecture Research
 
-ICE is not a single application  
-and not a framework in the traditional sense.
+ICE is a **runtime specification and implementation effort**, not a framework.
 
-ICE is an ongoing **research and engineering effort**
-aimed at defining a **general cognitive substrate** —
-a foundation where intelligence exists as a *system property*,
-not as a model feature.
+It defines a **kernel-like execution environment** for cognitive systems, built around:
 
-At the center of ICE is a single question:
+- explicit run lifecycles  
+- event-only state derivation  
+- post-hoc auditability without model replay  
+- capability-gated side effects  
+- memory as a promoted, governed artifact  
 
-> *How do you design a system that can host intelligence,
-> remain auditable and deterministic,
-> and stay coherent as complexity grows?*
+The core assumption is simple and non-negotiable:
 
-ICE does not treat intelligence as something that lives inside a model.  
-Instead, intelligence emerges from the **interaction between runtime,
-orchestration, memory, events, behavior, and context**.
-
-The model infers.  
-The runtime decides.
+> Models do inference.  
+> Runtimes decide what is allowed to happen.
 
 ---
 
-## Architectural foundations of ICE
+## Architectural characteristics
 
-ICE is built on a small set of **non-negotiable principles**.
+### Runtime-first execution
 
-### Runtime-first design
+The runtime is the authority over:
 
-The runtime is the authority.
+- execution order  
+- resource allocation  
+- side effects  
+- validation and commit  
 
-- It governs execution  
-- It enforces policy  
-- It controls resources  
-- It validates effects  
+Models and agents are treated as **inferential workers** operating inside
+a constrained execution envelope.
 
-Models are treated as **inferential components**, not decision-makers.
-
-A model without a runtime is an oracle without agency.  
-A runtime without a model is a system without semantics.
-
-ICE binds the two deterministically.
+There is no model-level authority.
 
 ---
 
-### Event-only state and causal traceability
+### Event-derived state
 
-ICE is an **event-derived system**.
+ICE is an **event-only system**.
 
-- No state exists without events  
-- All mutations are append-only  
-- Current state is always a projection, never a source  
+- No mutation occurs without an event  
+- Events are append-only  
+- State is always a projection  
+- Replay is deterministic  
 
-This enables deterministic replay, post-hoc audit,
-and causal (non-narrative) debugging.
-
----
-
-### Orchestration over intelligence
-
-Models are powerful, but fragile.
-
-ICE assumes that **orchestration compensates for limited intelligence**.
-Structure, continuity, and correctness are enforced by the system,
-not delegated to the model.
-
-Intelligence is allowed to be imperfect.  
-The system is not.
+This applies uniformly to:
+- execution state  
+- memory  
+- capabilities  
+- domain effects  
 
 ---
 
-### Lifecycle-aware systems
+### Explicit run lifecycle
 
-ICE components have **explicit lifecycles**.
+Every unit of work executes as a **Run**:
 
-Provisioning, execution, validation, commit, teardown,
-and recovery are first-class architectural concerns.
+- isolated  
+- finite  
+- traceable  
+- auditable  
 
----
+A Run always follows a fixed lifecycle:
+provisioning → context loading → execution → validation → commit/abort → teardown.
 
-## System design perspective
-
-I focus on **contracts, invariants, and governance**, not ad-hoc behavior.
-
-Components are designed to be:
-
-- addressable through explicit interfaces  
-- orchestrated rather than tightly coupled  
-- replaceable without propagating failure  
-
-The goal is not to prevent change,
-but to keep change **bounded, intelligible, and auditable**.
+There are no implicit transitions.
 
 ---
 
-## ICE Studio and the wider ecosystem
+### Memory as a governed artifact
 
-ICE Studio is one concrete expression of this research —
-a controlled environment where these ideas are implemented,
-tested, stressed, and refined.
+Memory is **not context** and **not model state**.
 
-It is **not the destination**.
+In ICE:
+- memory is derived from validated events  
+- promotion to memory is explicit  
+- memory is typed, versioned, and policy-bound  
+- memory can expire, degrade, or be invalidated  
 
-ICE is designed to support future layers such as:
-
-- behavioral and decision systems  
-- long-term and structured memory  
-- security- and trust-oriented runtimes  
-- domain-specific cognitive engines  
-- embedded, distributed, and physical environments  
-
-What matters is that the **foundation allows them to exist**
-without rewriting everything that came before.
+Vector indices and embeddings are treated as **access structures**, not memory.
 
 ---
 
-## Documentation and research notes
+### Capability-based action model
 
-- ICE architecture notes and specifications  
+No action is implicit.
+
+All interactions with:
+- filesystem  
+- network  
+- APIs  
+- domain operations  
+- compute resources  
+
+require explicit, revocable **capabilities** granted by the runtime.
+
+Capability usage is fully event-traced.
+
+---
+
+## Implementation scope
+
+ICE is implemented as a **multi-repository system** covering:
+
+- runtime core and orchestration  
+- agent execution layers  
+- memory and storage engines  
+- protocol and transport layers  
+- API and UI boundaries  
+- test suites defined by contract, not behavior  
+
+The codebase is intentionally modular to allow:
+- subsystem replacement  
+- controlled refactors  
+- parallel evolution of components  
+
+---
+
+## ICE Studio
+
+ICE Studio is a **reference environment** built on top of the ICE runtime.
+
+It exists to:
+- exercise the runtime under real workloads  
+- validate architectural assumptions  
+- expose failure modes early  
+
+It is not the goal.
+It is a testbed.
+
+---
+
+## Documentation
+
+- Architecture notes, runtime specifications, and design documents  
   https://francescomaiomascio.github.io/ice-docs/
 
-These documents are not tutorials.  
-They are working specifications from an evolving system.
+These documents are **engineering notes and RFC-style specifications**,
+not tutorials or marketing material.
 
 ---
 
-## Support and sustainability
+## Support
 
-If you believe in **architecture-first**, long-term AI systems
-and want to support independent research and engineering:
+If you are interested in **runtime-level AI systems**,  
+event-driven cognition, and long-term architectural research:
 
 - Buy Me a Coffee  
   https://buymeacoffee.com/francescomaiomascio  
@@ -170,5 +183,5 @@ and want to support independent research and engineering:
 - GitHub Sponsors  
   https://github.com/sponsors/francescomaiomascio  
 
-Your support helps keep the focus on **building systems meant to last** —
-not just systems meant to launch.
+Support goes directly into sustained engineering work,
+not short-term productization.
