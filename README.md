@@ -183,7 +183,7 @@ It is a **testbed**.
 
 Architecture notes, runtime specifications, and design documents are available at:
 
-https://francescomaiomascio.github.io/ICE-Studio-Docs/
+https://francescomaiomascio.github.io/ice-docs/
 
 These are **engineering notes and RFC-style documents**, not tutorials or marketing material.
 
