@@ -7,98 +7,108 @@
 
 ---
 
-I work on the **design of execution environments for intelligent systems**.
+## Who I am and what I work on
 
-My focus is not on models, prompts, or isolated AI capabilities.  
-I am interested in how systems *run*:
-how execution is structured, how state is produced, how effects are constrained,
-and how long-running processes remain intelligible, auditable, and governable over time.
+I design and study **execution-centric software systems**.
 
-For me, intelligence is not something to showcase.  
-It is something that must remain **operationally accountable**.
+My work sits at the intersection of:
+- runtime architecture  
+- long-running process design  
+- cognitive and agent-based systems  
+- execution governance and observability  
 
----
+I am not primarily interested in models, prompts, or isolated AI capabilities.
+Those are components.
 
-## Motivation
+My focus is on the **environment in which intelligence executes**:
+how computation is staged,
+how state is produced and constrained,
+how effects are validated,
+and how a system remains understandable months or years after it started running.
 
-Most contemporary AI systems blur responsibility.
-
-Decisions emerge from opaque interactions between models, memory, tools, and side effects.
-State mutates implicitly.  
-Effects propagate without clear authority.  
-
-When something goes wrong, there is no single place where responsibility lives.
-
-This is not only an AI problem.  
-It is a systems problem.
-
-As software increasingly mediates real-world decisions, the lack of explicit execution semantics,
-lifecycle boundaries, and post-hoc auditability becomes a structural risk.
-
-If intelligent systems are becoming infrastructure, then **execution must be governed as infrastructure**.
+I approach this as **systems work**, not as product development or AI experimentation.
 
 ---
 
-## Research orientation
+## Why execution matters
 
-My work explores how to design systems where:
+Most contemporary intelligent systems are built around inference engines
+and extended with tools, memory, and orchestration layers.
 
-- execution is explicit and policy-driven  
-- state is derived, not implicitly mutated  
-- side effects are capability-bound and traceable  
-- memory is intentional, not accidental  
-- long-running processes remain interpretable over time  
+In practice, this leads to systems where:
+- decisions emerge without explicit authority  
+- state mutates implicitly across layers  
+- side effects escape the scope in which they were produced  
+- responsibility is diffused across components  
 
-I approach this as **systems research**, not product engineering.
+When something fails, it is often impossible to answer a simple question:
+**why was this allowed to happen?**
 
-I care more about:
-- invariants than features  
-- lifecycles than demos  
-- constraints than convenience  
+This is not a limitation of intelligence.
+It is a limitation of execution.
 
-Complexity is unavoidable.  
-The problem is not to hide it, but to **structure it correctly**.
-
----
-
-## ICE — Execution as a first-class concern
-
-ICE (Intelligent Cognitive Ecosystem) is a **runtime architecture and research effort**.
-
-It exists because the properties above cannot be reliably enforced inside
-model-centric or framework-driven architectures.
-
-ICE treats cognition as something that happens *inside* a governed execution environment,
-not as an emergent property of models.
-
-The core assumption is simple:
-
-> Models perform inference.  
-> Runtimes decide what is allowed to happen.
-
-There is no model-level authority in ICE.
+As intelligent systems increasingly operate as infrastructure,
+execution semantics, lifecycle boundaries, and auditability
+become first-class concerns.
 
 ---
 
-## Architectural principles
+## Research direction
 
-### Runtime sovereignty
+My research explores how to design systems where:
 
-The runtime is the authoritative component.
+- execution is explicit, staged, and governed  
+- state is derived from validated events, not mutated implicitly  
+- side effects are capability-scoped and observable  
+- memory is a managed artifact, not an accidental residue  
+- long-running processes remain intelligible over time  
 
-It controls:
-- execution order  
-- resource access  
-- side effects  
-- validation and commit  
+This work is concerned with **structure**, not optimization.
+With **control**, not performance benchmarks.
+With **longevity**, not short-lived demos.
 
-Agents and models operate as inferential workers inside a constrained execution envelope.
+---
+
+## ICE — Intelligent Cognitive Ecosystem
+
+ICE is a **runtime architecture and research effort**.
+
+It is not a framework and not a model.
+It is an attempt to define a coherent execution environment
+for cognitive and agent-based systems.
+
+ICE starts from a simple but strict separation of concerns:
+
+> Models produce suggestions.  
+> Runtimes decide what actually happens.
+
+In ICE, authority does not live at the model level.
+It lives in the runtime.
+
+---
+
+## Core architectural ideas
+
+### Execution as a governed process
+
+ICE treats execution as a first-class entity.
+
+Every unit of work runs inside an explicit **Run**:
+- isolated  
+- finite  
+- traceable  
+- auditable  
+
+A Run follows a fixed lifecycle:
+provision → context loading → execution → validation → commit or abort → teardown
+
+There are no implicit transitions.
 
 ---
 
 ### Event-derived state
 
-ICE follows an **event-only model**.
+ICE follows an event-only model.
 
 - no implicit mutation  
 - events are append-only  
@@ -107,86 +117,83 @@ ICE follows an **event-only model**.
 
 This applies uniformly to execution state, memory, capabilities, and domain effects.
 
----
-
-### Explicit execution lifecycle
-
-Every unit of work executes as a **Run**.
-
-A Run is:
-- isolated  
-- finite  
-- traceable  
-- auditable  
-
-Its lifecycle is explicit and invariant:
-
-provision → context loading → execution → validation → commit or abort → teardown
-
-There are no implicit transitions.
+The system never asks *what is the state now?*  
+It asks *which events led us here?*
 
 ---
 
-### Memory as a governed artifact
+### Capability-based effects
 
-Memory is not context and not model state.
-
-In ICE:
-- memory is promoted from validated events  
-- promotion is explicit  
-- memory is typed, versioned, and policy-bound  
-- memory can expire, degrade, or be invalidated  
-
-Vector stores and embeddings are treated as access structures, not memory itself.
-
----
-
-### Capability-based action model
-
-No action is implicit.
+No operation is implicit.
 
 All interactions with:
 - filesystem  
 - network  
-- external APIs  
-- domain operations  
-- compute resources  
+- external services  
+- domain-specific effects  
 
 require explicit, revocable capabilities granted by the runtime.
 
-Capability usage is fully event-traced.
+Capability usage is event-traced and auditable by design.
 
 ---
 
-## ICE Studio
+### Memory as an explicit artifact
 
-ICE Studio is a **reference environment** built on top of the ICE runtime.
+Memory is not context and not model state.
 
-Its role is to:
-- exercise the runtime under real workloads  
-- validate architectural assumptions  
-- expose failure modes early  
+In ICE:
+- memory is promoted from validated execution events  
+- promotion is explicit and policy-driven  
+- memory is typed, versioned, and degradable over time  
 
-ICE Studio is not the goal.  
-It is a **testbed**.
+Vector stores and embeddings are treated as access mechanisms,
+not as authoritative memory.
 
 ---
 
-## Documentation
+## ICE Studio — a user-facing environment
+
+ICE Studio is a **reference application built on top of the ICE runtime**.
+
+Its purpose is not to be an IDE replacement,
+but an environment where users can:
+
+- design and execute complex workflows  
+- reason about long-running processes  
+- develop and maintain code with execution awareness  
+- observe system behavior over time  
+- work with agents without delegating authority  
+
+ICE Studio exists to validate ICE under real usage,
+expose design flaws,
+and explore how humans interact with governed cognitive systems.
+
+It is an application.
+ICE is the foundation beneath it.
+
+---
+
+## Documentation and materials
 
 Architecture notes, runtime specifications, and design documents are available at:
 
 https://francescomaiomascio.github.io/ice-docs/
 
-These are engineering notes and RFC-style documents.  
-They are written for people who already work on systems, not as tutorials or marketing material.
+These documents are written as engineering notes and RFC-style material.
+They assume familiarity with systems, runtimes, and software architecture.
+
+They are not tutorials.
 
 ---
 
 ## Support
 
-If you are interested in runtime-level AI systems,
-event-derived cognition, and long-term architectural research:
+This work is independent and long-term.
+
+If you are interested in execution-centric AI systems,
+runtime governance,
+and the design of intelligible cognitive infrastructure:
 
 - GitHub Sponsors  
   https://github.com/sponsors/francescomaiomascio  
@@ -194,5 +201,5 @@ event-derived cognition, and long-term architectural research:
 - Buy Me a Coffee  
   https://buymeacoffee.com/francescomaiomascio  
 
-Support goes directly into sustained engineering and research work,
+Support goes directly into sustained research and engineering work,
 not short-term productization.
