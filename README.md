@@ -7,75 +7,71 @@
 
 ---
 
-I design and engineer **runtime-centric cognitive systems**.
+I work on the **design of execution environments for intelligent systems**.
 
-I am not primarily interested in models, prompts, or isolated AI capabilities.  
-I am interested in **how intelligent systems execute**, how they are constrained, how they evolve over time, and how their effects can be observed, audited, and governed.
+My focus is not on models, prompts, or isolated AI capabilities.  
+I am interested in how systems *run*:
+how execution is structured, how state is produced, how effects are constrained,
+and how long-running processes remain intelligible, auditable, and governable over time.
 
-For me, intelligence is not an emergent property to be admired.  
-It is a **process to be controlled**.
-
----
-
-## Why this work exists
-
-Most contemporary AI systems operate without a clear notion of authority.
-
-Models decide.  
-Side effects happen.  
-State mutates.  
-Memory accumulates.  
-
-But no component is truly responsible for *why* something was allowed to happen.
-
-This is not only an AI problem.
-
-As software systems increasingly mediate real-world decisions, the absence of
-explicit execution semantics, lifecycle governance, and post-hoc auditability
-becomes a structural risk for the entire system we live in.
-
-If intelligence is becoming infrastructural, then **execution must be sovereign**.
+For me, intelligence is not something to showcase.  
+It is something that must remain **operationally accountable**.
 
 ---
 
-## My research focus
+## Motivation
+
+Most contemporary AI systems blur responsibility.
+
+Decisions emerge from opaque interactions between models, memory, tools, and side effects.
+State mutates implicitly.  
+Effects propagate without clear authority.  
+
+When something goes wrong, there is no single place where responsibility lives.
+
+This is not only an AI problem.  
+It is a systems problem.
+
+As software increasingly mediates real-world decisions, the lack of explicit execution semantics,
+lifecycle boundaries, and post-hoc auditability becomes a structural risk.
+
+If intelligent systems are becoming infrastructure, then **execution must be governed as infrastructure**.
+
+---
+
+## Research orientation
 
 My work explores how to design systems where:
 
-- execution is explicit and governed  
-- state is derived, never mutated implicitly  
-- side effects are capability-gated and traceable  
-- memory is an artifact, not an accident  
-- long-running processes remain intelligible over time  
+- execution is explicit and policy-driven  
+- state is derived, not implicitly mutated  
+- side effects are capability-bound and traceable  
+- memory is intentional, not accidental  
+- long-running processes remain interpretable over time  
 
-I approach this as **systems research**, not product development.
+I approach this as **systems research**, not product engineering.
 
-I am interested in:
-- invariants, not features  
-- lifecycles, not demos  
-- constraints, not convenience  
+I care more about:
+- invariants than features  
+- lifecycles than demos  
+- constraints than convenience  
 
-Complexity is not something to hide.  
-It is something to **structure**.
+Complexity is unavoidable.  
+The problem is not to hide it, but to **structure it correctly**.
 
 ---
 
-## ICE — A runtime architecture, not a framework
+## ICE — Execution as a first-class concern
 
-ICE is a **runtime specification and implementation effort**.
+ICE (Intelligent Cognitive Ecosystem) is a **runtime architecture and research effort**.
 
-It exists because the assumptions above cannot be validated inside traditional
+It exists because the properties above cannot be reliably enforced inside
 model-centric or framework-driven architectures.
 
-ICE defines a **kernel-like execution environment for cognitive systems**, built around:
+ICE treats cognition as something that happens *inside* a governed execution environment,
+not as an emergent property of models.
 
-- explicit run lifecycles  
-- event-only state derivation  
-- deterministic replay without model re-execution  
-- capability-based control of side effects  
-- memory derived from validated events  
-
-The core assumption is simple and non-negotiable:
+The core assumption is simple:
 
 > Models perform inference.  
 > Runtimes decide what is allowed to happen.
@@ -84,59 +80,56 @@ There is no model-level authority in ICE.
 
 ---
 
-## Architectural characteristics
+## Architectural principles
 
-### Runtime-first execution
+### Runtime sovereignty
 
-The runtime is the sovereign component.
+The runtime is the authoritative component.
 
 It controls:
 - execution order  
-- resource allocation  
+- resource access  
 - side effects  
 - validation and commit  
 
-Agents and models operate as **inferential workers** inside a constrained execution envelope.
+Agents and models operate as inferential workers inside a constrained execution envelope.
 
 ---
 
 ### Event-derived state
 
-ICE is an **event-only system**.
+ICE follows an **event-only model**.
 
-- no mutation without an event  
+- no implicit mutation  
 - events are append-only  
 - state is always a projection  
 - replay is deterministic  
 
-This applies uniformly to:
-- execution state  
-- memory  
-- capabilities  
-- domain effects  
+This applies uniformly to execution state, memory, capabilities, and domain effects.
 
 ---
 
-### Explicit run lifecycle
+### Explicit execution lifecycle
 
-Every unit of work executes as a **Run**:
+Every unit of work executes as a **Run**.
 
+A Run is:
 - isolated  
 - finite  
 - traceable  
 - auditable  
 
-A Run follows a fixed lifecycle:
+Its lifecycle is explicit and invariant:
 
 provision → context loading → execution → validation → commit or abort → teardown
 
-No implicit transitions exist.
+There are no implicit transitions.
 
 ---
 
 ### Memory as a governed artifact
 
-Memory is **not context** and **not model state**.
+Memory is not context and not model state.
 
 In ICE:
 - memory is promoted from validated events  
@@ -144,7 +137,7 @@ In ICE:
 - memory is typed, versioned, and policy-bound  
 - memory can expire, degrade, or be invalidated  
 
-Vector stores and embeddings are treated as **access structures**, not memory itself.
+Vector stores and embeddings are treated as access structures, not memory itself.
 
 ---
 
@@ -155,11 +148,11 @@ No action is implicit.
 All interactions with:
 - filesystem  
 - network  
-- APIs  
+- external APIs  
 - domain operations  
 - compute resources  
 
-require explicit, revocable **capabilities** granted by the runtime.
+require explicit, revocable capabilities granted by the runtime.
 
 Capability usage is fully event-traced.
 
@@ -169,31 +162,30 @@ Capability usage is fully event-traced.
 
 ICE Studio is a **reference environment** built on top of the ICE runtime.
 
-It exists to:
+Its role is to:
 - exercise the runtime under real workloads  
 - validate architectural assumptions  
 - expose failure modes early  
 
-It is not the goal.  
+ICE Studio is not the goal.  
 It is a **testbed**.
 
 ---
 
-## Documentation and research material
+## Documentation
 
 Architecture notes, runtime specifications, and design documents are available at:
 
 https://francescomaiomascio.github.io/ice-docs/
 
-These are **engineering notes and RFC-style documents**, not tutorials or marketing material.
-
-They are written for people who already understand systems.
+These are engineering notes and RFC-style documents.  
+They are written for people who already work on systems, not as tutorials or marketing material.
 
 ---
 
 ## Support
 
-If you are interested in **runtime-level AI systems**,  
+If you are interested in runtime-level AI systems,
 event-derived cognition, and long-term architectural research:
 
 - GitHub Sponsors  
@@ -202,5 +194,5 @@ event-derived cognition, and long-term architectural research:
 - Buy Me a Coffee  
   https://buymeacoffee.com/francescomaiomascio  
 
-Support goes directly into sustained engineering work,  
+Support goes directly into sustained engineering and research work,
 not short-term productization.
