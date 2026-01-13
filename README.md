@@ -183,6 +183,8 @@ It is a **runtime architecture and execution model**.
 📘 Documentation & RFCs  
 https://francescomaiomascio.github.io/ice-docs/
 
+https://github.com/francescomaiomascio/ice-docs
+
 ---
 ## My favorite tools & technologies
 
