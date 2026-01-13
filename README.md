@@ -47,7 +47,6 @@
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black"/>
 
@@ -60,11 +59,8 @@
 <img src="https://img.shields.io/badge/REST%20APIs-02569B?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/WebSockets-4353FF?logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/AsyncIO-3776AB?logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white"/>
 
 </p>
-
 
 <p align="center">
 
