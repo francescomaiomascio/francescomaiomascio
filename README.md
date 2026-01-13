@@ -2,10 +2,21 @@
 
 **Systems Research · Runtime Architectures for AI Execution & Governance**
 
-[![ICE Docs](https://img.shields.io/badge/ICE%20Docs-Architecture%20%26%20RFCs-8FB9FF?style=flat)](https://francescomaiomascio.github.io/ice-docs/)
-[![Status](https://img.shields.io/badge/status-active%20research-6B7280?style=flat)]
-[![GitHub Sponsors](https://img.shields.io/badge/support-GitHub%20Sponsors-7A7CFF?style=flat)](https://github.com/sponsors/francescomaiomascio)
-[![Buy Me a Coffee](https://img.shields.io/badge/support-Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/francescomaiomascio)
+<p align="center">
+  <a href="https://francescomaiomascio.github.io/ice-docs/">
+    <img src="https://img.shields.io/badge/ICE%20Docs-Architecture%20%26%20RFCs-8FB9FF?style=flat" />
+  </a>
+  <img src="https://img.shields.io/badge/status-active%20research-6B7280?style=flat" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/sponsors/francescomaiomascio">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-support-7A7CFF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://buymeacoffee.com/francescomaiomascio">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+  </a>
+</p>
 
 ---
 
@@ -13,11 +24,11 @@
 
 I work on **runtime architecture and execution models** for long-running, stateful, and cognitively-augmented software systems.
 
-My focus is **not** on prompts or model tuning, but on:
+My focus is **not** on prompts or models, but on:
 
 - how systems **execute**
 - how authority is **enforced**
-- how state **emerges, evolves, and can be replayed**
+- how state **emerges and evolves**
 - how behavior remains **observable and governable over time**
 
 I approach AI-enabled systems as **software systems first**.  
@@ -51,7 +62,7 @@ ICE is an ongoing **research and engineering effort** exploring how to build:
 ICE is **not a framework** and **not a product**.  
 It is a runtime architecture and execution model.
 
-📘 Documentation & RFCs:  
+📘 Documentation & RFCs  
 https://francescomaiomascio.github.io/ice-docs/
 
 ---
@@ -62,14 +73,15 @@ https://francescomaiomascio.github.io/ice-docs/
 
 | Area | Stack |
 |-----|------|
-| **Core languages** | <img src="https://skillicons.dev/icons?i=python,cpp,rust,c&theme=dark" /> |
-| **Systems & runtime** | <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes&theme=dark" /> |
-| **Data & state** | <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb&theme=dark" /> |
-| **Dev & workflow** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" /> |
-| **Web & interfaces** | <img src="https://skillicons.dev/icons?i=ts,js,html,css&theme=dark" /> |
-| **Infra & cloud** | <img src="https://skillicons.dev/icons?i=aws,nginx&theme=dark" /> |
+| **Core languages** | <img height="28" src="https://skillicons.dev/icons?i=python,cpp,c,rust&theme=dark" /> |
+| **Systems & runtime** | <img height="28" src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx&theme=dark" /> |
+| **Data & state** | <img height="28" src="https://skillicons.dev/icons?i=postgres,redis,mongodb,sqlite&theme=dark" /> |
+| **Dev & workflow** | <img height="28" src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" /> |
+| **Web & interfaces** | <img height="28" src="https://skillicons.dev/icons?i=ts,js,html,css&theme=dark" /> |
+| **Infra & cloud** | <img height="28" src="https://skillicons.dev/icons?i=aws,cloudflare&theme=dark" /> |
+| **AI & data tooling** | <img height="28" src="https://skillicons.dev/icons?i=python,pytorch,sklearn&theme=dark" /> |
 
-> Tooling is selected to support **long-lived systems**, not rapid demos.
+> Tooling is selected to support **long-lived, inspectable systems**, not short-term demos.
 
 ---
 
@@ -97,8 +109,14 @@ It is something to **structure, constrain, and observe**.
 
 ## Connect
 
-- LinkedIn: https://www.linkedin.com/in/francescomaiomascio  
-- GitHub: https://github.com/francescomaiomascio  
+<p align="left">
+  <a href="https://www.linkedin.com/in/francescomaiomascio">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/francescomaiomascio">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -106,10 +124,10 @@ It is something to **structure, constrain, and observe**.
 
 This is independent, long-term research.
 
-If you are interested in runtime-level system design, execution governance, and AI infrastructure:
+If you are interested in runtime-level system design, execution governance, and AI infrastructure, you can support this work here:
 
 - GitHub Sponsors  
   https://github.com/sponsors/francescomaiomascio  
 
 - Buy Me a Coffee  
-  https://buymeacoffee.com/francescomaiomascio  
+  https://buymeacoffee.com/francescomaiomascio
