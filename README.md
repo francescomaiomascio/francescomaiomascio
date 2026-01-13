@@ -66,48 +66,94 @@ It is a **runtime architecture and execution model**.
 https://francescomaiomascio.github.io/ice-docs/
 
 ---
+---
 
 ## My favorite tools & technologies
 
-### Core languages & runtimes
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,bash&perline=8" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" />
+      <br/>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="65" />
+      <br/>C++
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=rust" width="65" />
+      <br/>Rust
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=go" width="65" />
+      <br/>Go
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=bash" width="65" />
+      <br/>Bash
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65" />
+      <br/>Linux
+    </td>
+  </tr>
 
-### Operating systems & low-level systems
-<p>
-  <img src="https://skillicons.dev/icons?i=linux&perline=8" />
-</p>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" />
+      <br/>Docker
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65" />
+      <br/>Kubernetes
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgres" width="65" />
+      <br/>PostgreSQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=redis" width="65" />
+      <br/>Redis
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=kafka" width="65" />
+      <br/>Kafka
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="65" />
+      <br/>GitHub
+    </td>
+  </tr>
 
-### Containers & isolation
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes&perline=8" />
-</p>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=prometheus" width="65" />
+      <br/>Prometheus
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=grafana" width="65" />
+      <br/>Grafana
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vscode" width="65" />
+      <br/>VS Code
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="65" />
+      <br/>Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=linux" width="65" />
+      <br/>Sysadmin
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=cloudflare" width="65" />
+      <br/>Infra
+    </td>
+  </tr>
+</table>
 
-### Data & state models
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,redis&perline=8" />
-</p>
-
-### Distributed systems
-<p>
-  <img src="https://skillicons.dev/icons?i=kafka&perline=8" />
-</p>
-
-### AI / cognitive infrastructure
-<p>
-  <img src="https://skillicons.dev/icons?i=python&perline=8" />
-</p>
-
-### Observability & governance
-<p>
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=8" />
-</p>
-
-### Development & workflow
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode&perline=8" />
-</p>
+---
 
 ---
 
