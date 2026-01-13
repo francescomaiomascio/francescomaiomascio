@@ -129,6 +129,7 @@ It is something to **structure, constrain, and observe**.
 
 ---
 ## My favorite tools & technologies
+
 <table align="center">
   <!-- LANGUAGES & SYSTEMS -->
   <tr>
@@ -196,27 +197,28 @@ It is something to **structure, constrain, and observe**.
     </td>
   </tr>
 
-  <!-- ML & APIs (solo tech reali) -->
+  <!-- RUNTIME & OBSERVABILITY -->
   <tr>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/pytorch-icon.svg" width="65"/><br/>PyTorch
+      <img src="https://skillicons.dev/icons?i=opentelemetry" width="65"/><br/>OpenTelemetry
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/tensorflow-icon.svg" width="65"/><br/>TensorFlow
+      <img src="https://skillicons.dev/icons?i=elasticsearch" width="65"/><br/>Elasticsearch
     </td>
     <td align="center">
-      <img src="https://skillicons.dev/icons?i=fastapi" width="65"/><br/>FastAPI
+      <img src="https://skillicons.dev/icons?i=rabbitmq" width="65"/><br/>RabbitMQ
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=grpc" width="65"/><br/>gRPC
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=openapi" width="65"/><br/>OpenAPI
     </td>
     <td align="center">
       <img src="https://skillicons.dev/icons?i=jupyter" width="65"/><br/>Jupyter
     </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65"/><br/>Python
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65"/><br/>Linux
-    </td>
   </tr>
+
 </table>
 
 ---
