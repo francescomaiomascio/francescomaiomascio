@@ -18,8 +18,7 @@
       alt="Sponsor this work"
     />
   </a>
-
-  
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
@@ -27,17 +26,18 @@
       height="44"
     />
   </a>
-
 </p>
 
 <p align="center">
   <a href="https://x.com/">
     <img src="https://skillicons.dev/icons?i=twitter" height="38"/>
-  </a>&nbsp;&nbsp;&nbsp;
+  </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://discord.com/">
     <img src="https://skillicons.dev/icons?i=discord" height="38"/>
   </a>
 </p>
+
 
 <p align="center">
 
