@@ -129,93 +129,92 @@ It is something to **structure, constrain, and observe**.
 
 ---
 ## My favorite tools & technologies
-
 <table align="center">
   <!-- LANGUAGES & SYSTEMS -->
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" height="65"/><br/>Python
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65"/><br/>Python
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/c-icon.svg" width="65" height="65"/><br/>C
+      <img src="https://techstack-generator.vercel.app/c-icon.svg" width="65"/><br/>C
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/bash-icon.svg" width="65" height="65"/><br/>Bash
+      <img src="https://techstack-generator.vercel.app/bash-icon.svg" width="65"/><br/>Bash
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65" height="65"/><br/>Linux
+      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65"/><br/>Linux
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=arch" width="65"/><br/>Arch
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/git-icon.svg" width="65" height="65"/><br/>Git
+      <img src="https://techstack-generator.vercel.app/git-icon.svg" width="65"/><br/>Git
     </td>
   </tr>
 
   <!-- INFRA & ORCHESTRATION -->
   <tr>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65"/><br/>Docker
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65"/><br/>Docker
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65" height="65"/><br/>Kubernetes
+      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65"/><br/>Kubernetes
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="65" height="65"/><br/>Nginx
+      <img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="65"/><br/>Nginx
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/github-actions-icon.svg" width="65" height="65"/><br/>CI/CD
+      <img src="https://techstack-generator.vercel.app/github-actions-icon.svg" width="65"/><br/>CI/CD
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65"/><br/>GitHub
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65"/><br/>GitHub
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/vscode-icon.svg" width="65" height="65"/><br/>VS Code
+      <img src="https://techstack-generator.vercel.app/vscode-icon.svg" width="65"/><br/>VS Code
     </td>
   </tr>
 
   <!-- DATA -->
   <tr>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/postgresql-icon.svg" width="65" height="65"/><br/>PostgreSQL
+      <img src="https://techstack-generator.vercel.app/postgresql-icon.svg" width="65"/><br/>PostgreSQL
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/redis-icon.svg" width="65" height="65"/><br/>Redis
+      <img src="https://techstack-generator.vercel.app/redis-icon.svg" width="65"/><br/>Redis
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/kafka-icon.svg" width="65" height="65"/><br/>Kafka
+      <img src="https://techstack-generator.vercel.app/kafka-icon.svg" width="65"/><br/>Kafka
     </td>
     <td align="center">
-      <img src="https://skillicons.dev/icons?i=graphql" width="65"/><br/>APIs
+      <img src="https://skillicons.dev/icons?i=graphql" width="65"/><br/>GraphQL
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/prometheus-icon.svg" width="65" height="65"/><br/>Prometheus
+      <img src="https://techstack-generator.vercel.app/prometheus-icon.svg" width="65"/><br/>Prometheus
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/grafana-icon.svg" width="65" height="65"/><br/>Grafana
+      <img src="https://techstack-generator.vercel.app/grafana-icon.svg" width="65"/><br/>Grafana
     </td>
   </tr>
 
-  <!-- ML & RUNTIME -->
+  <!-- ML & APIs (solo tech reali) -->
   <tr>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/pytorch-icon.svg" width="65" height="65"/><br/>PyTorch
+      <img src="https://techstack-generator.vercel.app/pytorch-icon.svg" width="65"/><br/>PyTorch
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/tensorflow-icon.svg" width="65" height="65"/><br/>TensorFlow
+      <img src="https://techstack-generator.vercel.app/tensorflow-icon.svg" width="65"/><br/>TensorFlow
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" height="65"/><br/>ML Pipelines
+      <img src="https://skillicons.dev/icons?i=fastapi" width="65"/><br/>FastAPI
     </td>
     <td align="center">
-      <img src="https://skillicons.dev/icons?i=jupyter" width="65"/><br/>Research
+      <img src="https://skillicons.dev/icons?i=jupyter" width="65"/><br/>Jupyter
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" height="65"/><br/>Runtime Logic
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65"/><br/>Python
     </td>
     <td align="center">
-      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65" height="65"/><br/>Execution
+      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65"/><br/>Linux
     </td>
   </tr>
 </table>
