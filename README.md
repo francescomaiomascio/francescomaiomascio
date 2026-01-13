@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/sponsors/francescomaiomascio">
-    <img src="https://img.shields.io/badge/GitHub%20Sponsors-support-7A7CFF?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-support-7A7CFF?style=for-the-badge&logo=githubsponsors&logoColor=white" />
   </a>
   <a href="https://buymeacoffee.com/francescomaiomascio">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
@@ -22,9 +22,9 @@
 
 ## Overview
 
-I work on **runtime architecture and execution models** for long-running, stateful, and cognitively-augmented software systems.
+I work on **runtime architecture and execution models** for long-running, stateful and cognitively-augmented software systems.
 
-My focus is **not** on prompts or models, but on:
+My focus is **not on prompts or models**, but on:
 
 - how systems **execute**
 - how authority is **enforced**
@@ -32,7 +32,7 @@ My focus is **not** on prompts or models, but on:
 - how behavior remains **observable and governable over time**
 
 I approach AI-enabled systems as **software systems first**.  
-Intelligence operates under explicit execution authority, lifecycle rules, and auditable constraints.
+Intelligence operates under **explicit execution authority**, lifecycle rules, and auditable constraints.
 
 ---
 
@@ -60,28 +60,27 @@ ICE is an ongoing **research and engineering effort** exploring how to build:
 - strict separation between inference and authority  
 
 ICE is **not a framework** and **not a product**.  
-It is a runtime architecture and execution model.
+It is a **runtime architecture and execution model**.
 
-📘 Documentation & RFCs  
+📘 Documentation & RFC-style notes:  
 https://francescomaiomascio.github.io/ice-docs/
 
 ---
 
-## Tooling & technologies
+## Tooling & technologies  
+*(languages, systems & tooling — non-exhaustive)*
 
-### Languages, systems & tooling (non-exhaustive)
+> Icons are intentionally dynamic to emphasize *living systems*, not static stacks.
 
 | Area | Stack |
 |-----|------|
-| **Core languages** | <img height="28" src="https://skillicons.dev/icons?i=python,cpp,c,rust&theme=dark" /> |
-| **Systems & runtime** | <img height="28" src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx&theme=dark" /> |
-| **Data & state** | <img height="28" src="https://skillicons.dev/icons?i=postgres,redis,mongodb,sqlite&theme=dark" /> |
-| **Dev & workflow** | <img height="28" src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" /> |
-| **Web & interfaces** | <img height="28" src="https://skillicons.dev/icons?i=ts,js,html,css&theme=dark" /> |
-| **Infra & cloud** | <img height="28" src="https://skillicons.dev/icons?i=aws,cloudflare&theme=dark" /> |
-| **AI & data tooling** | <img height="28" src="https://skillicons.dev/icons?i=python,pytorch,sklearn&theme=dark" /> |
-
-> Tooling is selected to support **long-lived, inspectable systems**, not short-term demos.
+| **Core languages & runtimes** | <img src="https://skillicons.dev/icons?i=python,cpp,rust,bash,go&theme=dark" height="32" /> |
+| **Operating systems & low-level systems** | <img src="https://skillicons.dev/icons?i=linux,systemd&theme=dark" height="32" /> |
+| **Containers & isolation** | <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark" height="32" /> |
+| **Data & state models** | <img src="https://skillicons.dev/icons?i=postgres,sqlite,redis&theme=dark" height="32" /> |
+| **Distributed systems** | <img src="https://skillicons.dev/icons?i=kafka&theme=dark" height="32" /> |
+| **AI / cognitive infrastructure** | <img src="https://skillicons.dev/icons?i=python&theme=dark" height="32" /> |
+| **Development & observability** | <img src="https://skillicons.dev/icons?i=git,github,githubactions&theme=dark" height="32" /> |
 
 ---
 
@@ -97,24 +96,20 @@ It is something to **structure, constrain, and observe**.
 
 ## Activity snapshot
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=true&hide_title=true&hide_border=true&theme=transparent" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=francescomaiomascio&hide_border=true&theme=transparent" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=true&hide_title=true&theme=transparent" />
 </p>
 
 ---
 
 ## Connect
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/francescomaiomascio">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+<p align="center">
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/francescomaiomascio">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-follow-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -122,9 +117,9 @@ It is something to **structure, constrain, and observe**.
 
 ## Support
 
-This is independent, long-term research.
+This is **independent, long-term research**.
 
-If you are interested in runtime-level system design, execution governance, and AI infrastructure, you can support this work here:
+If you are interested in runtime-level system design, execution governance, and AI infrastructure:
 
 - GitHub Sponsors  
   https://github.com/sponsors/francescomaiomascio  
