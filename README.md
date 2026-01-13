@@ -123,14 +123,23 @@ It is something to **structure, constrain, and observe**.
 
 ## GitHub activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=true&theme=dark&hide_title=true&hide_border=true" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=francescomaiomascio&theme=dark&hide_border=true" width="48%"/>
-</p>
+<br/>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true" width="95%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=francescomaiomascio&theme=github-dark-blue&hide_border=true&stroke=1f6feb&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="52%" />
 </p>
+
+<br/>
+<br/>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=github-compact&hide_border=true&area=true&line=58a6ff&point=ffffff&bg_color=0d1117" width="96%" />
+</p>
+
+<br/>
+
+
+
 
 ---
 
