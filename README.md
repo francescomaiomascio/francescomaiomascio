@@ -120,125 +120,8 @@ https://francescomaiomascio.github.io/ice-docs/
 
 https://github.com/francescomaiomascio/ice-docs
 
----
-## My favorite tools & technologies
-
-<table align="center">
-  <!-- LANGUAGES & SYSTEMS -->
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65"/><br/>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="65"/><br/>C++
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/rust-icon.svg" width="65"/><br/>Rust
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/go-icon.svg" width="65"/><br/>Go
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/bash-icon.svg" width="65"/><br/>Bash
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/linux-icon.svg" width="65"/><br/>Linux
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=arch" width="65"/><br/>Arch
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" width="65"/><br/>Git
-    </td>
-  </tr>
-
-  <!-- INFRA & ORCHESTRATION -->
-  <tr>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65"/><br/>Docker
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65"/><br/>Kubernetes
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=terraform" width="65"/><br/>Terraform
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=nginx" width="65"/><br/>Nginx
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=cloudflare" width="65"/><br/>Edge / Infra
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=githubactions" width="65"/><br/>CI/CD
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=github" width="65"/><br/>GitHub
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=vscode" width="65"/><br/>VS Code
-    </td>
-  </tr>
-
-  <!-- DATA & STREAMING -->
-  <tr>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/postgresql-icon.svg" width="65"/><br/>PostgreSQL
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/sqlite-icon.svg" width="65"/><br/>SQLite
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/redis-icon.svg" width="65"/><br/>Redis
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/kafka-icon.svg" width="65"/><br/>Kafka
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=elasticsearch" width="65"/><br/>Search / Index
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=graphql" width="65"/><br/>APIs
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=prometheus" width="65"/><br/>Prometheus
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=grafana" width="65"/><br/>Grafana
-    </td>
-  </tr>
-
-  <!-- ML & COGNITIVE SYSTEMS -->
-  <tr>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/pytorch-icon.svg" width="65"/><br/>PyTorch
-    </td>
-    <td align="center">
-      <img src="https://techstack-generator.vercel.app/tensorflow-icon.svg" width="65"/><br/>TensorFlow
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python" width="65"/><br/>ML Pipelines
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=fastapi" width="65"/><br/>Inference APIs
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=opencv" width="65"/><br/>Vision
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=jupyter" width="65"/><br/>Research
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python" width="65"/><br/>Runtime Logic
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=linux" width="65"/><br/>Execution
-    </td>
-  </tr>
-</table>
 
 ---
-
 
 ## Execution philosophy
 
@@ -247,6 +130,55 @@ https://github.com/francescomaiomascio/ice-docs
 
 Complexity is not something to hide.  
 It is something to **structure, constrain, and observe**.
+
+---
+## My favorite tools & technologies
+
+<table align="center">
+  <tr>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=python" width="65"/><br/>Python</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=cpp" width="65"/><br/>C++</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=rust" width="65"/><br/>Rust</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=go" width="65"/><br/>Go</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=bash" width="65"/><br/>Bash</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="65"/><br/>Linux</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=arch" width="65"/><br/>Arch</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=git" width="65"/><br/>Git</td>
+  </tr>
+
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=docker" width="65"/><br/>Docker</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=kubernetes" width="65"/><br/>Kubernetes</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=terraform" width="65"/><br/>Terraform</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nginx" width="65"/><br/>Nginx</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=cloudflare" width="65"/><br/>Edge / Infra</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=githubactions" width="65"/><br/>CI/CD</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=github" width="65"/><br/>GitHub</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="65"/><br/>VS Code</td>
+  </tr>
+
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postgresql" width="65"/><br/>PostgreSQL</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=sqlite" width="65"/><br/>SQLite</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=redis" width="65"/><br/>Redis</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=kafka" width="65"/><br/>Kafka</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=elasticsearch" width="65"/><br/>Search / Index</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=graphql" width="65"/><br/>APIs</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=prometheus" width="65"/><br/>Prometheus</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=grafana" width="65"/><br/>Grafana</td>
+  </tr>
+
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=pytorch" width="65"/><br/>PyTorch</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=tensorflow" width="65"/><br/>TensorFlow</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=python" width="65"/><br/>ML Pipelines</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=fastapi" width="65"/><br/>Inference APIs</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=opencv" width="65"/><br/>Vision</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=jupyter" width="65"/><br/>Research</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=python" width="65"/><br/>Runtime Logic</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=linux" width="65"/><br/>Execution</td>
+  </tr>
+</table>
 
 ---
 
