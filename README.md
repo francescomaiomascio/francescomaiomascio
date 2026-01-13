@@ -144,10 +144,4 @@ It is something to **structure, constrain, and observe**.
 This is independent, long-term research.
 
 If you are interested in runtime-level system design,
-execution governance, and infrastructure for intelligent systems:
-
-- GitHub Sponsors  
-  https://github.com/sponsors/francescomaiomascio  
-
-- Buy Me a Coffee  
-  https://buymeacoffee.com/francescomaiomascio
+execution governance, and infrastructure for intelligent systems
