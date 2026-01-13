@@ -19,7 +19,6 @@
     />
   </a>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;
   
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
