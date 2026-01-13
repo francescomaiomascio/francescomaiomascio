@@ -5,46 +5,55 @@
 <h1 align="center">Francesco Maiomascio</h1>
 
 <p align="center">
-<a href="https://git.io/typing-svg" style="text-decoration:none; border:none;">
 <img
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
-alt="Typing intro"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
+  alt="Typing intro"
 />
-</a>
 </p>
 
-<p align="center">
-<a href="https://github.com/sponsors/francescomaiomascio" style="text-decoration:none; border:none;">
-<img
-src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsors-heart.svg"
-height="44"
-alt="Sponsor this work"
-/>
-</a>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/sponsors/francescomaiomascio">
+        <img src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsors-heart.svg" height="44" alt="Sponsor"/>
+      </a>
+    </td>
+    <td width="24"></td>
+    <td align="center">
+      <a href="https://www.buymeacoffee.com/francescomaiomascio">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="44" alt="Buy Me a Coffee"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.buymeacoffee.com/francescomaiomascio" style="text-decoration:none; border:none;">
-<img
-src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-height="44"
-alt="Buy Me a Coffee"
-/>
-</a>
-</p>
-
-<p align="center">
-<a href="https://x.com/" style="text-decoration:none; border:none;">
-<img src="https://skillicons.dev/icons?i=twitter" height="38" alt="Twitter"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://discord.com/" style="text-decoration:none; border:none;">
-<img src="https://skillicons.dev/icons?i=discord" height="38" alt="Discord"/>
-</a>
-</p>
-
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/">
+        <img src="https://skillicons.dev/icons?i=linkedin" height="38"/>
+      </a>
+    </td>
+    <td width="16"></td>
+    <td align="center">
+      <a href="https://x.com/">
+        <img src="https://skillicons.dev/icons?i=x" height="38"/>
+      </a>
+    </td>
+    <td width="16"></td>
+    <td align="center">
+      <a href="https://www.youtube.com/">
+        <img src="https://skillicons.dev/icons?i=youtube" height="38"/>
+      </a>
+    </td>
+    <td width="16"></td>
+    <td align="center">
+      <a href="https://discord.com/">
+        <img src="https://skillicons.dev/icons?i=discord" height="38"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 <p align="center">
