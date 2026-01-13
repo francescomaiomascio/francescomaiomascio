@@ -5,13 +5,6 @@
 <h1 align="center">Francesco Maiomascio</h1>
 
 <p align="center">
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
-  alt="Typing intro"
-/>
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/" style="text-decoration:none;">
     <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" />
   </a>&nbsp;&nbsp;&nbsp;
@@ -29,7 +22,12 @@
   </a>
 </p>
 
-
+<p align="center">
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
+  alt="Typing intro"
+/>
+</p>
 
 
 
@@ -41,8 +39,6 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAPI-6BA539?logo=openapiinitiative&logoColor=white"/>
-<img src="https://img.shields.io/badge/CLI%20Tools-111827?logo=terminal&logoColor=white"/>
 
 </p>
 
@@ -54,8 +50,6 @@
 <img src="https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Transformers-FFB000?logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/TorchScript-EE4C2C?logo=pytorch&logoColor=white"/>
 
 </p>
 
@@ -63,12 +57,10 @@
 
 <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/gRPC%20Server-1F6FEB?logo=google&logoColor=white"/>
 <img src="https://img.shields.io/badge/REST%20APIs-02569B?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/WebSockets-4353FF?logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/AsyncIO-3776AB?logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white"/>
 
 </p>
@@ -77,16 +69,10 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white"/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white"/>
 
 </p>
 
