@@ -85,7 +85,6 @@
 
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white"/>
@@ -128,7 +127,7 @@
 <img src="https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white"/>
+
 
 <br/>
 
@@ -136,7 +135,7 @@
 <img src="https://img.shields.io/badge/TimescaleDB-004B6B?logo=timescale&logoColor=white"/>
 <img src="https://img.shields.io/badge/S3%20Compatible-569A31?logo=amazons3&logoColor=white"/>
 <img src="https://img.shields.io/badge/Parquet-50ABF1?logo=apache&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arrow-0091EA?logo=apache&logoColor=white"/>
+
 
 </p>
 
@@ -146,7 +145,6 @@
 <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white"/>
 
 <br/>
 
