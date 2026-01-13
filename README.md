@@ -11,13 +11,34 @@
 </p>
 
 <p align="center">
-  <a href="https://x.com/"><img src="https://skillicons.dev/icons?i=twitter" height="30"/></a>&nbsp;&nbsp;
-  <a href="https://discord.com/"><img src="https://skillicons.dev/icons?i=discord" height="30"/></a>&nbsp;&nbsp;
-  <a href="https://github.com/sponsors/francescomaiomascio">
-    <img src="https://img.shields.io/badge/GitHub%20Sponsors-support-7A7CFF?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/francescomaiomascio">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+  <a href="https://github.com/sponsors/francescomaiomascio" style="text-decoration:none;">
+    <img
+      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsor-heart.svg"
+      height="22"
+      alt="Sponsor this work"
+      style="vertical-align:middle;"
+    />
+    <span style="color:#9CA3AF; font-style:italic; margin-left:6px;">
+      sponsor this work
+    </span>
+  </a>
+  
+  <a href="https://www.buymeacoffee.com/francescomaiomascio">
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      alt="Buy Me a Coffee"
+      height="44"
+    />
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="https://x.com/">
+    <img src="https://skillicons.dev/icons?i=twitter" height="38"/>
+  </a>&nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/">
+    <img src="https://skillicons.dev/icons?i=discord" height="38"/>
   </a>
 </p>
 
