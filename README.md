@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/sponsors/francescomaiomascio" style="text-decoration:none;">
     <img
-      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsor-heart.svg"
+      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/assets/github-sponsor-heart.svg"
       height="22"
       alt="Sponsor this work"
       style="vertical-align:middle;"
