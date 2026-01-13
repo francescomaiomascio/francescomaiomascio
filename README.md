@@ -14,10 +14,12 @@
   <a href="https://github.com/sponsors/francescomaiomascio">
     <img
       src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsors-heart.svg"
-      height="36"
+      height="44"
       alt="Sponsor this work"
     />
   </a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
   
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
