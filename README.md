@@ -11,17 +11,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/francescomaiomascio" style="text-decoration:none;">
+  <a href="https://github.com/sponsors/francescomaiomascio">
     <img
-      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsor-heart.svg"
-      height="22"
+      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsors-heart.svg"
+      height="44"
       alt="Sponsor this work"
-      style="vertical-align:middle;"
     />
-    <span style="color:#9CA3AF; font-style:italic; margin-left:6px;">
-      sponsor this work
-    </span>
   </a>
+
   
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
