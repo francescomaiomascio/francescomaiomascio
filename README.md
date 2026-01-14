@@ -4,32 +4,6 @@
 
 <h1 align="center">Francesco Maiomascio</h1>
 
-<br/>
-
-<p align="center">
-  <a href="https://www.linkedin.com/">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="44" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-  <a href="https://x.com/">
-    <img src="https://cdn.simpleicons.org/x/ffffff" height="44" alt="X" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-  <a href="https://www.youtube.com/">
-    <img src="https://cdn.simpleicons.org/youtube/ff0000" height="44" alt="YouTube" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-  <a href="https://discord.com/">
-    <img src="https://skillicons.dev/icons?i=discord" height="44" alt="Discord" />
-  </a>
-</p>
-
-<br/>
-
-
 
 <p align="center" style="margin-top:20px; margin-bottom:28px;">
   <img
@@ -85,47 +59,66 @@
 
 ## Overview
 
-I work on **runtime architecture and execution models** for long-running, stateful and cognitively-augmented software systems.
+I design and study **runtime architectures** for AI-enabled systems.
 
-My focus is **not** on models, prompts, or benchmarks, but on  
-**how systems execute, evolve, and remain governable over time**.
+My work focuses on **execution**, not inference:
+how systems run, evolve, fail, recover, and remain governable over time.
 
-I approach AI-enabled systems as **software systems first**:
-execution is explicit, authority is enforced at runtime level,
-and behavior remains observable, auditable, and replayable.
+I treat AI as a *component* inside long-running software systems,
+where authority, lifecycle, and side effects are explicit and enforced.
 
 ---
 
-## Research focus
+## Core principles
 
-- Runtime-first system design  
-- Execution governance & lifecycle control  
-- Event-derived and replayable state  
-- Capability-based side-effect management  
-- Observability, traceability & audit  
-- Agent-oriented execution environments  
+My work is guided by a small set of architectural constraints:
 
-This work sits at the intersection of  
-**systems engineering · distributed systems · AI infrastructure**.
+- **Runtime-first design** over prompt or model-centric approaches  
+- **Explicit execution authority**, not implicit behavior  
+- **Deterministic and replayable state transitions**  
+- **Strict separation between inference and control**  
+- **Observability as a first-class concern**
+
+---
+
+## Systems perspective
+
+I am interested in systems that:
+
+- stay alive for long periods  
+- accumulate state and memory  
+- interact with humans and other systems  
+- require auditability, rollback, and governance  
+
+This includes AI agents, orchestration layers, cognitive runtimes,
+and execution environments where failure is expected and managed.
+
 
 ---
 
 ## ICE — Intelligent Cognitive Ecosystem
 
-ICE is an ongoing **research and engineering effort** exploring how to build:
+ICE is a research and engineering effort exploring
+**how to build governable cognitive systems**.
 
-- explicit and governed execution environments  
-- deterministic and replayable cognitive processes  
-- memory as a validated, inspectable artifact  
-- strict separation between inference and authority  
+It investigates:
+
+- execution environments with explicit authority  
+- replayable and inspectable cognitive processes  
+- memory as a validated system artifact  
+- lifecycle control for intelligent components  
 
 ICE is **not a framework** and **not a product**.  
 It is a **runtime architecture and execution model**.
 
-📘 Documentation & RFCs  
-https://francescomaiomascio.github.io/ice-docs/
+---
 
-https://github.com/francescomaiomascio/ice-docs
+### Documentation & RFCs
+
+- https://francescomaiomascio.github.io/ice-docs  
+- https://github.com/francescomaiomascio/ice-docs
+
+---
 
 
 ## GitHub activity
@@ -137,14 +130,16 @@ https://github.com/francescomaiomascio/ice-docs
   />
 </p>
 
-
+---
 
 ## Support
 
 This is independent, long-term research.
 
-If you are interested in runtime-level system design,
-execution governance, and infrastructure for intelligent systems:
+If you are interested in execution-level system design,
+runtime governance, and AI infrastructure,
+you can support the work below.
+
 
 <p align="center">
   <a href="https://github.com/sponsors/francescomaiomascio">
