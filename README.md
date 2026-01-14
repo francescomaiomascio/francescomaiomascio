@@ -40,13 +40,14 @@
 
 ## Overview
 
-I design and study **runtime architectures** for AI-enabled systems.
+I work on **runtime architectures** for AI-enabled systems.
 
-My work focuses on **execution**, not inference:
-how systems run, evolve, fail, recover, and remain governable over time.
+I am interested in what happens *after* inference:
+how systems **execute**, persist, fail, recover, and remain governable over time.
 
-I treat AI as a *component* inside long-running software systems,
-where authority, lifecycle, and side effects are explicit and enforced.
+Rather than treating AI as a standalone artifact,
+I study it as a **component embedded in long-running software systems**,
+where authority, lifecycle, and side effects are explicit by design.
 
 ---
 
