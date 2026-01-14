@@ -2,29 +2,34 @@
 <!-- Francesco Maiomascio README -->
 <!-- =========================== -->
 
-I design and study **runtime architectures for AI-enabled systems**, with a specific focus on what happens *after inference*: execution, state persistence, failure, recovery, and long-term governability.
+I research **runtime architectures for AI-enabled systems**.
 
-Rather than treating intelligence as a model capability or a prompt-driven interaction, I approach it as an **executable property of long-running systems**, shaped by explicit control planes, lifecycle management, and observable execution paths.
+My work focuses on what happens *after inference*: how intelligent systems execute, persist state, evolve, fail, recover, and remain governable over time.  
+I do not treat intelligence as a model capability or a prompt interaction, but as an **executable property of long-running systems**.
 
-My work is guided by a small set of architectural constraints: **execution precedes intelligence**, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control.  
-I am interested in systems that operate continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
+The systems I study are defined by a small set of constraints:  
+**execution precedes intelligence**, authority is explicit, state transitions are deterministic and inspectable, and inference is strictly separated from control.  
+I am interested in architectures that operate continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1400&center=true&vCenter=true&width=620&lines=Execution+is+a+first-class+concern.;Inference+is+not+control.;State+defines+behavior+over+time." alt="Typing intro" />
 </p>
 
-At the center of this work is **ICE**, a research effort driven by a precise question:  
+**ICE** is the research environment where this work converges.
+
+ICE explores a single question:  
 *what does it mean to reliably run intelligent systems over time?*
 
-In this context, **intelligent** and **cognitive** are not synonyms.  
-*Intelligent* refers to a system’s ability to act toward goals under constraints.  
-*Cognitive* refers to how that behavior persists: how state is accumulated, validated, authorized, and governed across execution.
+Here, *intelligent* and *cognitive* are not synonyms.  
+**Intelligent** systems act toward goals under constraints.  
+**Cognitive** systems persist behavior across time: they accumulate state, validate it, authorize it, and govern its evolution during execution.
 
-ICE focuses on the space where these two dimensions intersect, treating **intelligence as something that is run**, not invoked.  
-The emphasis is not on models or isolated agents, but on *after-inference dynamics*: runtimes, orchestration layers, execution control, authority, memory, and observability.
+ICE studies the intersection of these two dimensions.  
+Intelligence is treated as something that is **run**, not invoked.  
+The focus is not on models or isolated agents, but on *after-inference dynamics*: runtimes, orchestration layers, execution control, authority, memory, and observability.
 
-The term *ecosystem* reflects this scope. ICE studies how engines, agents, protocols, and orchestration strategies interact, and how behavior remains inspectable and governable as architectures evolve and systems scale.  
-As AI systems grow more complex, control can no longer be assumed by default; ICE exists to study how intelligent behavior can remain reliable under change.
+As architectures evolve and systems scale, control can no longer be assumed by default.  
+ICE exists to study how intelligent behavior can remain reliable under change.
 
 <p align="center">
   <img
