@@ -34,8 +34,6 @@ https://francescomaiomascio.github.io/ice-docs/
 https://github.com/francescomaiomascio/ice-docs
 
 
-## GitHub activity
-
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&area=true"
@@ -43,8 +41,6 @@ https://github.com/francescomaiomascio/ice-docs
   />
 </p>
 
-
-## Support
 
 This is independent, long-term research.
 
