@@ -28,7 +28,7 @@ The term *ecosystem* reflects this scope. ICE studies how engines, agents, proto
 As AI systems grow more complex, control can no longer be assumed by default. ICE exists to study how intelligent behavior can remain reliable under change.
 
 
-📘 Docs
+📘 Docs  
 https://francescomaiomascio.github.io/ice-docs/  
 
 <p align="center">
