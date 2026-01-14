@@ -86,25 +86,29 @@ designed to survive contact with reality.
 
 ## ICE — Intelligent Cognitive Ecosystem
 
-ICE is a research and engineering effort exploring
-**how to build governable cognitive systems**.
+ICE is the result of a specific research question.
 
-It investigates:
+In this context, **intelligent** and **cognitive** are not synonyms.  
+*Intelligent* refers to a system’s ability to act toward goals under constraints.  
+*Cognitive* refers to how that behavior persists over time: how state is accumulated, validated, authorized, and governed.
 
-- execution environments with explicit authority  
-- replayable and inspectable cognitive processes  
-- memory as a validated system artifact  
-- lifecycle control for intelligent components  
+ICE studies the space where the two meet: **intelligence as an executable property of long-running systems**.
 
-ICE is **not a framework** and **not a product**.  
-It is a **runtime architecture and execution model**.
+Rather than focusing on models, prompts, or isolated agents, ICE is concerned with what happens *after inference*: runtimes, orchestration layers, execution control, authority, memory, and observability. Intelligence is treated not as something invoked, but as something **run**.
 
----
+The term *ecosystem* reflects this scope. ICE looks at how engines, agents, orchestration strategies, protocols, and providers interact — and how behavior remains inspectable and governable as systems scale and architectures change.
 
-### Documentation & RFCs
+Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, new architectures and orchestration techniques emerge almost daily. There is abundance, experimentation, and rapid local optimization.
 
-- https://francescomaiomascio.github.io/ice-docs  
-- https://github.com/francescomaiomascio/ice-docs
+Yet a more fundamental question remains largely implicit:
+
+**What does it mean to reliably run intelligent systems over time — when architectures change, agents proliferate, and control can no longer be assumed by default?**
+
+ICE exists to explore that question.
+
+📘 Documentation & RFCs  
+https://francescomaiomascio.github.io/ice-docs/  
+https://github.com/francescomaiomascio/ice-docs
 
 ---
 
