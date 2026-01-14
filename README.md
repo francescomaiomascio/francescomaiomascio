@@ -51,7 +51,7 @@
 <img src="https://img.shields.io/badge/Linux-3A3F4B?logo=linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-4FB6D6?logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-5FAFFF?logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prometheus-8B7CF6?logo=prometheus&logoColor=white"/>
+
 
 </p>
 
