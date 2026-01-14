@@ -1,8 +1,6 @@
-<!-- ========================= -->
+<!-- =========================== -->
 <!-- Francesco Maiomascio README -->
-<!-- ========================= -->
-
-
+<!-- =========================== -->
 
 I design and study runtime architectures for AI-enabled systems, with a focus not on models or prompts but on what happens  
 after inference: how systems execute, persist state, fail, recover, and remain governable over time.   
@@ -11,13 +9,12 @@ Intelligence is treated as an executable property of long-running systems, embed
 My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 
-<p align="center" style="margin-top:20px; margin-bottom:28px;">
+<p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&center=true&vCenter=true&width=900&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property."
     alt="Typing intro"
   />
 </p>
-
 
 ## ICE — Intelligent Cognitive Ecosystem
 
@@ -27,7 +24,7 @@ Rather than focusing on models, prompts, or isolated agents, ICE is concerned wi
 Intelligence is treated not as something invoked, but as something run. The term ecosystem reflects this scope, as ICE examines how engines, agents, orchestration strategies, protocols, and providers interact, and how behavior remains inspectable and governable as systems scale and architectures change.
 
 Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, and new architectures and orchestration techniques emerge rapidly, leading to abundance, experimentation, and local optimization.   
-Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default? 
+Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default?   
 ICE exists to explore that question.
 
 📘 Documentation & RFCs  
