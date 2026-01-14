@@ -9,7 +9,7 @@ Rather than treating intelligence as a model capability or a prompt-driven inter
 My work is guided by a small set of architectural constraints: **execution precedes intelligence**, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that operate continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1400&center=true&vCenter=true&width=600&lines=Execution+is+a+first-class+concern.;Inference+is+not+control.;State+defines+behavior+over+time." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1400&center=true&vCenter=true&width=620&lines=Execution+is+a+first-class+concern.;Inference+is+not+control.;State+defines+behavior+over+time." alt="Typing intro" />
 </p>
 
 ## ICE — Intelligent Cognitive Ecosystem
