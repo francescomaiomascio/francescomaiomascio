@@ -19,7 +19,6 @@
 <img src="https://img.shields.io/badge/C-4FB6D6?logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/Bash-2FB9B1?logo=gnu-bash&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-5FAFFF?logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white"/>
 
 </p>
