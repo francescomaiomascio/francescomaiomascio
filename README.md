@@ -26,7 +26,6 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/PyTorch-6F63D9?logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-5FAFFF?logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-4FB6D6?logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-8B7CF6?logo=scikitlearn&logoColor=white"/>
