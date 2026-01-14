@@ -6,7 +6,8 @@ I design and study runtime architectures for AI-enabled systems, with a focus no
 after inference: how systems execute, persist state, fail, recover, and remain governable over time.   
 Intelligence is treated as an executable property of long-running systems, embedded within explicit control planes, lifecycle management, and observable execution paths rather than as an isolated capability invoked on demand.
 
-My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
+My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control.   
+I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 
 <p align="center">
@@ -39,19 +40,18 @@ https://francescomaiomascio.github.io/ice-docs/
 
 This is independent, long-term research.
 
-If you are interested in execution-level system design,
-runtime governance, and infrastructure for intelligent systems,
-you can support the work below.
+You can support the work below.
 
 <p align="center">
-    <a href="https://www.buymeacoffee.com/francescomaiomascio">
+  <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="44"
+      height="52"
       alt="Buy Me a Coffee"
     />
   </a>
 </p>
+
 
 
 
