@@ -21,34 +21,20 @@
 <img src="https://img.shields.io/badge/JavaScript-5FAFFF?logo=javascript&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white"/>
 
-</p>
-
-<p align="center">
-
 <img src="https://img.shields.io/badge/TensorFlow-5FAFFF?logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-4FB6D6?logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-8B7CF6?logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-2FB9B1?logo=huggingface&logoColor=white"/>
-
-</p>
-
-
-<p align="center">
 
 <img src="https://img.shields.io/badge/FastAPI-2FB9B1?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-3A3F4B?logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/WebSockets-5FAFFF?logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/AsyncIO-2F6FDB?logo=python&logoColor=white"/>
 
-</p>
-
-<p align="center">
-
 <img src="https://img.shields.io/badge/Redis-6F63D9?logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-3A3F4B?logo=linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-4FB6D6?logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-5FAFFF?logo=kubernetes&logoColor=white"/>
-
 
 </p>
 
