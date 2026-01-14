@@ -2,9 +2,6 @@
 <!-- Francesco Maiomascio README -->
 <!-- ========================= -->
 
-<h1 align="center">Francesco Maiomascio</h1>
-
-
 <p align="center" style="margin-top:20px; margin-bottom:28px;">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
