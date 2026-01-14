@@ -9,46 +9,22 @@
   />
 </p>
 
+I design and study **runtime architectures** for AI-enabled systems.
 
-I work on **runtime architectures** for AI-enabled systems.
+My focus is not on models or prompts, but on what happens *after inference*:
+how systems **execute**, persist state, fail, recover, and remain governable over time.
 
-I am interested in what happens *after* inference:
-how systems **execute**, persist, fail, recover, and remain governable over time.
+I treat intelligence as an **executable property of long-running systems**,
+embedded within explicit control planes, lifecycle management, and observable execution paths.
 
-Rather than treating AI as a standalone artifact,
-I study it as a **component embedded in long-running software systems**,
-where authority, lifecycle, and side effects are explicit by design.
+My work operates under a small set of architectural constraints:
+execution precedes intelligence, authority must be explicit,
+state transitions must be deterministic and inspectable,
+and inference must remain separated from control.
 
-
-## Architectural stance
-
-My work is shaped by a set of non-negotiable constraints:
-
-- **Execution precedes intelligence**  
-- **Authority must be explicit**, never emergent  
-- **State changes must be deterministic and replayable**  
-- **Inference and control must remain separated**  
-- **Observability is not optional**
-
-These constraints are architectural, not ideological.
-They exist to make systems inspectable, auditable, and correct over time.
-
-
-## Systems I care about
-
-I am drawn to systems that:
-
-- live for long periods  
-- accumulate memory and responsibility  
-- interact with humans, services, and other agents  
-- cannot afford undefined behavior  
-
-These are systems where **failure is expected**,
-and therefore must be *observable, controllable, and reversible*.
-
-This space includes AI agents, orchestration layers,
-cognitive runtimes, and execution environments
-designed to survive contact with reality.
+I am interested in systems that run continuously,
+accumulate responsibility over time,
+and must remain correct under failure, evolution, and scale.
 
 
 ## ICE — Intelligent Cognitive Ecosystem
