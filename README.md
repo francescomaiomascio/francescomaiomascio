@@ -61,7 +61,6 @@ My work is shaped by a set of non-negotiable constraints:
 These constraints are architectural, not ideological.
 They exist to make systems inspectable, auditable, and correct over time.
 
----
 
 ## Systems I care about
 
@@ -79,7 +78,6 @@ This space includes AI agents, orchestration layers,
 cognitive runtimes, and execution environments
 designed to survive contact with reality.
 
----
 
 ## ICE — Intelligent Cognitive Ecosystem
 
@@ -107,8 +105,6 @@ ICE exists to explore that question.
 https://francescomaiomascio.github.io/ice-docs/  
 https://github.com/francescomaiomascio/ice-docs
 
----
-
 
 ## GitHub activity
 
@@ -119,7 +115,6 @@ https://github.com/francescomaiomascio/ice-docs
   />
 </p>
 
----
 
 ## Support
 
