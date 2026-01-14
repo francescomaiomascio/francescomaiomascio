@@ -38,8 +38,6 @@
 
 </p>
 
-<br/>
-
 ## Overview
 
 I design and study **runtime architectures** for AI-enabled systems.
