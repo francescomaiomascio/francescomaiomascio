@@ -11,45 +11,18 @@
 
 
 
-I design and study **runtime architectures** for AI-enabled systems.
+I design and study runtime architectures for AI-enabled systems, with a focus not on models or prompts but on what happens after inference: how systems execute, persist state, fail, recover, and remain governable over time. Intelligence is treated as an executable property of long-running systems, embedded within explicit control planes, lifecycle management, and observable execution paths rather than as an isolated capability invoked on demand.
 
-My focus is not on models or prompts, but on what happens *after inference*:
-how systems **execute**, persist state, fail, recover, and remain governable over time.
-
-I treat intelligence as an **executable property of long-running systems**,
-embedded within explicit control planes, lifecycle management, and observable execution paths.
-
-My work operates under a small set of architectural constraints:
-execution precedes intelligence, authority must be explicit,
-state transitions must be deterministic and inspectable,
-and inference must remain separated from control.
-
-I am interested in systems that run continuously,
-accumulate responsibility over time,
-and must remain correct under failure, evolution, and scale.
-
+My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 ## ICE — Intelligent Cognitive Ecosystem
 
-ICE is the result of a specific research question.
+ICE is the result of a specific research question. In this context, *intelligent* and *cognitive* are not synonyms. Intelligent refers to a system’s ability to act toward goals under constraints, while cognitive refers to how that behavior persists over time: how state is accumulated, validated, authorized, and governed. ICE studies the space where the two meet, treating intelligence as an executable property of long-running systems rather than as a transient capability.
 
-In this context, **intelligent** and **cognitive** are not synonyms.  
-*Intelligent* refers to a system’s ability to act toward goals under constraints.  
-*Cognitive* refers to how that behavior persists over time: how state is accumulated, validated, authorized, and governed.
+Rather than focusing on models, prompts, or isolated agents, ICE is concerned with what happens after inference: runtimes, orchestration layers, execution control, authority, memory, and observability. Intelligence is treated not as something invoked, but as something run. The term ecosystem reflects this scope, as ICE examines how engines, agents, orchestration strategies, protocols, and providers interact, and how behavior remains inspectable and governable as systems scale and architectures change.
 
-ICE studies the space where the two meet: **intelligence as an executable property of long-running systems**.
+Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, and new architectures and orchestration techniques emerge rapidly, leading to abundance, experimentation, and local optimization. Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default? ICE exists to explore that question.
 
-Rather than focusing on models, prompts, or isolated agents, ICE is concerned with what happens *after inference*: runtimes, orchestration layers, execution control, authority, memory, and observability. Intelligence is treated not as something invoked, but as something **run**.
-
-The term *ecosystem* reflects this scope. ICE looks at how engines, agents, orchestration strategies, protocols, and providers interact — and how behavior remains inspectable and governable as systems scale and architectures change.
-
-Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, new architectures and orchestration techniques emerge almost daily. There is abundance, experimentation, and rapid local optimization.
-
-Yet a more fundamental question remains largely implicit:
-
-**What does it mean to reliably run intelligent systems over time — when architectures change, agents proliferate, and control can no longer be assumed by default?**
-
-ICE exists to explore that question.
 
 📘 Documentation & RFCs  
 https://francescomaiomascio.github.io/ice-docs/  
