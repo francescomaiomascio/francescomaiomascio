@@ -37,7 +37,6 @@
 
 <img src="https://img.shields.io/badge/FastAPI-2FB9B1?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-3A3F4B?logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST%20APIs-4FB6D6?logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/WebSockets-5FAFFF?logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/AsyncIO-2F6FDB?logo=python&logoColor=white"/>
 
