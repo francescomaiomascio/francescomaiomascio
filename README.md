@@ -51,30 +51,36 @@ where authority, lifecycle, and side effects are explicit by design.
 
 ---
 
-## Core principles
+## Architectural stance
 
-My work is guided by a small set of architectural constraints:
+My work is shaped by a set of non-negotiable constraints:
 
-- **Runtime-first design** over prompt or model-centric approaches  
-- **Explicit execution authority**, not implicit behavior  
-- **Deterministic and replayable state transitions**  
-- **Strict separation between inference and control**  
-- **Observability as a first-class concern**
+- **Execution precedes intelligence**  
+- **Authority must be explicit**, never emergent  
+- **State changes must be deterministic and replayable**  
+- **Inference and control must remain separated**  
+- **Observability is not optional**
+
+These constraints are architectural, not ideological.
+They exist to make systems inspectable, auditable, and correct over time.
 
 ---
 
-## Systems perspective
+## Systems I care about
 
-I am interested in systems that:
+I am drawn to systems that:
 
-- stay alive for long periods  
-- accumulate state and memory  
-- interact with humans and other systems  
-- require auditability, rollback, and governance  
+- live for long periods  
+- accumulate memory and responsibility  
+- interact with humans, services, and other agents  
+- cannot afford undefined behavior  
 
-This includes AI agents, orchestration layers, cognitive runtimes,
-and execution environments where failure is expected and managed.
+These are systems where **failure is expected**,
+and therefore must be *observable, controllable, and reversible*.
 
+This space includes AI agents, orchestration layers,
+cognitive runtimes, and execution environments
+designed to survive contact with reality.
 
 ---
 
@@ -119,7 +125,7 @@ It is a **runtime architecture and execution model**.
 This is independent, long-term research.
 
 If you are interested in execution-level system design,
-runtime governance, and AI infrastructure,
+runtime governance, and infrastructure for intelligent systems,
 you can support the work below.
 
 
