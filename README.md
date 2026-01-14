@@ -11,13 +11,15 @@
 
 
 
-I design and study runtime architectures for AI-enabled systems, with a focus not on models or prompts but on what happens after inference: how systems execute, persist state, fail, recover, and remain governable over time. Intelligence is treated as an executable property of long-running systems, embedded within explicit control planes, lifecycle management, and observable execution paths rather than as an isolated capability invoked on demand.
+I design and study runtime architectures for AI-enabled systems, with a focus not on models or prompts but on what happens after inference: how systems execute, persist state, fail, recover, and remain governable over time.   
+Intelligence is treated as an executable property of long-running systems, embedded within explicit control planes, lifecycle management, and observable execution paths rather than as an isolated capability invoked on demand.
 
 My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
 
 ## ICE — Intelligent Cognitive Ecosystem
 
-ICE is the result of a specific research question. In this context, *intelligent* and *cognitive* are not synonyms. Intelligent refers to a system’s ability to act toward goals under constraints, while cognitive refers to how that behavior persists over time: how state is accumulated, validated, authorized, and governed. ICE studies the space where the two meet, treating intelligence as an executable property of long-running systems rather than as a transient capability.
+ICE is the result of a specific research question. In this context, *intelligent* and *cognitive* are not synonyms. Intelligent refers to a system’s ability to act toward goals under constraints, while cognitive refers to how that behavior persists over time: how state is accumulated, validated, authorized, and governed.  
+ICE studies the space where the two meet, treating intelligence as an executable property of long-running systems rather than as a transient capability.
 
 Rather than focusing on models, prompts, or isolated agents, ICE is concerned with what happens after inference: runtimes, orchestration layers, execution control, authority, memory, and observability. Intelligence is treated not as something invoked, but as something run. The term ecosystem reflects this scope, as ICE examines how engines, agents, orchestration strategies, protocols, and providers interact, and how behavior remains inspectable and governable as systems scale and architectures change.
 
