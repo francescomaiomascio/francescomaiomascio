@@ -47,7 +47,6 @@ Rather than treating AI as a standalone artifact,
 I study it as a **component embedded in long-running software systems**,
 where authority, lifecycle, and side effects are explicit by design.
 
----
 
 ## Architectural stance
 
