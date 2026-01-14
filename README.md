@@ -2,13 +2,6 @@
 <!-- Francesco Maiomascio README -->
 <!-- ========================= -->
 
-<p align="center" style="margin-top:20px; margin-bottom:28px;">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&center=true&vCenter=true&width=900&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property."
-    alt="Typing intro"
-  />
-</p>
-
 
 
 I design and study runtime architectures for AI-enabled systems, with a focus not on models or prompts but on what happens  
@@ -16,6 +9,15 @@ after inference: how systems execute, persist state, fail, recover, and remain g
 Intelligence is treated as an executable property of long-running systems, embedded within explicit control planes, lifecycle management, and observable execution paths rather than as an isolated capability invoked on demand.
 
 My work operates under a small set of architectural constraints: execution precedes intelligence, authority must be explicit, state transitions must be deterministic and inspectable, and inference must remain strictly separated from control. I am interested in systems that run continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
+
+
+<p align="center" style="margin-top:20px; margin-bottom:28px;">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&center=true&vCenter=true&width=900&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property."
+    alt="Typing intro"
+  />
+</p>
+
 
 ## ICE — Intelligent Cognitive Ecosystem
 
