@@ -27,10 +27,11 @@ https://francescomaiomascio.github.io/ice-docs/
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&area=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&area=true&hide_title=true"
     width="95%"
   />
 </p>
+
 
 This is independent, long-term research.
 
