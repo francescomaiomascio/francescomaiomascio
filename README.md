@@ -24,7 +24,9 @@ ICE studies the space where the two meet, treating intelligence as an executable
 Rather than focusing on models, prompts, or isolated agents, ICE is concerned with what happens after inference: runtimes, orchestration layers, execution control, authority, memory, and observability. 
 Intelligence is treated not as something invoked, but as something run. The term ecosystem reflects this scope, as ICE examines how engines, agents, orchestration strategies, protocols, and providers interact, and how behavior remains inspectable and governable as systems scale and architectures change.
 
-Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, and new architectures and orchestration techniques emerge rapidly, leading to abundance, experimentation, and local optimization. Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default? ICE exists to explore that question.
+Much of today’s AI discourse revolves around capabilities and risks, acceleration and regulation. Models improve, agents multiply, and new architectures and orchestration techniques emerge rapidly, leading to abundance, experimentation, and local optimization.   
+Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default? 
+ICE exists to explore that question.
 
 
 📘 Documentation & RFCs  
