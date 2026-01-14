@@ -28,11 +28,8 @@ Much of today’s AI discourse revolves around capabilities and risks, accelerat
 Yet a more fundamental question remains largely implicit: what does it mean to reliably run intelligent systems over time when architectures change, agents proliferate, and control can no longer be assumed by default? 
 ICE exists to explore that question.
 
-
 📘 Documentation & RFCs  
 https://francescomaiomascio.github.io/ice-docs/  
-https://github.com/francescomaiomascio/ice-docs
-
 
 <p align="center">
   <img
@@ -40,7 +37,6 @@ https://github.com/francescomaiomascio/ice-docs
     width="95%"
   />
 </p>
-
 
 This is independent, long-term research.
 
