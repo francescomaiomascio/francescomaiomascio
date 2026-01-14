@@ -96,17 +96,6 @@ If you are interested in execution-level system design,
 runtime governance, and infrastructure for intelligent systems,
 you can support the work below.
 
-
-<p align="center">
-  <a href="https://github.com/sponsors/francescomaiomascio">
-    <img
-      src="https://raw.githubusercontent.com/francescomaiomascio/francescomaiomascio/main/assets/github-sponsors-heart.svg"
-      height="44"
-      alt="Sponsor"
-    />
-  </a>
-</p>
-
 <p align="center">
     <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
