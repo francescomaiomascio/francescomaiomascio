@@ -11,11 +11,9 @@ My work is guided by a small set of architectural constraints: **execution prece
 
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&center=true&vCenter=true&width=900&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property."
-    alt="Typing intro"
-  />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1100&center=true&vCenter=true&width=520&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property." alt="Typing intro" />
 </p>
+
 
 ## ICE — Intelligent Cognitive Ecosystem
 
@@ -33,7 +31,7 @@ The term *ecosystem* reflects this scope. ICE studies how engines, agents, proto
 As AI systems grow more complex, control can no longer be assumed by default. ICE exists to study how intelligent behavior can remain reliable under change.
 
 
-📘 Documentation & RFCs  
+📘 Docs
 https://francescomaiomascio.github.io/ice-docs/  
 
 <p align="center">
