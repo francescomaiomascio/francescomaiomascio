@@ -38,8 +38,6 @@
 
 </p>
 
-## Overview
-
 I work on **runtime architectures** for AI-enabled systems.
 
 I am interested in what happens *after* inference:
