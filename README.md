@@ -4,10 +4,12 @@
 
 <p align="center" style="margin-top:20px; margin-bottom:28px;">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=900&lines=Runtime+Architectures+for+AI+Execution+%26+Governance;Systems+over+prompts.;Execution+is+a+first-class+concern.;Long-running+systems+require+authority%2C+not+magic."
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&center=true&vCenter=true&width=900&lines=Runtime+architectures+for+AI+systems.;Execution+is+a+first-class+concern.;Inference+is+not+control.;Authority+must+be+explicit.;State+defines+behavior+over+time.;Long-running+systems+shape+intelligence.;Intelligence+is+an+executable+property."
     alt="Typing intro"
   />
 </p>
+
+
 
 I design and study **runtime architectures** for AI-enabled systems.
 
