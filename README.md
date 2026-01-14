@@ -26,9 +26,6 @@ The emphasis is not on models or isolated agents, but on *after-inference dynami
 The term *ecosystem* reflects this scope. ICE studies how engines, agents, protocols, and orchestration strategies interact, and how behavior remains inspectable and governable as architectures evolve and systems scale.  
 As AI systems grow more complex, control can no longer be assumed by default; ICE exists to study how intelligent behavior can remain reliable under change.
 
-📘 **Documentation & RFCs**  
-https://francescomaiomascio.github.io/ice-docs/
-
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
