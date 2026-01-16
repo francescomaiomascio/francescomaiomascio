@@ -36,7 +36,7 @@ ICE exists to study how intelligent behavior can remain reliable under change.
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="48"
+      height="44"
       alt="Buy Me a Coffee"
     />
   </a>
