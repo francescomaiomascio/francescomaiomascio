@@ -21,7 +21,7 @@ but that **remain correct, explainable, and governable** as they evolve,
 scale, and fail.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1400&center=true&vCenter=true&width=720&lines=Execution+is+authoritative.;Inference+is+not+control.;State+accumulates+responsibility." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1400&center=true&vCenter=true&width=720&lines=Execution+is+authoritative.;Inference+is+not+control.;State+accumulates+responsibility." />
 </p>
 
 **ICE** is the research environment where this work is formalized and tested.
