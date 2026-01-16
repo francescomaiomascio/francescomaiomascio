@@ -48,6 +48,6 @@ and observability remain explicit by construction.
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="44" />
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="42" />
   </a>
 </p>
