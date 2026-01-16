@@ -5,7 +5,7 @@ are executed, constrained, validated, observed, and governed over time.
 
 I do not study intelligence as a model property, a prompt interaction,  
 or a standalone capability.  
-I study intelligence as an **executable phenomenon** embedded in
+I study intelligence as an **executable phenomenon** embedded in  
 long-running software systems.
 
 The systems I work on are defined by explicit constraints:
