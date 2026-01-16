@@ -1,43 +1,53 @@
-<!-- =========================== -->
-<!-- Francesco Maiomascio README -->
-<!-- =========================== -->
-
 I research **runtime architectures for AI-enabled systems**.
 
-My work focuses on what happens *after inference*: how intelligent systems execute, persist state, evolve, fail, recover, and remain governable over time.  
-I do not treat intelligence as a model capability or a prompt interaction, but as an **executable property of long-running systems**.
+My work focuses on what happens *after inference*: how intelligent systems
+are executed, constrained, validated, observed, and governed over time.
 
-The systems I study are defined by a small set of constraints:  
-**execution precedes intelligence**, authority is explicit, state transitions are deterministic and inspectable, and inference is strictly separated from control.  
-I am interested in architectures that operate continuously, accumulate responsibility over time, and remain correct under failure, evolution, and scale.
+I do not study intelligence as a model property, a prompt interaction,
+or a standalone capability.
+I study intelligence as an **executable phenomenon** embedded in
+long-running software systems.
+
+The systems I work on are defined by explicit constraints:
+
+- execution is authoritative
+- state transitions are explicit and inspectable
+- side effects are governed, not implicit
+- inference is separated from control
+- responsibility accumulates over time
+
+I am interested in systems that do not merely produce outputs,
+but that **remain correct, explainable, and governable** as they evolve,
+scale, and fail.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1400&center=true&vCenter=true&width=620&lines=Execution+is+a+first-class+concern.;Inference+is+not+control.;State+defines+behavior+over+time." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1400&center=true&vCenter=true&width=720&lines=Execution+is+authoritative.;Inference+is+not+control.;State+accumulates+responsibility." />
 </p>
 
-**ICE** is the research environment where this work converges.
+**ICE** is the research environment where this work is formalized and tested.
 
-ICE explores a single question:  
-*what does it mean to reliably run intelligent systems over time?*
+ICE explores a single, central question:
 
-Here, *intelligent* and *cognitive* are not synonyms.  
-**Intelligent** systems act toward goals under constraints.  
-**Cognitive** systems persist behavior across time: they accumulate state, validate it, authorize it, and govern its evolution during execution.
+> What does it mean to reliably run intelligent systems over time?
 
-ICE studies the intersection of these two dimensions.  
-Intelligence is treated as something that is **run**, not invoked.  
-The focus is not on models or isolated agents, but on *after-inference dynamics*: runtimes, orchestration layers, execution control, authority, memory, and observability.
+Here, *intelligence* and *cognition* are not treated as synonyms.
 
-As architectures evolve and systems scale, control can no longer be assumed by default.  
-ICE exists to study how intelligent behavior can remain reliable under change.
+- Intelligent systems act toward goals under constraints.
+- Cognitive systems persist behavior across time, accumulate state,
+  validate decisions, and govern their own evolution during execution.
 
+ICE studies the intersection of these two dimensions.
+
+Intelligence is treated as something that is **run**, not invoked.
+Authority does not live in models or agents, but in execution substrates.
+
+As AI systems increasingly operate as infrastructure,
+implicit control becomes a liability.
+ICE exists to study architectures where control, responsibility,
+and observability remain explicit by construction.
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="44"
-      alt="Buy Me a Coffee"
-    />
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="44" />
   </a>
 </p>
