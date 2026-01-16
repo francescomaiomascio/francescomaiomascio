@@ -31,12 +31,6 @@ The focus is not on models or isolated agents, but on *after-inference dynamics*
 As architectures evolve and systems scale, control can no longer be assumed by default.  
 ICE exists to study how intelligent behavior can remain reliable under change.
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
-    width="78%"
-  />
-</p>
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
