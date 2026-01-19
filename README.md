@@ -1,50 +1,27 @@
-I research **runtime architectures for AI-enabled systems**.  
+I research **runtime architectures for AI-enabled systems**.
 
-My work focuses on what happens *after inference*: how intelligent systems  
-are executed, constrained, validated, observed, and governed over time.  
+My focus is **execution after inference**: how intelligent behavior is authorized, executed, observed, and governed in long-running systems.
 
-I do not study intelligence as a model property, a prompt interaction,  
-or a standalone capability.  
-I study intelligence as an **executable phenomenon** embedded in  
-long-running software systems.
+ICE is the environment where this is formalized through explicit constraints:
 
-The systems I work on are defined by explicit constraints:
+- **Authority precedes execution** (inference cannot authorize actions)
+- **State transitions are explicit and inspectable**
+- **Traceability and evidence are structural invariants**
+- **Determinism and reproducibility are mandatory properties**
+- **External effects are boundary-governed**
+- **Transitions are abstractly cost-accountable**
 
-- execution is authoritative
-- state transitions are explicit and inspectable
-- side effects are governed, not implicit
-- inference is separated from control
-- responsibility accumulates over time
+ICE studies a single question:
 
-I am interested in systems that do not merely produce outputs,  
-but that **remain correct, explainable, and governable** as they evolve,  
-scale, and fail.  
+> What does it mean to run intelligent systems reliably over time?
+
+This profile documents the work as it evolves: foundations, invariants, and the downstream domains that depend on them.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1400&center=true&vCenter=true&width=720&lines=Execution+is+authoritative.;Inference+is+not+control.;State+accumulates+responsibility." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=820&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural." />
 </p>
 
-**ICE** is the research environment where this work is formalized and tested.  
 
-ICE explores a single, central question:  
-
-> What does it mean to reliably run intelligent systems over time?  
-
-Here, *intelligence* and *cognition* are not treated as synonyms.  
-
-- Intelligent systems act toward goals under constraints.  
-- Cognitive systems persist behavior across time, accumulate state,  
-  validate decisions, and govern their own evolution during execution.  
-
-ICE studies the intersection of these two dimensions.  
-
-Intelligence is treated as something that is **run**, not invoked.  
-Authority does not live in models or agents, but in execution substrates.  
-
-As AI systems increasingly operate as infrastructure,    
-implicit control becomes a liability.  
-ICE exists to study architectures where control, responsibility,  
-and observability remain explicit by construction.  
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
