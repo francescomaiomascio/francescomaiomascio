@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=820&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural." />
+</p>
+
+
 I research **runtime architectures for AI-enabled systems**.
 
 My focus is **execution after inference**: how intelligent behavior is authorized, executed, observed, and governed in long-running systems.
@@ -15,12 +20,6 @@ ICE is the environment where this is formalized through explicit constraints:
 > What does it mean to run intelligent systems reliably over time?
 
 This profile documents the work as it evolves.
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=820&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural." />
-</p>
-
-
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
