@@ -21,7 +21,7 @@ ICE is the environment where this is formalized through explicit constraints:
 
 This profile documents the work as it evolves.
 
-<p align="left">
+<p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="42" />
   </a>
