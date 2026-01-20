@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=820&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural." />
 </p>
 
@@ -21,7 +21,7 @@ ICE is the environment where this is formalized through explicit constraints:
 
 This profile documents the work as it evolves.
 
-<p align="center">
+<p align="left">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="42" />
   </a>
