@@ -14,7 +14,7 @@ ICE is the environment where this is formalized through explicit constraints:
 
 > What does it mean to run intelligent systems reliably over time?
 
-This profile documents the work as it evolves: foundations, invariants, and the downstream domains that depend on them.
+This profile documents the work as it evolves.
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=820&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural." />
