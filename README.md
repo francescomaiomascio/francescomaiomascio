@@ -11,7 +11,6 @@ ICE is the environment where this is formalized through explicit constraints:
 - **External effects are boundary-governed**
 - **Transitions are abstractly cost-accountable**
 
-ICE studies a single question:
 
 > What does it mean to run intelligent systems reliably over time?
 
