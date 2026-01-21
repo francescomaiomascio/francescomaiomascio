@@ -13,7 +13,6 @@
   />
 </p>
 
-
 <!-- GITHUB STATUS / SIGNALS -->
 <p align="center">
   <img src="https://img.shields.io/github/issues/francescomaiomascio/ice-runtime?label=issues&style=flat&labelColor=0b1220&color=a78bfa" />
@@ -23,8 +22,6 @@
 </p>
 
 <p align="center">
-  <strong>Inference</strong> produces <em>intent</em> · execution governs reality<br/>
-  <strong>authorize</strong> · <strong>commit</strong> · <strong>observe</strong> · <strong>govern</strong> —
   <em>long-running, stateful systems</em>
 </p>
 
@@ -37,8 +34,8 @@ def __post_init__(self) -> None:
     self._enforce_invariants()
 
 ```
-## What I work on
 
+## What I work 
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
 **after inference**—when proposed actions become **real, persistent state transitions**.
 
