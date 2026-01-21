@@ -13,19 +13,15 @@
   />
 </p>
 
-
 <p align="center">
   <em>long-running, stateful systems</em>
 </p>
-
-</br>
 
 ```python
 def __post_init__(self) -> None:
     self._normalize_time()
     self._seal_integrity()
     self._enforce_invariants()
-
 ```
 
 ## What I work 
@@ -72,9 +68,6 @@ filesystem signals, and **CLI/TUI tooling**.
 > [!IMPORTANT]  
 > **ICE** is where this approach is exercised today—against **real code**, **real state**, and **real failure modes**.
 
-
-<br/>
-
 <!-- TOOLING / STACK -->
 <div align="center">
 
@@ -94,9 +87,6 @@ filesystem signals, and **CLI/TUI tooling**.
 
 </div>
 
-
-
-
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
@@ -104,9 +94,6 @@ filesystem signals, and **CLI/TUI tooling**.
     width="700"
   />
 </p>
-
-
-
 
 <p align="center" style="max-width: 640px; margin: 32px auto 18px auto;">
   <span>
@@ -133,4 +120,3 @@ filesystem signals, and **CLI/TUI tooling**.
     width="100%"
   />
 </p>
-
