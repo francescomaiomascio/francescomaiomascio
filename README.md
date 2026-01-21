@@ -80,8 +80,7 @@ At the systems level I work directly with **HTTP**, **WebSockets**, **async I/O*
 filesystem signals, and **CLI/TUI tooling**.
 
 > [!IMPORTANT]  
-> **ICE** is where this approach is exercised today—against **real code**,  
-> **real state**, and **real failure modes**.
+> **ICE** is where this approach is exercised today—against **real code**, **real state**, and **real failure modes**.
 
 
 <br/>
@@ -89,25 +88,30 @@ filesystem signals, and **CLI/TUI tooling**.
 <!-- TOOLING / STACK -->
 <div align="center" style="max-width: 820px; margin: 40px auto 0 auto;">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40"/>
+<!-- SYSTEMS / RUNTIME / AI -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="35" height="35"/>
 
 <br/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/>&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>
+<!-- WEB / API / DELIVERY -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="35" height="35"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35" height="35"/>
 
 </div>
+
 
 <br/>
 
@@ -116,29 +120,45 @@ filesystem signals, and **CLI/TUI tooling**.
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true&bg_color=020617&color=a78bfa&line=a78bfa&point=c4b5fd"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=minimal&hide_border=true&hide_title=true&bg_color=00000000&color=9f7aea&line=a78bfa&point=c4b5fd"
     width="700"
   />
 </p>
 
-<p align="center" style="max-width: 680px; margin: 28px auto 16px auto;">
+
+
+<p align="center" style="max-width: 640px; margin: 32px auto 18px auto;">
   <span
-    style="font-size:0.78em; line-height:1.6; letter-spacing:0.04em; opacity:0.55; font-style:italic;">
-    This work is long-term, structural, and research-driven.</br>  
-    If it proves valuable, its continuation can be supported.
+    style="
+      display: inline-block;
+      font-size: 0.75em;
+      line-height: 1.6;
+      letter-spacing: 0.05em;
+      opacity: 0.5;
+      font-style: italic;
+      text-align: center;
+    ">
+    This work is long-term, structural, and research-driven.<br/>
+    Support sustains continuity — it does not shape direction.
   </span>
 </p>
 
-<p align="center" style="margin-top: 20px;">
+<p align="center" style="margin-top: 18px; margin-bottom: 6px;">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" />
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      height="44"
+      alt="Support this work"
+      style="opacity: 0.9;"
+    />
   </a>
 </p>
 
 <!-- BOTTOM WAVING FOOTER -->
-<p align="center">
+<p align="center" style="margin-top: 24px;">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
+    src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
     width="100%"
   />
 </p>
+
