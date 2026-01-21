@@ -1,3 +1,12 @@
+<!-- TOP WAVING HEADER -->
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
+    width="100%"
+  />
+</p>
+
+
 <!-- GITHUB STATUS / SIGNALS -->
 <p align="center">
   <img src="https://img.shields.io/github/stars/francescomaiomascio/ice-runtime?label=stars&style=flat&labelColor=0b1220&color=a78bfa" />
@@ -155,4 +164,12 @@ filesystem signals, and **CLI/TUI tooling**.
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" />
   </a>
+</p>
+
+<!-- BOTTOM WAVING FOOTER -->
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
+    width="100%"
+  />
 </p>
