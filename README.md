@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Long--running%20Systems-0f766e?style=flat&logo=github&logoColor=white" />
 </p>
 
-<h3 align="center">Engineering how intelligence <em>actually</em> runs</h3>
+<h3 align="center">Running intelligence, beyond inference</h3>
 
 <p align="center">
   I research <strong>runtime architectures for AI-enabled systems</strong>.
@@ -19,12 +19,12 @@
 
 <p align="center">
   <strong>authorize</strong> · <strong>execute</strong> · <strong>observe</strong> · <strong>govern</strong><br/>
-  <span style="color:#9ca3af;">in long-running, stateful systems</span>
+  <em style="color:#9ca3af;">long-running, stateful systems</em>
 </p>
 
 <p align="center">
-  Execution is treated as a <strong>semantic and architectural concern</strong>,
-  not as an implementation detail.
+  <strong>Execution is a first-class architectural concern</strong>,
+  not an implementation afterthought.
 </p>
 
 <!-- HEADER / STATEMENT -->
