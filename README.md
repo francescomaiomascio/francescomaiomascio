@@ -16,7 +16,6 @@
 
 <!-- GITHUB STATUS / SIGNALS -->
 <p align="center">
-  <img src="https://img.shields.io/github/stars/francescomaiomascio/ice-runtime?label=stars&style=flat&labelColor=0b1220&color=a78bfa" />
   <img src="https://img.shields.io/github/issues/francescomaiomascio/ice-runtime?label=issues&style=flat&labelColor=0b1220&color=a78bfa" />
   <img src="https://img.shields.io/github/last-commit/francescomaiomascio/ice-runtime?label=last%20commit&style=flat&labelColor=0b1220&color=a78bfa" />
   <img src="https://img.shields.io/github/commit-activity/m/francescomaiomascio/ice-runtime?label=commits&style=flat&labelColor=0b1220&color=a78bfa" />
