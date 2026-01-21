@@ -53,8 +53,6 @@ In long-running systems, this is the system’s behavior.
 > [!NOTE]  
 > Execution is an architectural concern, not plumbing.
 
----
-
 ## Why execution is hard
 
 Most AI systems assume execution is *obvious* or *external*.  
@@ -65,8 +63,6 @@ It is what happens **after** intelligence produces intent.
 
 > **Invariant**  
 > Inference proposes. Execution decides.
-
----
 
 ## How I build systems
 
@@ -136,13 +132,6 @@ filesystem signals, and **CLI/TUI tooling**.
   />
 </p>
 
-<!-- SEPARATOR -->
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,45:a78bfa,55:a78bfa,100:020617"
-    width="860"
-  />
-</p>
 
 <!-- ACTIVITY GRAPH -->
 <p align="center">
