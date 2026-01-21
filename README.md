@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <strong>Inference</strong> produces <em>intent</em>.  
+  <strong>Inference</strong> produces <em>intent</em>.</br>  
   <strong>Runtime responsibility</strong> begins where intent meets reality.
 </p>
 
