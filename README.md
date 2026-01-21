@@ -31,53 +31,74 @@
   not an implementation detail.
 </p>
 
-
 ## What I work on
 
-I work on runtime architectures for AI-enabled systems, with a focus on
-what happens after inference: when proposed actions become real, persistent state transitions.
+I work on runtime architectures for AI-enabled systems, focusing on what happens **after inference**: when proposed actions become **real, persistent state transitions**.
 
-Inference can produce intent, suggestions, or proposed actions.  
-Execution is the phase where those proposals become real state transitions.
-That transition is not automatic, and it is not neutral.
+Inference can generate intent, suggestions, or candidate actions.  
+**Execution** is the phase where those proposals are evaluated, authorized, and applied to system state. That transition is neither automatic nor neutral.
 
-In practice, execution means deciding **who is allowed to act**, **when an action is legitimate**,
-**how it changes system state**, and **how its effects can be observed, traced, and governed over time**.
+In practice, execution means deciding:
+
+- **who is allowed to act**
+- **when an action is legitimate**
+- **what state is allowed to change**
+- **how effects are observed, traced, and governed**
+
+In long-running, stateful systems, these decisions *define* behavior.
+
+> [!NOTE]  
+> Execution is not plumbing. It is an architectural concern.
+
+## Why execution is the hard part
+
+Most AI systems implicitly assume execution is *obvious*, *delegated*, or *handled elsewhere*.  
+That assumption may hold for prototypes or isolated tasks. It breaks down when systems must run continuously, interact with real environments, and remain accountable.
 
 The core problem is not intelligence itself.  
-It is what happens *after* intelligence produces intent.
+It is what happens **after** intelligence produces intent.
 
-If an inference step proposes an action, what makes that action legitimate to execute?  
-What authority enables it?  
-What state is allowed to change?  
-Where is responsibility located when things go wrong?
+> [!WARNING]  
+> If inference proposes an action, execution must answer:
+> - *Is it allowed?*
+> - *Under which authority?*
+> - *Which state may change?*
+> - *Who is responsible if it fails?*
 
-These questions are **architectural**, not algorithmic.
+These are **architectural questions**, not algorithmic ones.
 
-## How I turn execution theory into real systems
+> **Invariant**  
+> Inference proposes. Execution decides.
 
-I build systems end-to-end, from execution semantics down to runtime behavior,
-keeping control flow, state transitions, and side effects explicit in code.
 
-I work primarily in Python, used as an execution and orchestration language.
+## How I build and test these ideas
+
+I build systems end-to-end, from execution semantics down to runtime behavior, keeping control flow, state transitions, and side effects **explicit in code**.
+
+I work primarily in **Python**, used as an execution and orchestration language.  
 Runtime logic is procedural and structured around:
 
 - explicit pipelines
 - state machines
 - lifecycle phases
-I deliberately avoid agent frameworks and high-level orchestration toolkits, preferring minimal building blocks where execution behavior stays visible.
 
-State and persistence are handled explicitly through SQLite / SQL and DuckDB, used for execution state, checkpoints, and auditability. Where relational structure matters, I use SQLAlchemy selectively, without turning the system into an ORM-driven design.
+I deliberately avoid agent frameworks and high-level orchestration toolkits, preferring minimal building blocks where execution behavior remains visible.
 
-For semantic indexing and retrieval, I work with sentence-transformers for embeddings and FAISS / Chroma for vector search, integrated as bounded components. Retrieval feeds execution logic but never bypasses validation or state rules.
+State and persistence are handled explicitly with **SQLite / SQL** and **DuckDB** for execution state, checkpoints, and auditability. **SQLAlchemy** is used selectively where relational structure matters.
 
-Numerical validation and decision support rely on NumPy, SciPy, and scikit-learn for similarity, scoring, clustering, and thresholding. Machine learning supports execution decisions; it does not control them.
+Semantic indexing is treated as a bounded capability. I use **sentence-transformers** with **FAISS / Chroma**, integrated as inputs to execution logic—never as implicit control flow.
 
-LLMs are used as inference components only. I primarily test open-source models via Hugging Face and local runtimes (e.g. ctransformers, LLaMA-based backends), treating model outputs as proposals that must pass explicit authority and state-transition checks.
+Numerical validation relies on **NumPy**, **SciPy**, and **scikit-learn**.  
+LLMs are used strictly as **inference components**—primarily open-source models via **Hugging Face** and local runtimes—producing proposals that must pass explicit authority and state-transition checks.
 
-At the systems level, I work directly with HTTP, WebSockets, and async I/O, and with filesystem and process signals where needed. Operational workflows are exposed through CLI/TUI tooling built with click, typer, and prompt_toolkit.
+> [!TIP]  
+> Models suggest. Code authorizes. State changes only by rule.
 
-ICE is where this approach is currently exercised: an execution environment under active construction, used to validate ideas against real code, real state, and real failure modes.
+At the systems level, I work directly with **HTTP**, **WebSockets**, **async I/O**, filesystem signals, and **CLI/TUI tooling**, keeping operational workflows aligned with runtime semantics.
+
+> [!IMPORTANT]  
+> ICE is where this approach is exercised today: an execution environment under active construction, used to validate ideas against **real code**, **real state**, and **real failure modes**.
+
  
 <p align="center">
   <em>Built with precision. Run with confidence.</em>
