@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <strong>Inference</strong> produces <em>intent</em>.<br/>
+  <strong>Inference</strong> produces <em>intent</em>.  
   <strong>Runtime responsibility</strong> begins where intent meets reality.
 </p>
 
@@ -26,123 +26,91 @@
 </p>
 
 <p align="center">
-  Acting is a <strong>structural commitment</strong>,<br/>
-  not an implementation detail.
+  Acting is a <strong>structural commitment</strong>, not an implementation detail.
 </p>
 
 ---
 
 ## What I work on
 
-I work on runtime architectures for AI-enabled systems, focusing on what happens  
-**after inference**: when proposed actions become **real, persistent state transitions**.
+I design **runtime architectures for AI-enabled systems**, focused on what happens  
+**after inference**—when proposed actions become **real, persistent state transitions**.
 
-Inference can generate intent, suggestions, or candidate actions.  
-**Execution** is the phase where those proposals are evaluated, authorized,  
-and applied to system state.  
-That transition is neither automatic nor neutral.
+Inference proposes intent.  
+**Execution decides** whether that intent is legitimate, authorized, and observable.
 
-In practice, this means deciding:
-
-- **who is allowed to act**
-- **when an action is legitimate**
-- **what state is allowed to change**
-- **how effects are observed, traced, and governed**
-
-In long-running, stateful systems, these decisions *define* behavior.
+In practice, execution defines:
+**who can act**, **when**, **what state may change**, and **how responsibility is tracked**.  
+In long-running systems, this is the system’s behavior.
 
 > [!NOTE]  
-> Execution is not plumbing. It is an architectural concern.
+> Execution is an architectural concern, not plumbing.
 
 ---
 
-## Why execution is the hard part
+## Why execution is hard
 
-Most AI systems implicitly assume execution is *obvious*, *delegated*,  
-or *handled elsewhere*.  
-That assumption may hold for prototypes or isolated tasks.  
-It breaks down when systems must run continuously, interact with real environments,  
-and remain accountable.
+Most AI systems assume execution is *obvious* or *external*.  
+That assumption fails once systems run continuously, affect real state, and must remain accountable.
 
-The core problem is not intelligence itself.  
+The problem is not intelligence.  
 It is what happens **after** intelligence produces intent.
-
-> [!WARNING]  
-> If inference proposes an action, execution must answer:
-> - *Is it allowed?*
-> - *Under which authority?*
-> - *Which state may change?*
-> - *Who is responsible if it fails?*
-
-These are **architectural questions**, not algorithmic ones.
 
 > **Invariant**  
 > Inference proposes. Execution decides.
 
 ---
 
-## How I build and test these ideas
+## How I build systems
 
-I build systems end-to-end, from execution semantics down to runtime behavior,  
-keeping control flow, state transitions, and side effects **explicit in code**.
+I build systems end-to-end, keeping **control flow, state transitions, and side effects explicit**.
 
-I work primarily in **Python**, used as an execution and orchestration language.  
-Runtime logic is procedural and organized around a small set of primitives:  
+Python is used as an **execution and orchestration language**, structured around:
 **explicit pipelines**, **state machines**, and **lifecycle phases**.
 
-I deliberately avoid agent frameworks and high-level orchestration toolkits,  
-preferring minimal building blocks where execution behavior stays visible.
+I avoid agent frameworks and opaque orchestration layers.  
+Minimal primitives keep execution behavior visible.
 
-> [!NOTE]  
-> Execution clarity beats abstraction density.
+State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints and auditability.  
+**SQLAlchemy** is used selectively, never as an abstraction boundary.
 
-Execution state is handled explicitly through **SQLite / SQL** and **DuckDB**,  
-used for checkpoints, transitions, and auditability.  
-**SQLAlchemy** is applied only where relational structure is required,  
-without turning persistence into an abstraction layer.
+Semantic indexing is a bounded input capability  
+(**sentence-transformers + FAISS / Chroma**), never implicit control flow.
 
-Semantic indexing is treated as a bounded capability.  
-I use **sentence-transformers** with **FAISS / Chroma**, integrated as inputs to  
-execution logic—never as implicit control flow or hidden memory.
-
-Numerical validation relies on **NumPy**, **SciPy**, and **scikit-learn**.  
-LLMs are used strictly as **inference components**—primarily open-source models  
-via **Hugging Face** and local runtimes—producing proposals that must pass  
+LLMs are used strictly for **inference**—producing proposals that must pass
 explicit authority and state-transition checks.
 
 > [!TIP]  
 > Models suggest. Code authorizes. State changes only by rule.
 
-At the systems level, I work directly with **HTTP**, **WebSockets**, **async I/O**,  
-filesystem signals, and **CLI/TUI tooling**, keeping operational workflows aligned  
-with runtime semantics.
+At the systems level I work directly with **HTTP**, **WebSockets**, **async I/O**,  
+filesystem signals, and **CLI/TUI tooling**.
 
 > [!IMPORTANT]  
-> ICE is where this approach is exercised today: an execution environment under  
-> active construction, used to validate ideas against **real code**, **real state**,  
-> and **real failure modes**.
+> ICE is where this approach is exercised today—against **real code**,  
+> **real state**, and **real failure modes**.
 
 <br/>
 
 <!-- TOOLING / STACK -->
-<div align="center" style="max-width: 820px; margin: 48px auto 0 auto;">
+<div align="center" style="max-width: 820px; margin: 40px auto 0 auto;">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="44" height="44"/>&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="44" height="44"/>
 
 <br/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="44" height="44"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="44" height="44"/>&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="44" height="44"/>
 
 </div>
@@ -152,7 +120,7 @@ with runtime semantics.
 <!-- STATS + LANGUAGES -->
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true&include_all_commits=false&ring_color=a78bfa&text_color=a78bfa"
+    src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true&ring_color=a78bfa&text_color=a78bfa"
     width="420"
   />
   <img
@@ -164,7 +132,7 @@ with runtime semantics.
 <!-- SEPARATOR -->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,45:a78bfa,55:a78bfa,100:020617&section=header"
+    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,45:a78bfa,55:a78bfa,100:020617"
     width="860"
   />
 </p>
@@ -177,28 +145,16 @@ with runtime semantics.
   />
 </p>
 
-<p align="center" style="max-width: 680px; margin: 32px auto 18px auto;">
+<p align="center" style="max-width: 680px; margin: 28px auto 16px auto;">
   <span
-    style="
-      display: inline-block;
-      font-size: 0.78em;
-      line-height: 1.7;
-      letter-spacing: 0.04em;
-      opacity: 0.55;
-      font-style: italic;
-      font-weight: 400;
-    ">
-    This work is long-term, structural, and research-driven.<br/>
+    style="font-size:0.78em; line-height:1.6; letter-spacing:0.04em; opacity:0.55; font-style:italic;">
+    This work is long-term, structural, and research-driven.  
     If it proves valuable, its continuation can be supported.
   </span>
 </p>
 
-<p align="center" style="margin-top: 22px; margin-bottom: 8px;">
+<p align="center" style="margin-top: 20px;">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="50"
-      alt="Buy me a coffee"
-    />
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" />
   </a>
 </p>
