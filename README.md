@@ -39,7 +39,8 @@ I work on runtime architectures for AI-enabled systems, focusing on what happens
 
 Inference can generate intent, suggestions, or candidate actions.  
 **Execution** is the phase where those proposals are evaluated, authorized,
-and applied to system state. That transition is neither automatic nor neutral.
+and applied to system state.   
+That transition is neither automatic nor neutral.  
 
 In practice, execution means deciding:
 
@@ -59,7 +60,7 @@ In long-running, stateful systems, these decisions *define* behavior.
 
 Most AI systems implicitly assume execution is *obvious*, *delegated*,
 or *handled elsewhere*.  
-That assumption may hold for prototypes or isolated tasks.
+That assumption may hold for prototypes or isolated tasks.  
 It breaks down when systems must run continuously, interact with real environments,
 and remain accountable.
 
@@ -85,9 +86,10 @@ These are **architectural questions**, not algorithmic ones.
 I build systems end-to-end, from execution semantics down to runtime behavior,
 keeping control flow, state transitions, and side effects **explicit in code**.
 
-I work primarily in **Python**, used as an execution and orchestration language.
+I work primarily in **Python**, used as an execution and orchestration language.  
 Runtime logic is procedural and organized around a small set of primitives:
 **explicit pipelines**, **state machines**, and **lifecycle phases**.
+
 I deliberately avoid agent frameworks and high-level orchestration toolkits,
 preferring minimal building blocks where execution behavior stays visible.
 
@@ -99,11 +101,11 @@ used for checkpoints, transitions, and auditability.
 **SQLAlchemy** is applied only where relational structure is required,
 without turning persistence into an abstraction layer.
 
-Semantic indexing is treated as a bounded capability.
+Semantic indexing is treated as a bounded capability.  
 I use **sentence-transformers** with **FAISS / Chroma**, integrated as inputs to
 execution logic—never as implicit control flow or hidden memory.
 
-Numerical validation relies on **NumPy**, **SciPy**, and **scikit-learn**.
+Numerical validation relies on **NumPy**, **SciPy**, and **scikit-learn**.  
 LLMs are used strictly as **inference components**—primarily open-source models
 via **Hugging Face** and local runtimes—producing proposals that must pass
 explicit authority and state-transition checks.
@@ -128,45 +130,58 @@ with runtime semantics.
 </p>
 
 </br>
-
+<!-- STATS + LANGUAGES -->
 <p align="center">
   <img
     src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true&include_all_commits=false&ring_color=a78bfa&text_color=a78bfa"
-    width="48%"
+    width="420"
   />
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=francescomaiomascio&layout=compact&hide_title=true&theme=transparent&hide_border=true&text_color=a78bfa"
-    width="48%"
+    width="420"
   />
 </p>
 
-
-
+<!-- SEPARATOR (dark center, faded sides) -->
 <p align="center">
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:6d28d9,50:a78bfa,100:6d28d9&section=header"
-  width="860"
-/>
-</p> 
-
-<p align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true&color=a78bfa&line=a78bfa&point=c4b5fd"
-  width="100%"
-/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,45:a78bfa,55:a78bfa,100:020617&section=header"
+    width="860"
+  />
 </p>
 
-
-
-
-<p align="center" style="font-size: 0.9em; color: #9ca3af; max-width: 640px; margin: 0 auto;">
-  This work is long-term, structural, and research-driven.
-  If it proves valuable, its continuation can be supported.
+<!-- ACTIVITY GRAPH -->
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true&bg_color=020617&color=a78bfa&line=a78bfa&point=c4b5fd"
+    width="860"
+  />
 </p>
 
-<p align="center" style="margin-top: 12px;">
+<p align="center" style="max-width: 680px; margin: 32px auto 18px auto;">
+  <span
+    style="
+      display: inline-block;
+      font-size: 0.78em;
+      line-height: 1.7;
+      letter-spacing: 0.04em;
+      opacity: 0.65;
+      font-style: italic;
+      font-weight: 400;
+    ">
+    This work is long-term, structural, and research-driven.<br/>
+    If it proves valuable, its continuation can be supported.
+  </span>
+</p>
+
+<p align="center" style="margin-top: 22px; margin-bottom: 8px;">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" />
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      height="50"
+      alt="Buy me a coffee"
+    />
   </a>
 </p>
+
+
