@@ -1,28 +1,6 @@
-<!-- TOP WAVING HEADER -->
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
-    width="100%"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Authority%20precedes%20execution.&fontSize=26&fontAlignY=42&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=c4b5fd" width="100%" />
 </p>
-
-<!-- MANIFESTO / AXIOMS -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&weight=500&pause=1400&center=true&vCenter=true&width=780&color=a78bfa&lines=Running+intelligence%2C+beyond+inference.;Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
-  />
-</p>
-
-<p align="center">
-  <em>long-running, stateful systems</em>
-</p>
-
-```python
-def __post_init__(self) -> None:
-    self._normalize_time()
-    self._seal_integrity()
-    self._enforce_invariants()
-```
 
 ## What I work 
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
@@ -41,6 +19,13 @@ The problem is not intelligence, but what happens **after** intelligence produce
 
 > [!IMPORTANT]  
 > **Invariant** — Inference proposes. Execution decides.
+
+```python
+def __post_init__(self) -> None:
+    self._normalize_time()
+    self._seal_integrity()
+    self._enforce_invariants()
+```
 
 ## How I build systems
 
