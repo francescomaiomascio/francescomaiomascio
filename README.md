@@ -6,6 +6,13 @@
   />
 </p>
 
+<!-- MANIFESTO / AXIOMS -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&weight=500&pause=1400&center=true&vCenter=true&width=780&color=a78bfa&lines=Running+intelligence%2C+beyond+inference.;Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
+  />
+</p>
+
 
 <!-- GITHUB STATUS / SIGNALS -->
 <p align="center">
@@ -14,13 +21,6 @@
   <img src="https://img.shields.io/github/last-commit/francescomaiomascio/ice-runtime?label=last%20commit&style=flat&labelColor=0b1220&color=a78bfa" />
   <img src="https://img.shields.io/github/commit-activity/m/francescomaiomascio/ice-runtime?label=commits&style=flat&labelColor=0b1220&color=a78bfa" />
   <img src="https://img.shields.io/github/issues-pr/francescomaiomascio/ice-runtime?label=pull%20requests&style=flat&labelColor=0b1220&color=a78bfa" />
-</p>
-
-<!-- MANIFESTO / AXIOMS -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&weight=500&pause=1400&center=true&vCenter=true&width=780&color=a78bfa&lines=Running+intelligence%2C+beyond+inference.;Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
-  />
 </p>
 
 <p align="center">
