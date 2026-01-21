@@ -29,8 +29,13 @@
   <em>long-running, stateful systems</em>
 </p>
 
-
-
+```python
+def __post_init__(self) -> None:
+    if self.timestamp.tzinfo is None:
+        object.__setattr__(self, "timestamp", self.timestamp.replace(tzinfo=timezone.utc))
+    object.__setattr__(self, "integrity", self._compute_integrity())
+    self._enforce_invariants()
+```
 
 
 ## What I work on
