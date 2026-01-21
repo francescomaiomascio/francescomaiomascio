@@ -1,9 +1,3 @@
-<!-- HEADER / STATEMENT -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=640&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
-  />
-</p>
 
 <!-- GITHUB STATUS / SIGNALS (muted ICE palette) -->
 <p align="center">
@@ -13,27 +7,33 @@
   <img src="https://img.shields.io/badge/Long--running%20Systems-0f766e?style=flat&logo=github&logoColor=white" />
 </p>
 
-
 <h3 align="center">Engineering how intelligence <em>actually</em> runs</h3>
 
 <p align="center">
-  I research <strong>runtime architectures for AI-enabled systems</strong>.<br/>
-  My work is not about models or prompts.<br/>
-  It focuses on <strong>what happens after inference</strong> — when intelligent behavior must be
-  <strong>authorized, executed, observed, and governed</strong><br/>
-  inside <strong>long-running, stateful systems</strong>.
+  I research <strong>runtime architectures for AI-enabled systems</strong>.
 </p>
 
 <p align="center">
-  Execution is treated as a <strong>semantic and architectural concern</strong>,<br/>
+  My focus is <strong>what happens after inference</strong>:
+</p>
+
+<p align="center">
+  <strong>authorize</strong> · <strong>execute</strong> · <strong>observe</strong> · <strong>govern</strong><br/>
+  <span style="color:#9ca3af;">in long-running, stateful systems</span>
+</p>
+
+<p align="center">
+  Execution is treated as a <strong>semantic and architectural concern</strong>,
   not as an implementation detail.
 </p>
+
+<!-- HEADER / STATEMENT -->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b2533,50:0891b2,100:0b2533&section=header"
-    width="640"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=640&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
   />
 </p>
+
 
 <h3 align="center">The gap most AI systems still ignore</h3>
 
@@ -42,52 +42,59 @@
 </p>
 
 <p align="center">
-  Most AI systems stop at <strong>inference</strong>, treating execution as something
+  Most AI systems stop at <strong>inference</strong>, treating execution as
   <em>trivial</em>, <em>implicit</em>, or safely delegated to surrounding infrastructure.
   That assumption holds only in <strong>controlled demos</strong> and short-lived
-  experiments. It breaks down as soon as systems are expected to
+  experiments. It breaks down when systems are expected to
   <strong>persist</strong>, <strong>evolve</strong>, and remain
   <strong>accountable under real operational conditions</strong>.
 </p>
 
-
 <p align="center"><em>
-  If inference produces intent, who is responsible for execution?
+  If inference produces intent, who carries execution responsibility?
 </em></p>
 
-```text
-inference → proposal
-execution → authority + state transition
-```
-
+<p align="center" style="font-size: 0.85em; color: #9ca3af; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
+  <code>inference → proposal</code>
+</p>
+<p align="center" style="font-size: 0.85em; color: #9ca3af; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
+  <code>execution → authority + state transition</code>
+</p>
 
 <h3 align="center">ICE as an execution environment</h3>
 
 <p align="center">
-  <strong>ICE (Intelligent Cognitive Ecosystem)</strong> formalizes execution through <strong>explicit constraints</strong> rather than heuristics. It defines <em>how</em> and <em>when</em> intelligence is allowed to act inside a system, making execution a <strong>governed</strong> and <strong>inspectable</strong> process rather than an implicit side effect.
+  <strong>ICE (Intelligent Cognitive Ecosystem)</strong> formalizes execution through
+  <strong>explicit constraints</strong> rather than heuristics. It defines
+  <em>how</em> and <em>when</em> intelligence is allowed to act, making execution
+  a <strong>governed</strong> and <strong>inspectable</strong> process instead of
+  an implicit side effect.
 </p>
 
 <p align="center">
-  Its foundations are intentionally strict: <strong>authority must precede execution</strong>, state transitions must be <strong>explicit and inspectable</strong>, <strong>traceability and evidence</strong> must be structural, and <strong>determinism and reproducibility</strong> must be guaranteed.
+  Its foundations are intentionally strict: <strong>authority must precede execution</strong>,
+  state transitions must be <strong>explicit and inspectable</strong>,
+  <strong>traceability and evidence</strong> must be structural, and
+  <strong>determinism and reproducibility</strong> must be guaranteed.
 </p>
 
 <p align="center">
-  It is a system for <strong>running intelligence safely and verifiably over time</strong>.
+  These constraints are validated through <strong>real repositories</strong>,
+  explicit <strong>execution phases</strong>, and
+  <strong>observable runtime behavior</strong>, with governance encoded directly
+  in <strong>tooling</strong>.
 </p>
-
-<p align="center">
-Constraints are continuously validated through <strong>real repositories</strong>, explicit <strong>execution phases</strong>, governance encoded directly in <strong>tooling</strong>, and <strong>observable runtime behavior</strong>. Design rationale, invariants, and execution boundaries are treated as <em>part of the system itself</em>, not as external documentation layered on top.
-</p>
-
 
 <p align="center">
   <em>Built with precision. Run with confidence.</em>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b2533,50:0891b2,100:0b2533&section=header"
+    width="640"
+  />
 </p>
-
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
@@ -95,7 +102,9 @@ Constraints are continuously validated through <strong>real repositories</strong
   />
 </p>
 
-### Tools used to shape execution, not to decorate profiles
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true" />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,rust,linux,git,github,docker,pytorch&theme=dark" />
