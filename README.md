@@ -38,28 +38,40 @@
 </p>
 
 <p align="center">
-  <em>What does it actually mean to run intelligent systems reliably over time?</em>
+  <em>
+    What does it mean to let intelligent systems act,
+    persist, and change state over time?
+  </em>
 </p>
 
 <p align="center">
-  Most AI systems stop at <strong>inference</strong>, treating execution as
-  <em>trivial</em>, <em>implicit</em>, or safely delegated to surrounding infrastructure.
-  That assumption holds only in <strong>controlled demos</strong> and short-lived
-  experiments. It breaks down when systems are expected to
-  <strong>persist</strong>, <strong>evolve</strong>, and remain
-  <strong>accountable under real operational conditions</strong>.
+  In most AI systems, intelligence is reduced to <strong>inference</strong>.
+  Execution is assumed to be <em>obvious</em>, <em>automatic</em>, or safely
+  delegated to surrounding infrastructure. This assumption may hold for
+  prototypes and isolated tasks, but it fails as soon as systems are expected
+  to <strong>run continuously</strong>, interact with the world, and remain
+  <strong>accountable for their effects</strong>.
+</p>
+
+<p align="center">
+  The problem is not intelligence itself,
+  but what happens <em>after</em> intelligence produces intent.
 </p>
 
 <p align="center"><em>
-  If inference produces intent, who carries execution responsibility?
+  If inference proposes an action,
+  what makes that action legitimate to execute?
 </em></p>
 
 <p align="center" style="font-size: 0.85em; color: #9ca3af; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
   <code>inference → proposal</code>
 </p>
 <p align="center" style="font-size: 0.85em; color: #9ca3af; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
-  <code>execution → authority + state transition</code>
+  <code>execution → authorized state transition</code>
 </p>
+
+
+
 
 <h3 align="center">ICE as an execution environment</h3>
 
@@ -88,18 +100,10 @@
 <p align="center">
   <em>Built with precision. Run with confidence.</em>
 </p>
+</br>
 
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b2533,50:0891b2,100:0b2533&section=header"
-    width="640"
-  />
-</p>
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
-    width="78%"
-  />
+  <img src="https://skillicons.dev/icons?i=python,rust,linux,git,github,docker,pytorch&theme=dark" />
 </p>
 
 <p align="center">
@@ -107,8 +111,22 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,linux,git,github,docker,pytorch&theme=dark" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b2533,50:0891b2,100:0b2533&section=header"
+    width="640"
+  />
 </p>
+
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
+    width="78%"
+  />
+</p>
+
+
+
 
 <p align="center" style="font-size: 0.9em; color: #9ca3af; max-width: 640px; margin: 0 auto;">
   This work is long-term, structural, and research-driven.
