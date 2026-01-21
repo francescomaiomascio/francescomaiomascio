@@ -113,17 +113,14 @@ filesystem signals, and **CLI/TUI tooling**.
 </div>
 
 
-<br/>
-
-
-
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=minimal&hide_border=true&hide_title=true&bg_color=00000000&color=9f7aea&line=a78bfa&point=c4b5fd"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=minimal&hide_border=true&hide_title=true&bg_color=00000000&color=8b5cf6&line=8b5cf6&point=ddd6fe"
     width="700"
   />
 </p>
+
 
 
 
