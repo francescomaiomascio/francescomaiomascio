@@ -38,43 +38,32 @@ def __post_init__(self) -> None:
     self._enforce_invariants()
 
 ```
-
-
 ## What I work on
 
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
 **after inference**—when proposed actions become **real, persistent state transitions**.
 
-Inference proposes intent.  
-**Execution decides** whether that intent is legitimate, authorized, and observable.
+Inference proposes intent; **execution decides** whether that intent is legitimate, authorized, and observable.  
+Execution defines **who can act**, **when**, **what state may change**, and **how responsibility is tracked**.  
+In long-running systems, this is not an implementation detail — it *is* the system’s behavior.
 
-In practice, execution defines:
-**who can act**, **when**, **what state may change**, and **how responsibility is tracked**.  
-In long-running systems, this is the system’s behavior.
+Most AI systems treat execution as obvious or external.  
+That assumption fails once systems run continuously, affect real state, and must remain accountable.  
+The problem is not intelligence, but what happens **after** intelligence produces intent.
 
 > [!NOTE]  
 > Execution is an architectural concern, not plumbing.
 
-## Why execution is hard
-
-Most AI systems assume execution is *obvious* or *external*.  
-That assumption fails once systems run continuously, affect real state, and must remain accountable.
-
-The problem is not intelligence.  
-It is what happens **after** intelligence produces intent.
-
-> **Invariant**  
-> Inference proposes. Execution decides.
+> [!IMPORTANT]  
+> **Invariant** — Inference proposes. Execution decides.
 
 ## How I build systems
 
 I build systems end-to-end, keeping **control flow, state transitions, and side effects explicit**.
 
-Python is used as an **execution and orchestration language**, structured around:
-**explicit pipelines**, **state machines**, and **lifecycle phases**.
-
-I avoid agent frameworks and opaque orchestration layers.  
-Minimal primitives keep execution behavior visible.
+Python is used as an **execution and orchestration language**, structured around  
+**explicit pipelines**, **state machines**, and **lifecycle phases**.  
+I avoid agent frameworks and opaque orchestration layers; minimal primitives keep execution behavior visible.
 
 State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints and auditability.  
 **SQLAlchemy** is used selectively, never as an abstraction boundary.
@@ -82,7 +71,7 @@ State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints 
 Semantic indexing is a bounded input capability  
 (**sentence-transformers + FAISS / Chroma**), never implicit control flow.
 
-LLMs are used strictly for **inference**—producing proposals that must pass
+LLMs are used strictly for **inference**—producing proposals that must pass  
 explicit authority and state-transition checks.
 
 > [!TIP]  
@@ -92,8 +81,9 @@ At the systems level I work directly with **HTTP**, **WebSockets**, **async I/O*
 filesystem signals, and **CLI/TUI tooling**.
 
 > [!IMPORTANT]  
-> ICE is where this approach is exercised today—against **real code**,  
+> **ICE** is where this approach is exercised today—against **real code**,  
 > **real state**, and **real failure modes**.
+
 
 <br/>
 
