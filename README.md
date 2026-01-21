@@ -17,8 +17,7 @@
 
 
 <p align="center">
-  <strong>Inference</strong> produces <em>intent</em>.<br/>
-  <strong>Execution</strong> is the responsibility to
+  <strong>Inference</strong> produces <em>intent</em>. <strong>Execution</strong> is the responsibility to
 </p>
 
 <p align="center">
@@ -35,11 +34,8 @@
 
 ## What I work on
 
-I work on **runtime architectures for AI-enabled systems**.
-
-My interest is not centered on models, prompts, or inference quality in isolation.
-What I focus on is what happens *after* inference, when intelligent systems are
-expected to act in the world, persist over time, and remain accountable for their effects.
+I work on runtime architectures for AI-enabled systems, with a focus on
+what happens after inference: when proposed actions become real, persistent state transitions.
 
 Inference can produce intent, suggestions, or proposed actions.  
 Execution is the phase where those proposals become real state transitions.
@@ -47,14 +43,6 @@ That transition is not automatic, and it is not neutral.
 
 In practice, execution means deciding **who is allowed to act**, **when an action is legitimate**,
 **how it changes system state**, and **how its effects can be observed, traced, and governed over time**.
-In long-running, stateful systems, these questions are not implementation details —
-they define the system’s behavior.
-
-Most AI systems implicitly assume that execution is obvious, delegated,
-or safely handled by surrounding infrastructure.
-This assumption may hold for prototypes, demos, or isolated tasks.
-It breaks down as soon as systems are expected to run continuously,
-interact with external environments, and remain accountable under real operational conditions.
 
 The core problem is not intelligence itself.  
 It is what happens *after* intelligence produces intent.
@@ -66,43 +54,31 @@ Where is responsibility located when things go wrong?
 
 These questions are **architectural**, not algorithmic.
 
-
 ## How I turn execution theory into real systems
 
+I build systems end-to-end, from execution semantics down to runtime behavior,
+keeping control flow, state transitions, and side effects explicit in code.
 
-To explore execution as an architectural problem, I work on systems end-to-end,
-from conceptual constraints down to concrete runtime behavior.
+I work primarily in Python, used as an execution and orchestration language.
+Runtime logic is procedural and structured around:
 
-I tend to avoid large, opinionated frameworks whenever possible.
-Instead, I prefer to build minimal execution layers from first principles,
-so that authority, state transitions, and side effects are explicit in the code
-rather than hidden behind abstractions.
+- explicit pipelines
+- state machines
+- lifecycle phases
+I deliberately avoid agent frameworks and high-level orchestration toolkits, preferring minimal building blocks where execution behavior stays visible.
 
-Most of my work is implemented in **Python** for orchestration and system glue,
-combined with **lower-level components** where determinism, isolation, or
-performance matter. The goal is not performance at all costs, but *inspectability*:
-being able to trace why a system acted, when it acted, and under which authority.
+State and persistence are handled explicitly through SQLite / SQL and DuckDB, used for execution state, checkpoints, and auditability. Where relational structure matters, I use SQLAlchemy selectively, without turning the system into an ORM-driven design.
 
-ICE (Intelligent Cognitive Ecosystem) is the environment where this work happens.
-I use it as a controlled sandbox to experiment with execution models, lifecycle
-boundaries, and runtime governance, rather than as a general-purpose framework.
-Concepts are validated by being implemented, exercised, and broken under real
-execution conditions.
+For semantic indexing and retrieval, I work with sentence-transformers for embeddings and FAISS / Chroma for vector search, integrated as bounded components. Retrieval feeds execution logic but never bypasses validation or state rules.
 
-On the engineering side, I treat **design rationale as part of the system**.
-Work is organized around explicit issues, scoped changes, and reviewable pull
-requests. Branches are short-lived, changes are intentional, and conceptual
-decisions are recorded alongside code, not after the fact.
+Numerical validation and decision support rely on NumPy, SciPy, and scikit-learn for similarity, scoring, clustering, and thresholding. Machine learning supports execution decisions; it does not control them.
 
-This approach lets me iterate simultaneously on:
-- execution semantics
-- runtime structure
-- and the developer workflow that supports them
+LLMs are used as inference components only. I primarily test open-source models via Hugging Face and local runtimes (e.g. ctransformers, LLaMA-based backends), treating model outputs as proposals that must pass explicit authority and state-transition checks.
 
-The result is not a polished product, but a continuously evolving execution
-laboratory where ideas are tested against reality.
+At the systems level, I work directly with HTTP, WebSockets, and async I/O, and with filesystem and process signals where needed. Operational workflows are exposed through CLI/TUI tooling built with click, typer, and prompt_toolkit.
 
-
+ICE is where this approach is currently exercised: an execution environment under active construction, used to validate ideas against real code, real state, and real failure modes.
+ 
 <p align="center">
   <em>Built with precision. Run with confidence.</em>
 </p>
