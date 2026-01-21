@@ -42,6 +42,9 @@ def __post_init__(self) -> None:
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
 **after inference**—when proposed actions become **real, persistent state transitions**.
 
+> [!NOTE]  
+> Execution is an architectural concern, not plumbing.
+
 Inference proposes intent; **execution decides** whether that intent is legitimate, authorized, and observable.  
 Execution defines **who can act**, **when**, **what state may change**, and **how responsibility is tracked**.  
 In long-running systems, this is not an implementation detail — it *is* the system’s behavior.
@@ -49,9 +52,6 @@ In long-running systems, this is not an implementation detail — it *is* the sy
 Most AI systems treat execution as obvious or external.  
 That assumption fails once systems run continuously, affect real state, and must remain accountable.  
 The problem is not intelligence, but what happens **after** intelligence produces intent.
-
-> [!NOTE]  
-> Execution is an architectural concern, not plumbing.
 
 > [!IMPORTANT]  
 > **Invariant** — Inference proposes. Execution decides.
@@ -64,6 +64,9 @@ Python is used as an **execution and orchestration language**, structured around
 **explicit pipelines**, **state machines**, and **lifecycle phases**.  
 I avoid agent frameworks and opaque orchestration layers; minimal primitives keep execution behavior visible.
 
+> [!TIP]  
+> Models suggest. Code authorizes. State changes only by rule.
+
 State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints and auditability.  
 **SQLAlchemy** is used selectively, never as an abstraction boundary.
 
@@ -72,9 +75,6 @@ Semantic indexing is a bounded input capability
 
 LLMs are used strictly for **inference**—producing proposals that must pass  
 explicit authority and state-transition checks.
-
-> [!TIP]  
-> Models suggest. Code authorizes. State changes only by rule.
 
 At the systems level I work directly with **HTTP**, **WebSockets**, **async I/O**,  
 filesystem signals, and **CLI/TUI tooling**.
@@ -120,16 +120,7 @@ filesystem signals, and **CLI/TUI tooling**.
 
 
 <p align="center" style="max-width: 640px; margin: 32px auto 18px auto;">
-  <span
-    style="
-      display: inline-block;
-      font-size: 0.75em;
-      line-height: 1.6;
-      letter-spacing: 0.05em;
-      opacity: 0.5;
-      font-style: italic;
-      text-align: center;
-    ">
+  <span>
     This work is long-term, structural, and research-driven.<br/>
     Support sustains continuity — it does not shape direction.
   </span>
