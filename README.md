@@ -2,6 +2,25 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Authority%20precedes%20execution.&fontSize=26&fontAlignY=42&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=c4b5fd" width="100%" />
 </p>
 
+<!-- TOOLING / STACK -->
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="30" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" height="30"/>
+
+</div>
+
 ## What I work on
 
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
@@ -28,7 +47,7 @@ def __post_init__(self) -> None:
     self._enforce_invariants()
 ```
 
-## How I build systems
+## Execution model
 
 I build systems **end-to-end**, keeping *control flow*, *state transitions*, and *side effects* explicit.
 Execution behavior is never implicit, inferred, or delegated to opaque layers.
@@ -57,29 +76,6 @@ filesystem signals, and **CLI / TUI tooling**.
 > [!IMPORTANT]  
 > **ICE** is where this approach is exercised today — against *real code*, *real state*, and *real failure modes*.
 
-<br/>
-
-<!-- TOOLING / STACK -->
-<div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" height="30"/>
-
-</div>
-
-<br/>
-
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
@@ -88,23 +84,24 @@ filesystem signals, and **CLI / TUI tooling**.
   />
 </p>
 
-<p align="center" style="max-width: 620px; margin: 26px auto 14px auto;">
-  <span>
+<p align="center" style="max-width: 560px; margin: 28px auto 16px auto;">
+  <span style="opacity: 0.55; font-size: 0.82em;">
     This work is long-term, structural, and research-driven.<br/>
-    <em>Support sustains continuity — it does not shape direction.</em>
+    <em>Support sustains continuity, not direction.</em>
   </span>
 </p>
 
-<p align="center" style="margin-top: 12px; margin-bottom: 4px;">
+<p align="center" style="margin-top: 10px;">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="40"
+      height="36"
       alt="Support this work"
-      style="opacity: 0.85;"
+      style="opacity: 0.8;"
     />
   </a>
 </p>
+
 
 <!-- BOTTOM WAVING FOOTER -->
 <p align="center" style="margin-top: 18px;">
