@@ -29,8 +29,6 @@
   Acting is a <strong>structural commitment</strong>, not an implementation detail.
 </p>
 
----
-
 ## What I work on
 
 I design **runtime architectures for AI-enabled systems**, focused on what happens  
