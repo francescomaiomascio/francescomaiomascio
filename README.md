@@ -119,34 +119,42 @@ with runtime semantics.
 > ICE is where this approach is exercised today: an execution environment under
 > active construction, used to validate ideas against **real code**, **real state**,
 > and **real failure modes**.
+> 
 
-
- 
-<p align="center">
-  <em>Built with precision. Run with confidence.</em>
-</p>
+</br>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,rust,linux,git,github,docker,pytorch&theme=dark" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true" />
-</p>
+</br>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0b2533,50:0891b2,100:0b2533&section=header"
-    width="640"
+    src="https://github-readme-stats.vercel.app/api?username=francescomaiomascio&show_icons=false&theme=transparent&hide_title=true&hide_border=true&count_private=true&include_all_commits=false&ring_color=a78bfa&text_color=a78bfa"
+    width="48%"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=francescomaiomascio&layout=compact&hide_title=true&theme=transparent&hide_border=true&text_color=a78bfa"
+    width="48%"
   />
 </p>
 
 
+
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true"
-    width="78%"
-  />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:6d28d9,50:a78bfa,100:6d28d9&section=header"
+  width="860"
+/>
+</p> 
+
+<p align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=react-dark&hide_border=true&hide_title=true&color=a78bfa&line=a78bfa&point=c4b5fd"
+  width="100%"
+/>
 </p>
 
 
