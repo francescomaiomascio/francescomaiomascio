@@ -24,19 +24,14 @@
 </p>
 
 <p align="center">
-  <strong>Inference</strong> produces <em>intent</em>.</br>  
-  <strong>Runtime responsibility</strong> begins where intent meets reality.
-</p>
-
-<p align="center">
-  <strong>authorize</strong> · <strong>commit</strong> ·
-  <strong>observe</strong> · <strong>govern</strong><br/>
+  <strong>Inference</strong> produces <em>intent</em> · execution governs reality<br/>
+  <strong>authorize</strong> · <strong>commit</strong> · <strong>observe</strong> · <strong>govern</strong> —
   <em>long-running, stateful systems</em>
 </p>
 
-<p align="center">
-  Acting is a <strong>structural commitment</strong>, not an implementation detail.
-</p>
+
+
+
 
 ## What I work on
 
