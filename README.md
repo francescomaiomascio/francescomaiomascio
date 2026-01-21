@@ -10,22 +10,25 @@
 <h3 align="center">Running intelligence, beyond inference</h3>
 
 <p align="center">
-  I research <strong>runtime architectures for AI-enabled systems</strong>.
+  I research runtime architectures for AI-enabled systems.
 </p>
 
 <p align="center">
-  My focus is <strong>what happens after inference</strong>:
+  <strong>Inference</strong> produces <em>intent</em>.<br/>
+  <strong>Execution</strong> is the responsibility to
 </p>
 
 <p align="center">
-  <strong>authorize</strong> · <strong>execute</strong> · <strong>observe</strong> · <strong>govern</strong><br/>
+  <strong>authorize</strong> · <strong>execute</strong> ·
+  <strong>observe</strong> · <strong>govern</strong><br/>
   <em style="color:#9ca3af;">long-running, stateful systems</em>
 </p>
 
 <p align="center">
-  <strong>Execution is a first-class architectural concern</strong>,
-  not an implementation afterthought.
+  Execution is an <strong>architectural primitive</strong>,
+  not an implementation detail.
 </p>
+
 
 <!-- HEADER / STATEMENT -->
 <p align="center">
@@ -33,9 +36,6 @@
     src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1400&center=true&vCenter=true&width=640&lines=Authority+precedes+execution.;Inference+is+not+control.;Traceability+is+structural."
   />
 </p>
-
-
-<h3 align="center">The gap most AI systems still ignore</h3>
 
 <p align="center">
   <em>What does it actually mean to run intelligent systems reliably over time?</em>
