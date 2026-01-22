@@ -87,8 +87,9 @@ They produce proposals — never actions.
 <p align="center" style="margin-top: 12px;">
   <a href="https://www.paypal.com/donate/?hosted_button_id=JWGLSTD4U9NEE">
     <img
-      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.svg"
+      src="assets/paypal.png"
       height="64"
+      alt="Donate with PayPal"
     />
   </a>
 </p>
