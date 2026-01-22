@@ -5,7 +5,6 @@
 <!-- TOOLING / STACK -->
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 <img src="https://techstack-generator.vercel.app/python-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="48"/>
@@ -20,8 +19,7 @@
 <img src="https://skillicons.dev/icons?i=docker" width="48"/>
 
 <img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
-<img src="https://skillicons.dev/icons?i=postgres" width="48"/>
-<img src="https://skillicons.dev/icons?i=sqlite" width="48"/>
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 
 </div>
 
