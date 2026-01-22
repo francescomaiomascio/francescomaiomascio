@@ -4,26 +4,22 @@
 
 ## How I work
 
-I work on systems that already exist —
-systems that run continuously, evolve under load,
-and fail outside the assumptions of design documents.
-
 Most architectural failures today are not caused by missing features,
 but by **unclear responsibility**:
 implicit decisions, opaque transitions,
 and no reliable way to explain *why* something happened.
 
-My approach starts by making those boundaries explicit.
+I work by making those boundaries explicit.
 
-I design systems **from observable behavior backward**.
-What the system does comes first.
-What it is *allowed* to do is defined next.
+Systems are defined **from observable behavior backward**:
+what happens is visible first;
+what is *allowed* to happen is constrained next.
 Everything else is implementation detail.
 
 I favor execution paths that are **boring, inspectable, and reconstructible**.
 If a system acts, I expect to trace that action
-through explicit steps, declared authority,
-and durable state — without inference or guesswork.
+through declared authority and durable state —
+without inference or guesswork.
 
 Python is the medium I use to express this discipline:
 explicit control flow, lifecycle phases,
@@ -49,6 +45,7 @@ They produce proposals — never actions.
 > **ICE** is where this approach is exercised —
 > against *real code*, *real state*,
 > and *real failure modes*.
+
 <!-- TOOLING / STACK -->
 <div align="center">
 
