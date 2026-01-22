@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&text=Authority%20precedes%20execution.&fontSize=26&fontAlignY=42&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=c4b5fd" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&text=Authority%20precedes%20execution.&fontSize=23&fontAlignY=36&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=e5e7eb" width="100%" />
 </p>
 
 <!-- TOOLING / STACK -->
@@ -20,6 +20,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" height="30"/>
 
 </div>
+
 
 ## What I work on
 
