@@ -75,7 +75,7 @@ They produce proposals — never actions.
     <em>Support sustains continuity, not direction.</em>
   </span>
 </p>
-<p align="center">
+<p align="center" style="margin: 8px 0;">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
@@ -84,13 +84,12 @@ They produce proposals — never actions.
   </a>
 </p>
 
-<p align="center" style="margin-top: 12px;">
+<p align="center" style="margin: 8px 0;">
   <a href="https://www.paypal.com/donate/?hosted_button_id=JWGLSTD4U9NEE">
     <img
-      src="assets/paypal.png"
-      height="64"
+      src="assets/pp-butt.png"
+      width="240"
       alt="Donate with PayPal"
     />
   </a>
 </p>
-
