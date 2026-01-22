@@ -75,9 +75,10 @@ filesystem signals, and **CLI / TUI tooling**.
 <img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 
+</div>
+
 </br>
 
-</div>
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
@@ -93,16 +94,7 @@ filesystem signals, and **CLI / TUI tooling**.
   </span>
 </p>
 
-<p align="center" style="margin-top: 10px;">
-  <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      height="36"
-      alt="Support this work"
-      style="opacity: 0.8;"
-    />
-  </a>
-</p>
+<p align="center"><a href="https://www.buymeacoffee.com/francescomaiomascio"><img src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" height="64" /></a></p>
 
 
 <!-- BOTTOM WAVING FOOTER -->
