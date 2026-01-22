@@ -60,13 +60,10 @@ They produce proposals — never actions.
 <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="48"/>
 
 <img src="https://techstack-generator.vercel.app/django-icon.svg" width="48"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"/>
 <img src="https://skillicons.dev/icons?i=docker" width="48"/>
-
-<img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 
 </div>
@@ -88,7 +85,15 @@ They produce proposals — never actions.
   </span>
 </p>
 
-<p align="center"><a href="https://www.buymeacoffee.com/francescomaiomascio"><img src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" height="64" /></a></p>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/francescomaiomascio">
+    <img src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" height="64"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.paypal.com/donate/?hosted_button_id=TUO_ID_PAYPAL">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.svg" height="64"/>
+  </a>
+</p>
 
 <!-- BOTTOM WAVING FOOTER -->
 <p align="center" style="margin-top: 18px;">
