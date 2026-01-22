@@ -75,14 +75,21 @@ They produce proposals — never actions.
     <em>Support sustains continuity, not direction.</em>
   </span>
 </p>
-
 <p align="center">
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" height="64"/>
+    <img
+      src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
+      height="64"
+    />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://www.paypal.com/donate/?hosted_button_id=TUO_ID_PAYPAL">
-    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.svg" height="64"/>
+</p>
+
+<p align="center" style="margin-top: 12px;">
+  <a href="https://www.paypal.com/donate/?hosted_button_id=JWGLSTD4U9NEE">
+    <img
+      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.svg"
+      height="64"
+    />
   </a>
 </p>
 
