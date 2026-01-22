@@ -5,19 +5,23 @@
 <!-- TOOLING / STACK -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="30" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" height="30"/>
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="48"/>
+
+<img src="https://techstack-generator.vercel.app/django-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="48"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"/>
+<img src="https://skillicons.dev/icons?i=docker" width="48"/>
+
+<img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
+<img src="https://skillicons.dev/icons?i=postgres" width="48"/>
+<img src="https://skillicons.dev/icons?i=sqlite" width="48"/>
 
 </div>
 
