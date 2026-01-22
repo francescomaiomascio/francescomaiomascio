@@ -4,70 +4,53 @@
 
 ## How I work
 
-I don’t approach system design from first principles in isolation.  
-My work is shaped by friction with **real systems in production** —
-systems that run continuously, evolve over time,
-and fail in ways theory rarely anticipates.
+I work on systems that already exist.
+Systems that run continuously, evolve under load,
+and fail in ways no design document anticipates.
 
-What I’ve learned is that most architectural problems today
-do not stem from missing capabilities,
-but from **unclear responsibility**:
+Most architectural failures today are not caused by missing features,
+but by **unclear responsibility**:
 implicit decisions,
-invisible transitions,
-and no reliable way to explain *why* something happened after the fact.
+opaque transitions,
+and no reliable way to explain *why* something happened.
 
 My approach starts by making those boundaries explicit.
 
-I design systems **from the outside in**:
-starting from observable behavior,
-then working backward to define
-which transitions are allowed,
-which are forbidden,
-and which must remain undecided.
+I design systems **from observable behavior backward**.
+What the system does comes first;
+what it is *allowed* to do is defined next.
+Everything else is implementation detail.
 
-I favor execution paths that are **boring, inspectable, and reconstructible**.  
-If a system acts, I want to be able to point to the exact sequence
-that led there — without relying on emergent behavior
-or opaque orchestration.
+I favor execution paths that are **boring, inspectable, and reconstructible**.
+If a system acts, I expect to trace that action
+through explicit steps, declared authority,
+and durable state — without inference or guesswork.
 
 Python is the medium I use to express this discipline:
-not as an abstraction engine,
-but as a way to model control flow,
-lifecycle phases,
+to model control flow, lifecycle phases,
 and state transitions explicitly.
-
 I avoid agent frameworks and implicit schedulers,
-because they trade short-term convenience
-for long-term opacity.
+because they trade convenience for opacity.
 
 > [!TIP]  
 > *Models suggest. Code authorizes. State changes only by rule.*
 
-Persistence is treated as part of system semantics, not infrastructure.  
-I use **SQLite / SQL** and **DuckDB** to anchor execution in durable state,
-support recovery,
+Persistence is treated as part of system semantics.
+**SQLite / SQL** and **DuckDB** anchor execution in durable state,
+enable recovery,
 and make post-hoc reasoning possible.
 
-**SQLAlchemy** is used sparingly and locally —
-never in ways that hide ownership of state
-or blur transition boundaries.
+Semantic indexing and vector search
+(*sentence-transformers + FAISS / Chroma*)
+may inform decisions,
+but never drive control flow.
 
-Semantic indexing and vector search  
-(*sentence-transformers + FAISS / Chroma*)  
-are inputs to reasoning, not drivers of behavior.  
-They can inform decisions,
-but they never *make* them.
-
-LLMs are constrained strictly to inference.  
-They produce proposals —
-never actions.
-
-Everything beyond that boundary is handled
-by explicit rules and declared transitions.
+LLMs are constrained strictly to inference.
+They produce proposals — never actions.
 
 > [!IMPORTANT]  
-> **ICE** is where this approach is exercised today —
-> against *real code paths*, *real state*,
+> **ICE** is where this approach is exercised —
+> against *real code*, *real state*,
 > and *real failure modes*.
 <!-- TOOLING / STACK -->
 <div align="center">
