@@ -4,59 +4,69 @@
 
 ## What I work on
 
-I design **runtime architectures for AI-enabled systems**, focused on what happens  
-*after inference* — when proposed actions become **real, persistent state transitions**.
+I design **runtime architectures for AI-enabled systems** — with a focus on the
+part most systems avoid defining explicitly: **execution**.
+
+Modern AI systems are good at producing intent.  
+They are far less precise at deciding **whether that intent should be executed at all**.  
+
+My work sits *after inference*:  
+where proposed actions become **authorized, observable, and durable state transitions** or are rejected.
 
 > [!NOTE]  
 > *Execution is an architectural concern, not plumbing.*
 
-Inference proposes intent; **execution decides** whether that intent is legitimate, authorized, and observable.  
-Execution defines **who can act**, **when**, **what state may change**, and **how responsibility is tracked**.  
-In *long-running systems*, this is not an implementation detail — it **is** the system’s behavior.
+Inference proposes intent; **execution decides** whether that intent is legitimate,
+authorized, and accountable.  
+Execution defines **who can act**, **when**, **what state may change**, and
+**how responsibility is tracked**.
+
+In *long-running systems*, this is not an implementation detail — it is the system’s behavior.
 
 Most AI systems treat execution as obvious or external.  
-That assumption fails once systems run continuously, affect real state, and must remain accountable.  
-The problem is not intelligence, but what happens *after* intelligence produces intent.
+That assumption fails once systems run continuously,
+affect real state, and must remain accountable.
+
+The hard problem is not intelligence.  
+It is what happens **after** intelligence produces intent.
 
 > [!IMPORTANT]  
 > **Invariant** — *Inference proposes. Execution decides.*
 
-```python
-def __post_init__(self) -> None:
-    self._normalize_time()
-    self._seal_integrity()
-    self._enforce_invariants()
-```
-
 ## Execution model
 
-I build systems **end-to-end**, keeping *control flow*, *state transitions*, and *side effects* explicit.
-Execution behavior is never implicit, inferred, or delegated to opaque layers.
+I build systems **end-to-end**, keeping *control flow*, *state transitions*, and
+*side effects* explicit by design.
+
+Execution behavior is never implicit, inferred, or delegated to opaque layers.  
+If a system can act, it must also be able to **explain why it acted**.  
 
 Python is used as an **execution and orchestration language**, structured around
-*explicit pipelines*, *state machines*, and *lifecycle phases*.
-I deliberately avoid agent frameworks and black-box orchestration;
-minimal primitives keep execution behavior *observable*.
+*explicit pipelines*, *state machines*, and *lifecycle phases*.  
+I deliberately avoid agent frameworks and black-box orchestration:  
+minimal primitives keep execution behavior **observable and auditable**.
 
 > [!TIP]  
 > *Models suggest. Code authorizes. State changes only by rule.*
 
 State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints,
-reproducibility, and auditability.
-**SQLAlchemy** is used selectively — *never* as an abstraction boundary.
+reproducibility, and auditability.  
+**SQLAlchemy** is used selectively—*never* as an abstraction boundary.
 
 Semantic indexing is treated as a **bounded input capability**
-(*sentence-transformers + FAISS / Chroma*), never as implicit control flow.
+(*sentence-transformers + FAISS / Chroma*),
+never as implicit control flow.
 
-LLMs are used strictly for **inference**:
-they produce proposals that must pass *explicit authority* and *state-transition checks*.
+LLMs are used strictly for **inference**:  
+they produce proposals that must pass **explicit authority**
+and **state-transition checks**.
 
 At the systems level, I work directly with **HTTP**, **WebSockets**, **async I/O**,
 filesystem signals, and **CLI / TUI tooling**.
 
 > [!IMPORTANT]  
-> **ICE** is where this approach is exercised today — against *real code*, *real state*, and *real failure modes*.
-
+> **ICE** is where this approach is exercised today—
+> against *real code*, *real state*, and *real failure modes*.
 
 <!-- TOOLING / STACK -->
 <div align="center">
@@ -95,7 +105,6 @@ filesystem signals, and **CLI / TUI tooling**.
 </p>
 
 <p align="center"><a href="https://www.buymeacoffee.com/francescomaiomascio"><img src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" height="64" /></a></p>
-
 
 <!-- BOTTOM WAVING FOOTER -->
 <p align="center" style="margin-top: 18px;">
