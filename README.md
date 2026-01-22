@@ -1,28 +1,6 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&text=Authority%20precedes%20execution.&fontSize=23&fontAlignY=36&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=e5e7eb" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=96&section=header&text=Authority%20precedes%20execution.&font=IBM+Plex+Sans&fontSize=19&fontAlignY=35&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=d1d5db" width="100%" />
 </p>
-
-<!-- TOOLING / STACK -->
-<div align="center">
-
-<img src="https://techstack-generator.vercel.app/python-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="48"/>
-
-<img src="https://techstack-generator.vercel.app/django-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/github-icon.svg" width="48"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"/>
-<img src="https://skillicons.dev/icons?i=docker" width="48"/>
-
-<img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
-
-</div>
-
 
 ## What I work on
 
@@ -79,6 +57,27 @@ filesystem signals, and **CLI / TUI tooling**.
 > [!IMPORTANT]  
 > **ICE** is where this approach is exercised today — against *real code*, *real state*, and *real failure modes*.
 
+
+<!-- TOOLING / STACK -->
+<div align="center">
+
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
+<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="48"/>
+
+<img src="https://techstack-generator.vercel.app/django-icon.svg" width="48"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"/>
+<img src="https://skillicons.dev/icons?i=docker" width="48"/>
+
+<img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
+
+</br>
+
+</div>
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
