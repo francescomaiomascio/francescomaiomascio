@@ -62,7 +62,6 @@ They produce proposals — never actions.
 <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
 
 <img src="https://techstack-generator.vercel.app/django-icon.svg" width="48"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"/>
 <img src="https://skillicons.dev/icons?i=docker" width="48"/>
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 
@@ -95,10 +94,3 @@ They produce proposals — never actions.
   </a>
 </p>
 
-<!-- BOTTOM WAVING FOOTER -->
-<p align="center" style="margin-top: 18px;">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=76&section=footer&color=0:020617,40:6d28d9,60:a78bfa,100:020617"
-    width="100%"
-  />
-</p>
