@@ -4,31 +4,25 @@
 
 ## What I work on
 
-I design **runtime architectures for AI-enabled systems** — with a focus on the
-part most systems avoid defining explicitly: **execution**.
+I design **runtime architectures for AI-enabled systems** that operate
+*after inference* — where intent alone is no longer sufficient.
 
-Modern AI systems are good at producing intent.  
-They are far less precise at deciding **whether that intent should be executed at all**.  
+Modern AI systems are effective at producing proposals.  
+They are far less effective at determining **whether those proposals
+should be accepted, rejected, or deferred** in a running system.
 
-My work sits *after inference*:  
-where proposed actions become **authorized, observable, and durable state transitions** or are rejected.
+My work focuses on the boundary where intent encounters reality:  
+where proposed actions must become **legitimate, observable, and durable**
+state transitions — or be explicitly denied.
 
-> [!NOTE]  
-> *Execution is an architectural concern, not plumbing.*
+At this layer, the central problem is not intelligence,
+but **decision under authority**:
+who is allowed to act, under which conditions,
+and with what accountable consequences.
 
-Inference proposes intent; **execution decides** whether that intent is legitimate,
-authorized, and accountable.  
-Execution defines **who can act**, **when**, **what state may change**, and
-**how responsibility is tracked**.
-
-In *long-running systems*, this is not an implementation detail — it is the system’s behavior.
-
-Most AI systems treat execution as obvious or external.  
-That assumption fails once systems run continuously,
-affect real state, and must remain accountable.
-
-The hard problem is not intelligence.  
-It is what happens **after** intelligence produces intent.
+In long-running systems, this boundary defines behavior.
+It determines not just *what* the system can do,
+but **what it is allowed to do — and why**.
 
 > [!IMPORTANT]  
 > **Invariant** — *Inference proposes. Execution decides.*
