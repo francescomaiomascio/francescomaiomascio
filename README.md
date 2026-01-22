@@ -2,66 +2,73 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=96&section=header&text=Authority%20precedes%20execution.&font=IBM+Plex+Sans&fontSize=19&fontAlignY=35&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=d1d5db" width="100%" />
 </p>
 
-## What I work on
+## How I work
 
-I design **runtime architectures for AI-enabled systems** that operate
-*after inference* — where intent alone is no longer sufficient.
+I don’t approach system design from first principles in isolation.  
+My work is shaped by friction with **real systems in production** —
+systems that run continuously, evolve over time,
+and fail in ways theory rarely anticipates.
 
-Modern AI systems are effective at producing proposals.  
-They are far less effective at determining **whether those proposals
-should be accepted, rejected, or deferred** in a running system.
+What I’ve learned is that most architectural problems today
+do not stem from missing capabilities,
+but from **unclear responsibility**:
+implicit decisions,
+invisible transitions,
+and no reliable way to explain *why* something happened after the fact.
 
-My work focuses on the boundary where intent encounters reality:  
-where proposed actions must become **legitimate, observable, and durable**
-state transitions — or be explicitly denied.
+My approach starts by making those boundaries explicit.
 
-At this layer, the central problem is not intelligence,
-but **decision under authority**:
-who is allowed to act, under which conditions,
-and with what accountable consequences.
+I design systems **from the outside in**:
+starting from observable behavior,
+then working backward to define
+which transitions are allowed,
+which are forbidden,
+and which must remain undecided.
 
-In long-running systems, this boundary defines behavior.
-It determines not just *what* the system can do,
-but **what it is allowed to do — and why**.
+I favor execution paths that are **boring, inspectable, and reconstructible**.  
+If a system acts, I want to be able to point to the exact sequence
+that led there — without relying on emergent behavior
+or opaque orchestration.
 
-> [!IMPORTANT]  
-> **Invariant** — *Inference proposes. Execution decides.*
+Python is the medium I use to express this discipline:
+not as an abstraction engine,
+but as a way to model control flow,
+lifecycle phases,
+and state transitions explicitly.
 
-## Execution model
-
-I build systems **end-to-end**, keeping *control flow*, *state transitions*, and
-*side effects* explicit by design.
-
-Execution behavior is never implicit, inferred, or delegated to opaque layers.  
-If a system can act, it must also be able to **explain why it acted**.  
-
-Python is used as an **execution and orchestration language**, structured around
-*explicit pipelines*, *state machines*, and *lifecycle phases*.  
-I deliberately avoid agent frameworks and black-box orchestration:  
-minimal primitives keep execution behavior **observable and auditable**.
+I avoid agent frameworks and implicit schedulers,
+because they trade short-term convenience
+for long-term opacity.
 
 > [!TIP]  
 > *Models suggest. Code authorizes. State changes only by rule.*
 
-State is handled explicitly via **SQLite / SQL** and **DuckDB** for checkpoints,
-reproducibility, and auditability.  
-**SQLAlchemy** is used selectively—*never* as an abstraction boundary.
+Persistence is treated as part of system semantics, not infrastructure.  
+I use **SQLite / SQL** and **DuckDB** to anchor execution in durable state,
+support recovery,
+and make post-hoc reasoning possible.
 
-Semantic indexing is treated as a **bounded input capability**
-(*sentence-transformers + FAISS / Chroma*),
-never as implicit control flow.
+**SQLAlchemy** is used sparingly and locally —
+never in ways that hide ownership of state
+or blur transition boundaries.
 
-LLMs are used strictly for **inference**:  
-they produce proposals that must pass **explicit authority**
-and **state-transition checks**.
+Semantic indexing and vector search  
+(*sentence-transformers + FAISS / Chroma*)  
+are inputs to reasoning, not drivers of behavior.  
+They can inform decisions,
+but they never *make* them.
 
-At the systems level, I work directly with **HTTP**, **WebSockets**, **async I/O**,
-filesystem signals, and **CLI / TUI tooling**.
+LLMs are constrained strictly to inference.  
+They produce proposals —
+never actions.
+
+Everything beyond that boundary is handled
+by explicit rules and declared transitions.
 
 > [!IMPORTANT]  
-> **ICE** is where this approach is exercised today—
-> against *real code*, *real state*, and *real failure modes*.
-
+> **ICE** is where this approach is exercised today —
+> against *real code paths*, *real state*,
+> and *real failure modes*.
 <!-- TOOLING / STACK -->
 <div align="center">
 
