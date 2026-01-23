@@ -4,16 +4,17 @@
 
 <div align="center">
 
-[![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=44)](https://www.maiomascio.dev)
-[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=44)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=44&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=linkedin&size=44)](https://www.linkedin.com/in/francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=x&size=44&color=ffffff)](https://x.com/framaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=youtube&size=44)](https://www.youtube.com/@francescomaiomascio_dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=44)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=codementor&size=44)](https://www.codementor.io/@francescomaiomascio)
+[![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=40)](https://www.maiomascio.dev)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=40)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=linkedin&size=40)](https://www.linkedin.com/in/francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=x&size=40&color=ffffff)](https://x.com/framaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=youtube&size=40)](https://www.youtube.com/@francescomaiomascio_dev)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=40)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=40&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=codementor&size=40)](https://www.codementor.io/@francescomaiomascio)
 
 </div>
+
 
 
 ## How I work
