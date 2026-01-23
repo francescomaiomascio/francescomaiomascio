@@ -2,6 +2,20 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=96&section=header&text=Authority%20precedes%20execution.&font=IBM+Plex+Sans&fontSize=25&fontAlignY=35&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=d1d5db" width="100%" />
 </p>
 
+<div align="center">
+
+[![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=44)](https://www.maiomascio.dev)
+[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=44)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=44&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=linkedin&size=44)](https://www.linkedin.com/in/francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=x&size=44&color=ffffff)](https://x.com/framaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=youtube&size=44)](https://www.youtube.com/@francescomaiomascio_dev)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=44)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=codementor&size=44)](https://www.codementor.io/@francescomaiomascio)
+
+</div>
+
+
 ## How I work
 
 Most architectural failures today are not caused by missing features,
