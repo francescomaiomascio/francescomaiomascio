@@ -66,7 +66,6 @@ They produce proposals — never actions.
 <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
 <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48"/>
 <img src="https://skillicons.dev/icons?i=docker" width="48"/>
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
 
