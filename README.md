@@ -15,9 +15,6 @@
 
 </div>
 
-
-
-
 ## How I work
 
 Most architectural failures today are not caused by missing features,
@@ -95,7 +92,7 @@ They produce proposals — never actions.
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
-      height="60"
+      height="45"
     />
   </a>
 </p>
@@ -104,7 +101,7 @@ They produce proposals — never actions.
   <a href="https://www.paypal.com/donate/?hosted_button_id=JWGLSTD4U9NEE">
     <img
       src="assets/pp-butt.png"
-      width="240"
+      width="220"
       alt="Donate with PayPal"
     />
   </a>
