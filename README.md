@@ -91,7 +91,7 @@ They produce proposals — never actions.
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
     <img
       src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
-      height="40"
+      height="35"
     />
   </a>
 </p>
