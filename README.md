@@ -16,6 +16,12 @@
 
 </div>
 
+<p>
+  <strong>TL;DR</strong> — Governability via explicit identity, authority, and traceability. ICE is the proof surface.<br>
+  <strong>Proof</strong> — If a system acts, I can reconstruct the why through declared authority + durable state (no inference, no guesswork).
+</p>
+
+
 ## How I work
 
 Most architectural failures today are not caused by missing features,
