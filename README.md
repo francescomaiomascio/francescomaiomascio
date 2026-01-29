@@ -5,13 +5,13 @@
 <div align="center">
 
 [![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=35)](https://www.maiomascio.dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=35)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=35)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=35&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
 [![](https://readmecodegen.vercel.app/api/social-icon?name=linkedin&size=35)](https://www.linkedin.com/in/francescomaiomascio)&nbsp;&nbsp;&nbsp;
 [![](https://readmecodegen.vercel.app/api/social-icon?name=x&size=35&color=ffffff)](https://x.com/framaiomascio)&nbsp;&nbsp;&nbsp;
 [![](https://readmecodegen.vercel.app/api/social-icon?name=bluesky&size=35&color=0085FF)](https://bsky.app/profile/maiomascio.bsky.social)&nbsp;&nbsp;&nbsp;
+[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=35)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
 [![](https://readmecodegen.vercel.app/api/social-icon?name=youtube&size=35)](https://www.youtube.com/@francescomaiomascio_dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=35)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=35&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
 [![](https://readmecodegen.vercel.app/api/social-icon?name=codementor&size=35)](https://www.codementor.io/@francescomaiomascio)
 
 </div>
