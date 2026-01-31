@@ -66,20 +66,6 @@ They produce proposals — never actions.
 > against *real code*, *real state*,
 > and *real failure modes*.
 
-<!-- TOOLING / STACK -->
-<div align="center">
-
-<img src="https://techstack-generator.vercel.app/python-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/js-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48"/>
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48"/>
-<img src="https://skillicons.dev/icons?i=docker" width="48"/>
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
-
-</div>
-
-</br>
-
 <!-- ACTIVITY GRAPH -->
 <p align="center">
   <img
