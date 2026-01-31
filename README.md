@@ -52,8 +52,7 @@ they trade convenience for opacity.
 
 Persistence is treated as part of system semantics.
 **SQLite / SQL** and **DuckDB** anchor execution in durable state
-and make post-hoc reasoning possible.
-
+and make post-hoc reasoning possible.  
 Semantic indexing (*sentence-transformers + FAISS / Chroma*)
 may inform decisions,
 but never drive control flow.
