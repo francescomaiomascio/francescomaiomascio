@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=96&section=header&text=Authority%20precedes%20execution.&font=IBM+Plex+Sans&fontSize=25&fontAlignY=35&color=0:020617,40:6d28d9,60:a78bfa,100:020617&fontColor=d1d5db" width="100%" />
-</p>
-
 <div align="center">
 
 [![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=35)](https://www.maiomascio.dev)&nbsp;&nbsp;&nbsp;
