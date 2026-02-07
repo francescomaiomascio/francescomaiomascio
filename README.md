@@ -37,17 +37,11 @@ If a system acts, I expect to trace that action
 through declared authority and durable state —
 without inference or guesswork.
 
-Python is the medium I use to express this discipline:
-explicit control flow, lifecycle phases,
-and state transitions.
-I avoid agent frameworks and implicit schedulers;
-they trade convenience for opacity.
-
 > [!TIP]  
 > *Models suggest. Code authorizes. State changes only by rule.*
 
 Persistence is treated as part of system semantics.
-**SQLite / SQL** and **DuckDB** anchor execution in durable state
+**SQLite / SQL** anchor execution in durable state
 and make post-hoc reasoning possible.  
 Semantic indexing (*sentence-transformers + FAISS / Chroma*)
 may inform decisions,
