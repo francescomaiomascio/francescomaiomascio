@@ -46,7 +46,7 @@ LLMs are constrained strictly to inference.
 They produce proposals — never actions.
 
 > [!IMPORTANT]  
-> **ICE** is where this approach is exercised —
+> **YAI** is where this approach is exercised —
 > against *real code*, *real state*,
 > and *real failure modes*.
 
