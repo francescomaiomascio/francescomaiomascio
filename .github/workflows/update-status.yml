@@ -42,22 +42,3 @@ jobs:
           echo "  - Repos: $REPOS"
       
       - name: Update README
-        run: |
-          if [ ! -f README.md ]; then
-            echo "❌ README.md not found!"
-            exit 1
-          fi
-          
-          sed -i "s/<!--START_TIMESTAMP-->.*<!--END_TIMESTAMP-->/<!--START_TIMESTAMP-->${{ steps.stats.outputs.timestamp }}<!--END_TIMESTAMP-->/g" README.md
-          sed -i "s/<!--START_COMMITS-->.*<!--END_COMMITS-->/<!--START_COMMITS-->${{ steps.stats.outputs.commits }}<!--END_COMMITS-->/g" README.md
-          sed -i "s/<!--START_REPOS-->.*<!--END_REPOS-->/<!--START_REPOS-->${{ steps.stats.outputs.repos }}<!--END_REPOS-->/g" README.md
-          
-          echo "✅ README.md updated successfully"
-      
-      - name: Commit and Push
-        run: |
-          git config --local user.email "yai-system@noreply.github.com"
-          git config --local user.name "YAI System"
-          
-          if git diff --quiet README.md; then
-            echo "ℹ️ No changes detected
