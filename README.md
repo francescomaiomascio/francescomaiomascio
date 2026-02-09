@@ -50,14 +50,6 @@ They produce proposals — never actions.
 > against *real code*, *real state*,
 > and *real failure modes*.
 
-<!-- ACTIVITY GRAPH -->
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=francescomaiomascio&theme=minimal&hide_border=true&hide_title=true&bg_color=00000000&color=8b5cf6&line=8b5cf6&point=ddd6fe"
-    width="660"
-  />
-</p>
-
 <p align="center" style="max-width: 560px; margin: 28px auto 16px auto;">
   <span style="opacity: 0.55; font-size: 0.82em;">
     This work is long-term, structural, and research-driven.<br/>
