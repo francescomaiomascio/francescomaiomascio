@@ -47,15 +47,24 @@ I engineer systems where **authority is explicit** and **boundaries are mathemat
 ---
 
 ## 📡 SYSTEM STATUS
-```bash
+
+<div align="center">
+
+![Last Commit](https://img.shields.io/github/last-commit/francescomaiomascio/francescomaiomascio?style=for-the-badge&logo=github&label=LAST%20SYNC&color=000000&labelColor=000000&logoColor=white)
+![Commit Count](https://img.shields.io/github/commit-activity/t/francescomaiomascio/francescomaiomascio?style=for-the-badge&logo=git&label=COMMITS&color=000000&labelColor=000000&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-9945FF?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=000000)
+
+</div>
+
+<br/>
+
+```
 [YAI-KERNEL] ████████████████████████████████ 100% | OPERATIONAL
 [YAI-ENGINE] ████████████████████████████████ 100% | STANDBY
 [YAI-MIND]   ████████████████████████████████ 100% | ACTIVE
 
-→ LAST_SYNC: <!--START_TIMESTAMP-->2026-02-09T23:34:13Z<!--END_TIMESTAMP-->
-→ COMMIT_COUNT: <!--START_COMMITS-->210<!--END_COMMITS-->
-→ ACTIVE_REPOS: <!--START_REPOS-->8<!--END_REPOS-->
 → STATE_INTEGRITY: VERIFIED
+→ ENFORCEMENT_MODE: ENABLED
 ```
 
 ---
