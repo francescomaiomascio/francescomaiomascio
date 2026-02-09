@@ -2,11 +2,14 @@ name: Update System Status
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Ogni 6 ore
+    - cron: '0 */6 * * *'
   push:
     branches:
       - main
-  workflow_dispatch:  # Permette trigger manuale
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -14,31 +17,47 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Fetch GitHub Stats
         id: stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          COMMITS=$(git rev-list --count HEAD)
-          REPOS=$(curl -s "https://api.github.com/users/francescomaiomascio/repos" | jq '. | length')
+          COMMITS=$(git rev-list --all --count)
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/francescomaiomascio/repos?per_page=100" | \
+            jq 'length')
           
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
           echo "commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "repos=$REPOS" >> $GITHUB_OUTPUT
+          
+          echo "📊 Stats fetched:"
+          echo "  - Timestamp: $TIMESTAMP"
+          echo "  - Commits: $COMMITS"
+          echo "  - Repos: $REPOS"
       
       - name: Update README
         run: |
+          if [ ! -f README.md ]; then
+            echo "❌ README.md not found!"
+            exit 1
+          fi
+          
           sed -i "s/<!--START_TIMESTAMP-->.*<!--END_TIMESTAMP-->/<!--START_TIMESTAMP-->${{ steps.stats.outputs.timestamp }}<!--END_TIMESTAMP-->/g" README.md
           sed -i "s/<!--START_COMMITS-->.*<!--END_COMMITS-->/<!--START_COMMITS-->${{ steps.stats.outputs.commits }}<!--END_COMMITS-->/g" README.md
           sed -i "s/<!--START_REPOS-->.*<!--END_REPOS-->/<!--START_REPOS-->${{ steps.stats.outputs.repos }}<!--END_REPOS-->/g" README.md
+          
+          echo "✅ README.md updated successfully"
       
-      - name: Commit changes
+      - name: Commit and Push
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "yai-system@noreply.github.com"
           git config --local user.name "YAI System"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "[YAI-KERNEL] System status update"
-          git push
+          
+          if git diff --quiet README.md; then
+            echo "ℹ️ No changes detected
