@@ -1,76 +1,76 @@
-</br>
+# FRANCESCO MAIOMASCIO
+> **Systems Architect | Formal Logic | Hardware-Aligned Safety**
+
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5&height=200&section=header&text=YAI%20SYSTEMS&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Hardware-Aligned%20Cognitive%20OS&descAlignY=55&descSize=20" width="100%" />
+  
+  <br />
+  
+  <br />
 
-[![](https://readmecodegen.vercel.app/api/social-icon?name=link&size=35)](https://www.maiomascio.dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=huggingface&size=35)](https://huggingface.co/francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=medium&size=35&color=ffffff)](https://medium.com/@francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=linkedin&size=35)](https://www.linkedin.com/in/francescomaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=x&size=35&color=ffffff)](https://x.com/framaiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=bluesky&size=35&color=0085FF)](https://bsky.app/profile/maiomascio.dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=stackoverflow&size=35)](https://stackoverflow.com/users/30851581/francesco-maiomascio)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=youtube&size=35)](https://www.youtube.com/@francescomaiomascio_dev)&nbsp;&nbsp;&nbsp;
-[![](https://readmecodegen.vercel.app/api/social-icon?name=codementor&size=35)](https://www.codementor.io/@francescomaiomascio)
-
+  [![Website](https://img.shields.io/badge/🔗-maiomascio.dev-000000?style=for-the-badge)](https://www.maiomascio.dev)
+  [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/francescomaiomascio)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francescomaiomascio)
+  [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/framaiomascio)
+  [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/maiomascio.dev)
+  [![StackOverflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/30851581/francesco-maiomascio)
 </div>
 
-## How I work
+---
 
-Most architectural failures today are not caused by missing features,
-but by **unclear responsibility**:
-implicit decisions, opaque transitions,
-and no reliable way to explain *why* something happened.
+## ⚖️ THE DOCTRINE
+> *"Code is ephemeral. Logic is invariant. State is truth."*
 
-I work by making those boundaries explicit.
+I engineer systems where **authority is explicit** and **boundaries are mathematical**. If a state transition cannot be formally verified, it is a vulnerability.
 
-Systems are defined **from observable behavior backward**:
-what happens is visible first;
-what is *allowed* to happen is constrained next.
-Everything else is implementation detail.
+### 🛡️ INVARIANTS
+- **Formal Rigor:** Non-negotiable specifications in **TLA+**
+- **Hardware-Alignment:** Deterministic execution via **C11** and **Rust**
+- **Total Traceability:** Every action reconstructible from durable state
+- **Control Flow:** LLMs produce proposals; the **Kernel** authorizes
 
-I favor execution paths that are **boring, inspectable, and reconstructible**.
-If a system acts, I expect to trace that action
-through declared authority and durable state —
-without inference or guesswork.
+---
 
-> [!TIP]  
-> *Models suggest. Code authorizes. State changes only by rule.*
+## 🦾 YAI ECOSYSTEM
+*Architecting a hardware-aligned cognitive operating system.*
 
-Persistence is treated as part of system semantics.
-**SQLite / SQL** anchor execution in durable state
-and make post-hoc reasoning possible.  
-Semantic indexing (*sentence-transformers + FAISS / Chroma*)
-may inform decisions,
-but never drive control flow.
+| Module | Authority | Technology |
+|:---|:---|:---|
+| **`yai-law`** | Formal Invariants & Specs | **TLA+** |
+| **`yai-kernel`** | Resource & Memory Control | **C11** |
+| **`yai-engine`** | Physical I/O & Execution | **C** |
+| **`yai-mind`** | Cognitive Orchestration | **Rust** |
+| **`yai-cli`** | Low-latency Command Line | **Rust** |
+| **`yai-studio`** | Visual Intelligence Interface | **Next.js** |
+| **`yai-skin`** | Visual Identity & Design | **Tailwind** |
 
-LLMs are constrained strictly to inference.
-They produce proposals — never actions.
+---
 
-> [!IMPORTANT]  
-> **YAI** is where this approach is exercised —
-> against *real code*, *real state*,
-> and *real failure modes*.
+## 📡 SYSTEM STATUS
+```bash
+[YAI-KERNEL] ████████████████████████████████ 100% | OPERATIONAL
+[YAI-ENGINE] ████████████████████████████████ 100% | STANDBY
+[YAI-MIND]   ████████████████████████████████ 100% | ACTIVE
 
-<p align="center" style="max-width: 560px; margin: 28px auto 16px auto;">
-  <span style="opacity: 0.55; font-size: 0.82em;">
-    This work is long-term, structural, and research-driven.<br/>
-    <em>Support sustains continuity, not direction.</em>
-  </span>
-</p>
-<p align="center" style="margin: 8px 0;">
+→ LAST_SYNC: <!--START_TIMESTAMP-->2025-02-10T23:47:12Z<!--END_TIMESTAMP-->
+→ COMMIT_COUNT: <!--START_COMMITS-->0<!--END_COMMITS-->
+→ ACTIVE_REPOS: <!--START_REPOS-->0<!--END_REPOS-->
+→ STATE_INTEGRITY: VERIFIED
+```
+
+---
+
+## 🛠️ TECH STACK
+```
+C11 • Rust • TLA+ • SQLite • TypeScript • Formal Methods
+```
+
+<div align="center">
+  <br/>
   <a href="https://www.buymeacoffee.com/francescomaiomascio">
-    <img
-      src="https://img.buymeacoffee.com/button-api/?text=&emoji=&slug=francescomaiomascio&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
-      height="38"
-    />
+    <img src="https://img.shields.io/badge/⚡_Support_Technical_Research-000000?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Support Technical Research" />
   </a>
-</p>
-
-<p align="center" style="margin: 8px 0;">
-  <a href="https://www.paypal.com/donate/?hosted_button_id=JWGLSTD4U9NEE">
-    <img
-      src="assets/pp-butt.png"
-      width="180"
-      alt="Donate with PayPal"
-    />
-  </a>
-</p>
+  <br />
+  <br />
+  <sub><em>Structural research. Support sustains continuity, not direction.</em></sub>
+</div>
