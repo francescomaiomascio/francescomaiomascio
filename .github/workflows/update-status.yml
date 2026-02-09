@@ -28,17 +28,21 @@ jobs:
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           COMMITS=$(git rev-list --all --count)
-          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-            "https://api.github.com/users/francescomaiomascio/repos?per_page=100" | \
-            jq 'length')
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/users/francescomaiomascio/repos?per_page=100" | jq 'length')
           
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
           echo "commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "repos=$REPOS" >> $GITHUB_OUTPUT
           
-          echo "📊 Stats fetched:"
-          echo "  - Timestamp: $TIMESTAMP"
-          echo "  - Commits: $COMMITS"
-          echo "  - Repos: $REPOS"
+          echo "Stats fetched: Timestamp=$TIMESTAMP, Commits=$COMMITS, Repos=$REPOS"
       
       - name: Update README
+        run: |
+          if [ ! -f README.md ]; then
+            echo "README.md not found"
+            exit 1
+          fi
+          
+          sed -i "s/<!--START_TIMESTAMP-->.*<!--END_TIMESTAMP-->/<!--START_TIMESTAMP-->${{ steps.stats.outputs.timestamp }}<!--END_TIMESTAMP-->/g" README.md
+          sed -i "s/<!--START_COMMITS-->.*<!--END_COMMITS-->/<!--START_COMMITS-->${{ steps.stats.outputs.commits }}<!--END_COMMITS-->/g" README.md
+          sed -i "s/<!--STAR
