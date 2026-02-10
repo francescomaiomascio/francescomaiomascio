@@ -18,7 +18,7 @@
 
 ---
 
-## ⚖️ THE DOCTRINE
+## THE DOCTRINE
 > *"Code is ephemeral. Logic is invariant. State is truth."*
 
 I design systems where **authority is explicit** and **boundaries are mathematical**.  
@@ -32,7 +32,7 @@ If a state transition can’t be formally verified, it is a vulnerability.
 
 ---
 
-## 🦾 YAI ECOSYSTEM
+## YAI ECOSYSTEM
 *Architecting a hardware‑aligned cognitive operating system.*
 
 | Module | Authority | Technology |
@@ -40,13 +40,10 @@ If a state transition can’t be formally verified, it is a vulnerability.
 | **`yai-core`** | Law + Kernel + engine | **TLA+ + C11** |
 | **`yai-mind`** | Cognitive Orchestration | **Rust** |
 | **`yai-studio`** | Visual Intelligence Interface | **Next.js** |
-| **`yai-skin`** | Visual Identity & Design | **Tailwind** |
 
 ---
 
-
-
-## 📡 SYSTEM STATUS
+## SYSTEM STATUS
 
 <div align="center">
 
@@ -69,7 +66,7 @@ If a state transition can’t be formally verified, it is a vulnerability.
 
 ---
 
-## 🛠️ TECH STACK
+## TECH STACK
 ```
 C11 • Rust • TLA+ • SQLite • TypeScript • Formal Methods
 ```
