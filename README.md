@@ -37,8 +37,7 @@ If a state transition can’t be formally verified, it is a vulnerability.
 
 | Module | Authority | Technology |
 |:---|:---|:---|
-| **`yai-core`** | Law + Kernel (Canonical Authority) | **TLA+ + C11** |
-| **`yai-engine`** | Physical I/O & Execution | **C** |
+| **`yai-core`** | Law + Kernel + engine | **TLA+ + C11** |
 | **`yai-mind`** | Cognitive Orchestration | **Rust** |
 | **`yai-studio`** | Visual Intelligence Interface | **Next.js** |
 | **`yai-skin`** | Visual Identity & Design | **Tailwind** |
