@@ -2,7 +2,7 @@
 > **Systems Architect | Formal Logic | Hardware-Aligned Safety**
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5&height=200&section=header&text=YAI%&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Hardware-Aligned%20Cognitive%20OS&descAlignY=55&descSize=20" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5&height=200&section=header&text=YAI%&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=YAI-Ain't-Intelligence&descAlignY=55&descSize=20" width="100%" />
   
   <br />
   
