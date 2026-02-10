@@ -21,30 +21,31 @@
 ## ⚖️ THE DOCTRINE
 > *"Code is ephemeral. Logic is invariant. State is truth."*
 
-I engineer systems where **authority is explicit** and **boundaries are mathematical**. If a state transition cannot be formally verified, it is a vulnerability.
+I design systems where **authority is explicit** and **boundaries are mathematical**.  
+If a state transition can’t be formally verified, it is a vulnerability.
 
 ### 🛡️ INVARIANTS
-- **Formal Rigor:** Non-negotiable specifications in **TLA+**
-- **Hardware-Alignment:** Deterministic execution via **C11** and **Rust**
+- **Formal Rigor:** Non‑negotiable specs in **TLA+**
+- **Hardware Alignment:** Deterministic execution via **C11** and **Rust**
 - **Total Traceability:** Every action reconstructible from durable state
-- **Control Flow:** LLMs produce proposals; the **Kernel** authorizes
+- **Control Flow:** LLMs propose; the **Kernel** authorizes
 
 ---
 
 ## 🦾 YAI ECOSYSTEM
-*Architecting a hardware-aligned cognitive operating system.*
+*Architecting a hardware‑aligned cognitive operating system.*
 
 | Module | Authority | Technology |
 |:---|:---|:---|
-| **`yai-law`** | Formal Invariants & Specs | **TLA+** |
-| **`yai-kernel`** | Resource & Memory Control | **C11** |
+| **`yai-core`** | Law + Kernel (Canonical Authority) | **TLA+ + C11** |
 | **`yai-engine`** | Physical I/O & Execution | **C** |
 | **`yai-mind`** | Cognitive Orchestration | **Rust** |
-| **`yai-cli`** | Low-latency Command Line | **Rust** |
 | **`yai-studio`** | Visual Intelligence Interface | **Next.js** |
 | **`yai-skin`** | Visual Identity & Design | **Tailwind** |
 
 ---
+
+
 
 ## 📡 SYSTEM STATUS
 
