@@ -79,23 +79,6 @@ The Kernel authorizes.
 
 ---
 
-## CURRENT PHASE
-
-We are not in feature expansion.
-
-We are in structural consolidation:
-
-- Provider lifecycle formalized
-- Trust store persistent + signed
-- Deterministic event replay
-- Engine scaling via statistical surface (EWMA + hysteresis)
-- Embedding ONNX local, offline capable
-
-This is infrastructure work.
-Not prompt engineering.
-
----
-
 ## TECH STACK
 
 ```
