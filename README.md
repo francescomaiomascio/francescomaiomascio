@@ -23,10 +23,6 @@ A layered execution system where:
 
 If it cannot be reconstructed from logs, it does not exist.
 
----
-
-## ARCHITECTURE OVERVIEW
-
 ```
 law → axioms, invariants, formal specs (TLA+)
 kernel → authority, bootstrap, enforcement (C11)
