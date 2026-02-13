@@ -31,36 +31,6 @@ mind → orchestration + cognition (Rust)
 docs → specs, datasets, stress tests
 ```
 
-### Law
-- Axioms (Execution / Authority / State / Adaptability)
-- Determinism invariants
-- Governance invariants
-- External effect boundaries
-- Formal TLA+ specs
-
-### Kernel (C11)
-- Bootstrap boundary
-- Session management
-- Enforcement FSM
-- Vault binding
-- Transport + identity
-
-### Engine (C11)
-- Storage gate
-- Agent enforcement
-- Runtime bridge
-- Deterministic event flow
-- Cortex (statistical scaling surface — no ML)
-
-### Mind (Rust)
-- Provider lifecycle
-- Memory (semantic / episodic / vector)
-- RAG pipeline
-- RPC + UDS
-- LLM adapters (gated, audited, authority-aware)
-
----
-
 ## DOCTRINE
 
 > *"Code is ephemeral. State is truth. Authority must be earned."*
