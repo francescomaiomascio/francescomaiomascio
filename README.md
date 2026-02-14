@@ -1,9 +1,6 @@
-# FRANCESCO MAIOMASCIO
 > **Sovereign Runtime Architect | Deterministic Systems | Formal Authority**
 
----
-
-## YAI — Sovereign Architecture
+## YAI — Yai Ain't Intelligence
 
 YAI is not an AI framework.  
 It is a **runtime with law**.
