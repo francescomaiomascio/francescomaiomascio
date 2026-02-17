@@ -48,10 +48,3 @@ No magic.
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/maiomascio.dev)
 
 </div>
-
----
-
-<sub>
-YAI is structural research.
-It prioritizes invariants over speed, authority over automation, and determinism over convenience.
-</sub>
