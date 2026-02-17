@@ -2,44 +2,6 @@
 
 ## YAI — Yai Ain't Intelligence
 
-YAI is not an AI framework.  
-It is a **runtime with law**.
-
-A layered execution system where:
-
-- State is durable
-- Authority is explicit
-- Events are replayable
-- Boundaries are formalized
-- Providers are trust-scoped
-- Intelligence is sandboxed
-
-If it cannot be reconstructed from logs, it does not exist.
-
-```
-law → axioms, invariants, formal specs (TLA+)
-kernel → authority, bootstrap, enforcement (C11)
-engine → deterministic execution + scaling surface (C11)
-mind → orchestration + cognition (Rust)
-docs → specs, datasets, stress tests
-```
-
-## DOCTRINE
-
-> *"Code is ephemeral. State is truth. Authority must be earned."*
-
-YAI enforces:
-
-- Deterministic replay
-- Hard-fail on violation
-- Formal trust store for providers
-- Audit-first lifecycle
-- Capability-gated orchestration
-
-LLMs do not execute.
-They propose.
-The Kernel authorizes.
-
 ---
 
 ## TECH STACK
