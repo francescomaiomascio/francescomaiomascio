@@ -1,43 +1,69 @@
-> **Sovereign Runtime Architect | Deterministic Systems | Formal Authority**
+# Francesco Maiomascio
+I build systems that don’t lie.
 
-## YAI — Yai Ain't Intelligence
+Most software runs on vibes: hidden authority, accidental side-effects, unverifiable outcomes.  
+That’s fine for demos.  
+It’s unacceptable for machines that steer decisions, money, and reality.  
 
----
-
-## TECH STACK
-
-```
-C11 • Rust • TLA+ • SQLite • ONNX • UDS • Deterministic Logging
-```
-
-
-No frameworks.
-No black boxes.
-No magic.
-
----
-
-## SYSTEM STATUS
+I’m here for the opposite:  
+**sovereign runtimes** where power is explicit, behavior is reproducible, and failures are observable — not explained away.
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/ARCHITECTURE-SOVEREIGN-000000?style=for-the-badge&logo=checkmarx&logoColor=white)
-![Determinism](https://img.shields.io/badge/DETERMINISM-ENFORCED-9945FF?style=for-the-badge&logo=git&logoColor=white)
-![Authority](https://img.shields.io/badge/AUTHORITY-KERNEL_GATED-111111?style=for-the-badge&logo=gnu&logoColor=white)
+![Status](https://img.shields.io/badge/FOCUS-SOVEREIGN_RUNTIME-000000?style=for-the-badge)
+![Determinism](https://img.shields.io/badge/NO_VIBES-ONLY_TRUTH-6E56CF?style=for-the-badge)
+![Governance](https://img.shields.io/badge/AUTHORITY-EXPLICIT-111111?style=for-the-badge)
 
 </div>
 
----
+## The thesis
 
-## RESEARCH AREAS
+AI won’t “align” itself by being polite.
+It will align when the machine is forced to be accountable.
 
-- Runtime sovereignty
-- Hardware-aligned enforcement
-- Formal boundary design
-- Event-derived state systems
-- Cognitive orchestration under authority constraints
+If you can’t answer, precisely:
+- who had the authority,
+- what changed,
+- and how to replay it,
 
----
+then you don’t have a system.
+You have a story.
+
+I build machines that replace stories with evidence.
+
+## What I’m building
+
+A new kind of runtime where:
+- decisions have **owners**,
+- actions have **limits**,
+- and the system can be audited like a ledger.
+
+Not “agents that feel smart”.
+**Executors under law.**
+
+Not “observability later”.
+**Traceability from day one.**
+
+Not “move fast and patch”.
+**Make the machine unable to cheat.**
+
+## Why
+
+Because the next decade won’t be defined by the best model.
+It will be defined by who can ship AI that is:
+- governable,
+- replayable,
+- and resistant to bullshit.
+
+The future is not more abstraction. It's **hard boundaries**.
+
+## What I care about
+
+- Sovereign execution and capability boundaries
+- Determinism as a product feature
+- Governance that survives scale and pressure
+- Systems designed to be proven wrong (and still hold)
+- AI orchestration that is constrained, not “creative”
 
 <div align="center">
 
@@ -48,3 +74,9 @@ No magic.
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/maiomascio.dev)
 
 </div>
+
+---
+
+### One-liner
+
+Governed execution. Deterministic truth. No vibes.
