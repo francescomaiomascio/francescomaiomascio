@@ -8,14 +8,6 @@ It’s unacceptable for machines that steer decisions, money, and reality.
 I’m here for the opposite:  
 **sovereign runtimes** where power is explicit, behavior is reproducible, and failures are observable — not explained away.
 
-<div align="center">
-
-![Status](https://img.shields.io/badge/FOCUS-SOVEREIGN_RUNTIME-000000?style=for-the-badge)
-![Determinism](https://img.shields.io/badge/NO_VIBES-ONLY_TRUTH-6E56CF?style=for-the-badge)
-![Governance](https://img.shields.io/badge/AUTHORITY-EXPLICIT-111111?style=for-the-badge)
-
-</div>
-
 ## The thesis
 
 AI won’t “align” itself by being polite.
