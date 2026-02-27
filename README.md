@@ -1,5 +1,4 @@
 # Francesco Maiomascio
-I build systems that don’t lie.
 
 Most software runs on vibes: hidden authority, accidental side-effects, unverifiable outcomes.  
 That’s fine for demos.  
